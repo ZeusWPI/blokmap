@@ -1,23 +1,139 @@
 [{
-  "type": "Feature",
-  "geometry": {
-    "type": "Point",
-    "coordinates": [3.726759, 51.045660]
-  },
-  "properties": {
-    "name": "Studentenrestaurant De Brug",
-    "address": "Sint-Pietersnieuwstraat 45",
-    "capacity": 700,
-    "period": { "start": "18/08/2014", "end": "12/09/2014" },
-    "hours": {
-      "monday": "8u - 22u",
-      "tuesday": "8u - 22u",
-      "wednesday": "8u - 22u",
-      "thursday": "8u - 22u",
-      "friday": "8u - 22u",
-      "saturday": false,
-      "sunday": false
+    "type": "Feature",
+    "geometry": {
+        "type": "Point",
+        "coordinates": [3.726759, 51.045660]
     },
-    "extra": "2 aparte zaaltjes doorlopend beschikbaar (120 plaatsen)."
-  }
-}]
+    "properties": {
+        "name": "Studentenrestaurant De Brug",
+        "address": "Sint-Pietersnieuwstraat 45",
+        "capacity": 700,
+        "period": { "start": "18/08/2014", "end": "12/09/2014" },
+        "hours": {
+            "monday": "8u - 22u",
+            "tuesday": "8u - 22u",
+            "wednesday": "8u - 22u",
+            "thursday": "8u - 22u",
+            "friday": "8u - 22u",
+            "saturday": false,
+            "sunday": false
+        },
+        "extra": "2 aparte zaaltjes doorlopend beschikbaar (120 plaatsen). Restaurant (1ste en 2de verdieping) gesloten tussen 11u15 en 14u en na 17u"
+    }
+},
+{
+    "type": "Feature",
+    "geometry": {
+        "type": "Point",
+        "coordinates": [3.728294, 51.039980]
+    },
+    "properties": {
+        "name": "Studentenrestaurant Kantienberg",
+        "address": "Stalhof 45",
+        "capacity": 600,
+        "period": { "start": "18/08/2014", "end": "12/09/2014" },
+        "hours": {
+            "monday": false,
+            "tuesday": false,
+            "wednesday": false,
+            "thursday": false,
+            "friday": false,
+            "saturday": "8u30 - 22u",
+            "sunday": "22u"
+        },
+        "extra": "Enkel weekend en feestdagen."
+    }
+},
+{
+    "type": "Feature",
+    "geometry": {
+        "type": "Point",
+        "coordinates": [3.724921, 51.045692]
+    },
+    "properties": {
+        "name": "Boekentoren, grote leeszaal",
+        "address": "Rozier 9",
+        "capacity": 300,
+        "period": { "start": "18/08/2014", "end": "12/09/2014" },
+        "hours": {
+            "monday": "8u - 22u",
+            "tuesday": "8u - 22u",
+            "wednesday": "8u - 22u",
+            "thursday": "8u - 22u",
+            "friday": "8u - 22u",
+            "saturday": "9u - 18u",
+            "sunday": "9u - 18u"
+        },
+        "extra": "Toegangkelijk voor alle Gentse studenten."
+    }
+},
+{
+    "type": "Feature",
+    "geometry": {
+        "type": "Point",
+        "coordinates": [3.725116, 51.044255]
+    },
+    "properties": {
+        "name": "Faculteit Letteren en Wijsbegeerte, faculteitsbibliotheek, vleugels Magnel & Loveling",
+        "address": "Rozier 44",
+        "capacity": 580,
+        "period": { "start": "18/08/2014", "end": "12/09/2014" },
+        "hours": {
+            "monday": "9u - 20u",
+            "tuesday": "9u - 20u",
+            "wednesday": "9u - 20u",
+            "thursday": "9u - 20u",
+            "friday": "9u - 20u",
+            "saturday": "9u - 17u",
+            "sunday": "9u - 17u"
+        },
+        "extra": "Toegangkelijk voor iedereen"
+    }
+},
+{
+    "type": "Feature",
+    "geometry": {
+        "type": "Point",
+        "coordinates": [3.726608,51.022742]
+    },
+    "properties": {
+        "name": "Kenniscentrum Gezondheidszorg Gent",
+        "address": "De Pintelaan 185, gebouw P8 UZ Gent",
+        "capacity": 182,
+        "period": { "start": "18/08/2014", "end": "12/09/2014" },
+        "hours": {
+            "monday": "9u - 17u",
+            "tuesday": "9u - 17u",
+            "wednesday": "9u - 17u",
+            "thursday": "9u - 17u",
+            "friday": "9u - 17u",
+            "saturday": false,
+            "sunday": false
+        },
+        "extra": "Toegangkelijk voor alle Gentse studenten."
+    }
+},
+{
+    "type": "Feature",
+    "geometry": {
+        "type": "Point",
+        "coordinates": [3.727952, 51.044599]
+    },
+    "properties": {
+        "name": "Blok@Therminal",
+        "address": "Hoveniersberg 24",
+        "capacity": 300,
+        "period": { "start": "18/08/2014", "end": "12/09/2014" },
+        "hours": {
+            "monday": "8u30 - 22u",
+            "tuesday": "8u30 - 22u",
+            "wednesday": "8u30 - 22u",
+            "thursday": "8u30 - 22u",
+            "friday": "8u30 - 22u",
+            "saturday": "8u30 - 22u",
+            "sunday": "8u30 - 22u"
+        },
+        "extra": "Registratie noodzakelijk! http://student.ugent.be/blok/ Vanaf 9u kunnen studenten zonder registratie toegang krijgen."
+    }
+}
+]
