@@ -1,0 +1,23 @@
+[{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [3.726759, 51.045660]
+  },
+  "properties": {
+    "name": "Studentenrestaurant De Brug",
+    "address": "Sint-Pietersnieuwstraat 45",
+    "capacity": 700,
+    "period": { "start": "18/08/2014", "end": "12/09/2014" },
+    "hours": {
+      "monday": "8u - 22u",
+      "tuesday": "8u - 22u",
+      "wednesday": "8u - 22u",
+      "thursday": "8u - 22u",
+      "friday": "8u - 22u",
+      "saturday": false,
+      "sunday": false
+    },
+    "extra": "2 aparte zaaltjes doorlopend beschikbaar (120 plaatsen)."
+  }
+}]
