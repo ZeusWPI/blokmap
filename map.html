@@ -16,24 +16,31 @@
   <script id="popup-template" type="text/x-handlebars-template">
     <div id="resto-popup">
       <h3>{{name}}</h3>
-      <ul>
-        <li><b>Adres:</b> {{address}}</li>
-        <li><b>Capaciteit:</b> {{capacity}}</li>
-        <li><b>Periode:</b> Van {{period.start}} tot {{period.end}}</li>
-      </ul>
+      Waar: {{address}}<br />
+      Plaatsen: {{capacity}}<br />
+      Van {{period.start}} tot {{period.end}}<br />
+      <table>
+        <tr>
+          <td>Maandag</td>
+          <td>Dinsdag</td>
+          <td>Woensdag</td>
+          <td>Donderdag</td>
+          <td>Vrijdag</td>
+          <td>Zaterdag</td>
+          <td>Zondag</td>
+        </tr>
+        <tr>
+          <td>{{#if hours.monday}}{{hours.monday}}{{else}}--{{/if}}</td>
+          <td>{{#if hours.tuesday}}{{hours.tuesday}}{{else}}--{{/if}}</td>
+          <td>{{#if hours.wednesday}}{{hours.wednesday}}{{else}}--{{/if}}</td>
+          <td>{{#if hours.thursday}}{{hours.thursday}}{{else}}--{{/if}}</td>
+          <td>{{#if hours.friday}}{{hours.friday}}{{else}}--{{/if}}</td>
+          <td>{{#if hours.saturday}}{{hours.saturday}}{{else}}--{{/if}}</td>
+          <td>{{#if hours.sunday}}{{hours.sunday}}{{else}}--{{/if}}</td>
+        </tr>
+      </table>
 
-      Openingsuren
-      <ul>
-        <li><b>Maandag:</b> {{hours.monday}}</li>
-        <li><b>Dinsdag:</b> {{hours.tuesday}}</li>
-        <li><b>Woensdag:</b> {{hours.wednesday}}</li>
-        <li><b>Donderdag:</b> {{hours.thursday}}</li>
-        <li><b>Vrijdag:</b> {{hours.friday}}</li>
-        <li><b>Zaterdag:</b> {{hours.saturday}}</li>
-        <li><b>Zondag:</b> {{hours.sunday}}</li>
-      </ul>
-
-      Extra: {{extra}}
+      {{extra}}
     </div>
   </script>
   <script type="text/javascript">

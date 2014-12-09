@@ -14,3 +14,11 @@ html, body {
 .leaflet-control-zoom {
   border-radius: 0px;
 }
+
+.leaflet-popup-content-wrapper {
+  width: 400px;
+}
+
+td {
+  width: 14%;
+}
