@@ -10,10 +10,8 @@ html, body {
   height: 100%;
 }
 
-.gmnoprint, .gm-style-cc {
-  display: none;
-}
-
-#resto-popup {
+.leaflet-popup-content-wrapper,
+.leaflet-control-zoom-in,
+.leaflet-control-zoom-out {
   border-radius: 0px;
 }
