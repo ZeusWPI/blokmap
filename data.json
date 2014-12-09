@@ -330,8 +330,8 @@
             "saturday": false,
             "sunday": false
         },
-        ,
-        "type": "HUB-KAHO Campus Gent"
+        "type": "HUB-KAHO Campus Gent",
+        "extra": false
     }
 },
 {
