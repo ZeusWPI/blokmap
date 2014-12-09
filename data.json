@@ -19,7 +19,7 @@
             "sunday": false
         },
         "extra": "2 aparte zaaltjes doorlopend beschikbaar (120 plaatsen). Restaurant (1ste en 2de verdieping) gesloten tussen 11u15 en 14u en na 17u",
-        "school": "UGent"
+        "type": "UGent"
     }
 },
 {
@@ -43,7 +43,7 @@
             "sunday": "22u"
         },
         "extra": "Enkel weekend en feestdagen.",
-        "school": "UGent"
+        "type": "UGent"
     }
 },
 {
@@ -67,7 +67,7 @@
             "sunday": "9u - 18u"
         },
         "extra": "Toegangkelijk voor alle Gentse studenten.",
-        "school": "UGent"
+        "type": "UGent"
     }
 },
 {
@@ -91,7 +91,7 @@
             "sunday": "9u - 17u"
         },
         "extra": "Toegangkelijk voor iedereen",
-        "school": "UGent"
+        "type": "UGent"
     }
 },
 {
@@ -115,7 +115,7 @@
             "sunday": false
         },
         "extra": "Toegangkelijk voor alle Gentse studenten.",
-        "school": "UGent"
+        "type": "UGent"
     }
 },
 {
@@ -139,7 +139,7 @@
             "sunday": "8u30 - 22u"
         },
         "extra": "Registratie noodzakelijk! http://student.UGent.be/blok/ Vanaf 9u kunnen studenten zonder registratie toegang krijgen.",
-        "school": "UGent"
+        "type": "UGent"
     }
 },
 {
@@ -163,7 +163,7 @@
             "sunday": false
         },
         "extra": "Toegankelijk voor alle Gentse studenten.",
-        "school": "hogent"
+        "type": "hogent"
     }
 },
 {
@@ -187,7 +187,7 @@
             "sunday": false
         },
         "extra": "Toegankelijk voor alle Gentse studenten.",
-        "school": "hogent"
+        "type": "hogent"
     }
 },
 {
@@ -211,7 +211,7 @@
             "sunday": false
         },
         "extra": "Toegankelijk voor alle Gentse studenten.",
-        "school": "hogent"
+        "type": "hogent"
     }
 },
 {
@@ -235,7 +235,7 @@
             "sunday": false
         },
         "extra": "Toegankelijk voor alle Gentse studenten.",
-        "school": "hogent"
+        "type": "hogent"
     }
 },
 {
@@ -259,7 +259,7 @@
             "sunday": false
         },
         "extra": "Toegankelijk voor alle Gentse studenten.",
-        "school": "hogent"
+        "type": "hogent"
     }
 },
 {
@@ -283,7 +283,7 @@
             "sunday": false
         },
         "extra": "Toegankelijk voor alle Gentse studenten.",
-        "school": "hogent"
+        "type": "hogent"
     }
 },
 {
@@ -307,7 +307,7 @@
             "sunday": false
         },
         "extra": "Toegankelijk voor alle Gentse studenten. 40 stille plaatsen",
-        "school": "Arteveldehogeschool"
+        "type": "Arteveldehogeschool"
     }
 },
 {
@@ -330,8 +330,8 @@
             "saturday": false,
             "sunday": false
         },
-        "extra": false,
-        "school": "HUB-KAHO Campus Gent"
+        "type": "HUB-KAHO Campus Gent",
+        "extra": false
     }
 },
 {
@@ -355,7 +355,7 @@
             "sunday": "10u - 18u"
         },
         "extra": "Opgepast andere zaal: toegang via binnenkoer Wereld van Kina - Sint-Pietersplein 14, via torentrap aan overkant koer.",
-        "school": "Stad Gent"
+        "type": "Stad Gent"
     }
 },
 {
@@ -379,7 +379,7 @@
             "sunday": false
         },
         "extra": false,
-        "school": "Stad Gent"
+        "type": "Stad Gent"
     }
 }
 ]

@@ -30,17 +30,17 @@
           <td>Zondag</td>
         </tr>
         <tr>
-          <td>{{#if hours.monday}}{{hours.monday}}{{else}}--{{/if}}</td>
-          <td>{{#if hours.tuesday}}{{hours.tuesday}}{{else}}--{{/if}}</td>
-          <td>{{#if hours.wednesday}}{{hours.wednesday}}{{else}}--{{/if}}</td>
-          <td>{{#if hours.thursday}}{{hours.thursday}}{{else}}--{{/if}}</td>
-          <td>{{#if hours.friday}}{{hours.friday}}{{else}}--{{/if}}</td>
-          <td>{{#if hours.saturday}}{{hours.saturday}}{{else}}--{{/if}}</td>
-          <td>{{#if hours.sunday}}{{hours.sunday}}{{else}}--{{/if}}</td>
+          <td>{{#if hours.monday}}{{hours.monday}}{{else}}Gesloten{{/if}}</td>
+          <td>{{#if hours.tuesday}}{{hours.tuesday}}{{else}}Gesloten{{/if}}</td>
+          <td>{{#if hours.wednesday}}{{hours.wednesday}}{{else}}Gesloten{{/if}}</td>
+          <td>{{#if hours.thursday}}{{hours.thursday}}{{else}}Gesloten{{/if}}</td>
+          <td>{{#if hours.friday}}{{hours.friday}}{{else}}Gesloten{{/if}}</td>
+          <td>{{#if hours.saturday}}{{hours.saturday}}{{else}}Gesloten{{/if}}</td>
+          <td>{{#if hours.sunday}}{{hours.sunday}}{{else}}Gesloten{{/if}}</td>
         </tr>
       </table>
 
-      {{extra}}
+      {{#if extra}}{{extra}}{{/if}}
     </div>
   </script>
   <script type="text/javascript">
