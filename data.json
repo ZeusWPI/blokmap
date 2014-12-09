@@ -330,7 +330,7 @@
             "saturday": false,
             "sunday": false
         },
-        "extra": "",
+        "extra": false,
         "school": "HUB-KAHO Campus Gent"
     }
 },
@@ -378,7 +378,7 @@
             "saturday": "8u30 - 16u45",
             "sunday": false
         },
-        "extra": "",
+        "extra": false,
         "school": "Stad Gent"
     }
 }
