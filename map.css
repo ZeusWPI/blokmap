@@ -28,9 +28,14 @@ table {
     padding-bottom: 10px;
     border-spacing: 0;
 }
+
 tr td:first-child {
   padding: 0;
   padding-right: 10px;
+}
+
+.table tr:nth-child(2n) {
+    background: rgb(244,244,244);
 }
 
 .info {
@@ -41,7 +46,7 @@ tr td:first-child {
 }
 
 .type {
-    position: fixed;
+    position: absolute;
     top: 15px;
     right: 15px;
 }
