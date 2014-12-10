@@ -15,6 +15,13 @@ html, body {
   border-radius: 0px;
 }
 
+.leaflet-map-pane {
+    z-index: 2 !important;
+}
+
+.leaflet-google-layer {
+    z-index: 1 !important;
+}
 
 .leaflet-popup-content-wrapper {
   width: 600px;
