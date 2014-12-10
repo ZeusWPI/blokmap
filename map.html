@@ -3,6 +3,8 @@
 <head>
   <meta charset="utf-8">
   <title>Blokken in Gent</title>
+  <meta name=“viewport” content=“initial-scale=1.0”>
+
   <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.css" />
   <link rel="stylesheet" href="map.css" />
   <script src="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.js"></script>
@@ -16,31 +18,40 @@
   <script id="popup-template" type="text/x-handlebars-template">
     <div id="resto-popup">
       <h3>{{name}}</h3>
-      <img src="{{type}}.png" class="type">
-      Waar: {{address}}<br />
-      Plaatsen: {{capacity}}<br />
       Van {{period.start}} tot {{period.end}}<br />
+      <img src="{{type}}.png" class="type">
+      <h4>Openingsuren</h4>
       <table>
         <tr>
           <td>Maandag</td>
-          <td>Dinsdag</td>
-          <td>Woensdag</td>
-          <td>Donderdag</td>
-          <td>Vrijdag</td>
-          <td>Zaterdag</td>
-          <td>Zondag</td>
+          <td>{{#if hours.monday}}{{hours.monday}}{{else}}Gesloten{{/if}}</td>
         </tr>
         <tr>
-          <td>{{#if hours.monday}}{{hours.monday}}{{else}}Gesloten{{/if}}</td>
-          <td>{{#if hours.tuesday}}{{hours.tuesday}}{{else}}Gesloten{{/if}}</td>
-          <td>{{#if hours.wednesday}}{{hours.wednesday}}{{else}}Gesloten{{/if}}</td>
-          <td>{{#if hours.thursday}}{{hours.thursday}}{{else}}Gesloten{{/if}}</td>
-          <td>{{#if hours.friday}}{{hours.friday}}{{else}}Gesloten{{/if}}</td>
-          <td>{{#if hours.saturday}}{{hours.saturday}}{{else}}Gesloten{{/if}}</td>
-          <td>{{#if hours.sunday}}{{hours.sunday}}{{else}}Gesloten{{/if}}</td>
+            <td>Dinsdag</td>
+            <td>{{#if hours.tuesday}}{{hours.tuesday}}{{else}}Gesloten{{/if}}</td>
+        </tr>
+        <tr>
+            <td>Woensdag</td>
+            <td>{{#if hours.wednesday}}{{hours.wednesday}}{{else}}Gesloten{{/if}}</td>
+        </tr>
+        <tr>
+            <td>Donderdag</td>
+            <td>{{#if hours.thursday}}{{hours.thursday}}{{else}}Gesloten{{/if}}</td>
+        </tr><tr>
+            <td>Vrijdag</td>
+            <td>{{#if hours.friday}}{{hours.friday}}{{else}}Gesloten{{/if}}</td>
+        </tr>
+        <tr>
+            <td>Zaterdag</td>
+            <td>{{#if hours.saturday}}{{hours.saturday}}{{else}}Gesloten{{/if}}</td>
+        </tr>
+        <tr>
+            <td>Zondag</td>
+            <td>{{#if hours.sunday}}{{hours.sunday}}{{else}}Gesloten{{/if}}</td>
         </tr>
       </table>
-
+      Waar: {{address}}<br />
+      Plaatsen: {{capacity}}<br />
       {{#if extra}}{{extra}}{{/if}}
     </div>
   </script>
@@ -59,7 +70,7 @@
     $(document).ready(function() {
       var map = L.map('map').setView([51.0475378, 3.7261835], 13);
       var osm = L.tileLayer('https://{s}.tiles.mapbox.com/v3/feliciaan.keoaj8d5/{z}/{x}/{y}.png', {
-        attribution: 'Made by <a href="http://zeus.ugent.be">Zeus WPI</a> with ❤ and <a href="http://www.mapbox.com/about/maps/" target="_blank">Mapbox</a>'
+        attribution: 'Made with ❤ by <a href="http://zeus.ugent.be">Zeus WPI</a> and <a href="http://www.mapbox.com/about/maps/" target="_blank">Mapbox</a>'
       }).addTo(map);
 
       $.getJSON('data.json')

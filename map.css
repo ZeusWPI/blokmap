@@ -19,8 +19,18 @@ html, body {
   width: 400px;
 }
 
-td {
-  width: 14%;
+h4 {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+table {
+    padding-bottom: 10px;
+    border-spacing: 0;
+}
+tr td:first-child {
+  padding: 0;
+  padding-right: 10px;
 }
 
 .info {
