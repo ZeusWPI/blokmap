@@ -55,7 +55,7 @@
     $(document).ready(function() {
       var map = L.map('map').setView([51.0475378, 3.7261835], 13);
       var osm = L.tileLayer('https://{s}.tiles.mapbox.com/v3/feliciaan.keoaj8d5/{z}/{x}/{y}.png', {
-        attribution: 'Made by <a href="http://zeus.ugent.be">Zeus</a> with ❤ and <a href="http://www.mapbox.com/about/maps/" target="_blank">Mapbox</a>'
+        attribution: 'Made by <a href="http://zeus.ugent.be"><img src="logo.png" alt="Zeus WPI"></a> with ❤ and <a href="http://www.mapbox.com/about/maps/" target="_blank">Mapbox</a>'
       }).addTo(map);
 
       $.getJSON('data.json')
