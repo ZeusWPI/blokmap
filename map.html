@@ -43,6 +43,9 @@
       {{#if extra}}{{extra}}{{/if}}
     </div>
   </script>
+  <script id="info-template" type="text/x-handlebars-template">
+    <a href="http://zeus.ugent.be/"><img src='logo.png'></a>
+  </script>
   <script type="text/javascript">
     var popuptemplate = Handlebars.compile($('#popup-template').html());
 
@@ -55,7 +58,7 @@
     $(document).ready(function() {
       var map = L.map('map').setView([51.0475378, 3.7261835], 13);
       var osm = L.tileLayer('https://{s}.tiles.mapbox.com/v3/feliciaan.keoaj8d5/{z}/{x}/{y}.png', {
-        attribution: 'Made by <a href="http://zeus.ugent.be"><img src="logo.png" alt="Zeus WPI"></a> with ❤ and <a href="http://www.mapbox.com/about/maps/" target="_blank">Mapbox</a>'
+        attribution: 'Made by <a href="http://zeus.ugent.be">Zeus WPI</a> with ❤ and <a href="http://www.mapbox.com/about/maps/" target="_blank">Mapbox</a>'
       }).addTo(map);
 
       $.getJSON('data.json')
@@ -65,6 +68,17 @@
          });
          map.addLayer(geojson);
        });
+
+       var info = L.control();
+
+       info.onAdd = function (map) {
+           var div = L.DomUtil.create('div', 'info');
+           div.innerHTML = Handlebars.compile($('#info-template').html())();
+
+           return div;
+       };
+
+       info.addTo(map);
     });
   </script>
   <script>
