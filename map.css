@@ -15,8 +15,15 @@ html, body {
   border-radius: 0px;
 }
 
+
 .leaflet-popup-content-wrapper {
-  width: 400px;
+  width: 600px;
+  max-height: 400px;
+  overflow-y:auto
+}
+
+.leaflet-popup-content {
+    width:auto !important;
 }
 
 h4 {
@@ -27,14 +34,20 @@ h4 {
 table {
     padding-bottom: 10px;
     border-spacing: 0;
+    width: 100%
 }
 
-tr td:first-child {
+.desktop tr td {
+    padding-right: 5px;
+    width: 75;
+}
+
+.mobile tr td:first-child {
   padding: 0;
   padding-right: 10px;
 }
 
-.table tr:nth-child(2n) {
+.mobile tr:nth-child(2n) {
     background: rgb(244,244,244);
 }
 
@@ -49,4 +62,34 @@ tr td:first-child {
     position: absolute;
     top: 15px;
     right: 15px;
+}
+
+
+.mobile {
+    display: none;
+}
+
+@media screen and (max-width: 1000px) {
+    .leaflet-popup-content-wrapper {
+        width: 250px;
+    }
+
+    .desktop {
+        display: none;
+    }
+
+    .mobile {
+        display: block;
+        width: 213px;
+    }
+
+    h3, .text {
+        max-width: 150px;
+    }
+}
+
+@media screen and (max-height: 400px) {
+    .leaflet-popup-content-wrapper {
+        max-height: 150px;
+    }
 }

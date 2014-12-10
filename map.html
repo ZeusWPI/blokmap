@@ -16,11 +16,12 @@
   <script id="popup-template" type="text/x-handlebars-template">
     <div id="resto-popup">
       <h3>{{name}} ({{capacity}} pl.)</h3>
-      Locatie: {{address}}<br />
-      Van {{period.start}} tot {{period.end}}<br />
       <img src="{{type}}.png" class="type">
+      <div class="text">Locatie: {{address}}<br />
+      Van {{period.start}} tot {{period.end}}
+      </div>
       <h4>Openingsuren</h4>
-      <table>
+      <table class="desktop">
       <tr>
       <td>Maandag</td>
         <td>Dinsdag</td>
@@ -40,7 +41,7 @@
         <td>{{#if hours.sunday}}{{hours.sunday}}{{else}}Gesloten{{/if}}</td>
       </tr>
       </table>
-      <table class="table">
+      <table class="mobile">
         <tr>
           <td>Maandag</td>
           <td>{{#if hours.monday}}{{hours.monday}}{{else}}Gesloten{{/if}}</td>
