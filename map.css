@@ -114,6 +114,16 @@ table {
     }
 }
 
+@media screen and (max-width: 800px) {
+    #schamper {
+        width: 90px;
+    }
+
+    #zeus {
+        width: 75px;
+    }
+}
+
 @media screen and (max-height: 400px) {
     .leaflet-popup-content-wrapper {
         max-height: 150px;
