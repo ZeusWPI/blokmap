@@ -37,6 +37,14 @@ html, body {
     bottom: -5px;
 }
 
+div.leaflet-top.leaflet-right {
+    z-index:1;
+}
+
+a img {
+    border: none;
+}
+
 h4 {
     margin-top: 5px;
     margin-bottom: 5px;
