@@ -13,7 +13,8 @@
   <script src="http://maps.google.com/maps/api/js?key=AIzaSyBAuXgl_O24GqLMl-ylUPLEH7O0wbK3J4A&v=3.2&sensor=false"></script>
   <script src="leaflet-google.js"></script>
   <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-  <script src="//cdnjs.cloudflare.com/ajax/libs/handlebars.js/2.0.0/handlebars.min.js"></script>
+  <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/handlebars.js/2.0.0/handlebars.min.js"></script>
+  <script type="text/javascript" src="map.js"></script>
 </head>
 <body>
   <div id="map"></div>
@@ -80,58 +81,20 @@
   <script id="info-template" type="text/x-handlebars-template">
     <a href="http://zeus.ugent.be/"><img src='logo.png'></a>
   </script>
-  <script type="text/javascript">
-    var popuptemplate = Handlebars.compile($('#popup-template').html());
-    var RedIcon = L.Icon.Default.extend({
-        options: {
-            iconUrl: 'red-marker.png'
-        }
-    });
-    var redIcon = new RedIcon();
-    var BlueIcon = L.Icon.Default.extend({});
-    var blueIcon = new BlueIcon();
-    
-    function onEachFeature(feature, layer) {
-      if (feature.properties) {
-        layer.bindPopup(popuptemplate(feature.properties));
-      }
-    }
-
-    function pointToLayer(feature, latlng) {
-        if (feature.properties) {
-            if (!feature.properties.hours.saturday && !feature.properties.hours.sunday) {
-                return L.marker(latlng, {icon:blueIcon});
-            }
-        }
-        return L.marker(latlng, {icon: redIcon});
-    }
-
-    $(document).ready(function() {
-      var map = L.map('map').setView([51.0475378, 3.7261835], 13);
-      var googleLayer = new L.Google('TERRAIN');
-      map.addLayer(googleLayer);
-
-      $.getJSON('data.json')
-       .done(function(data) {
-         var geojson = L.geoJson(data, {
-           onEachFeature: onEachFeature,
-           pointToLayer: pointToLayer
-         });
-         map.addLayer(geojson);
-       });
-
-       var info = L.control();
-
-       info.onAdd = function (map) {
-           var div = L.DomUtil.create('div', 'info');
-           div.innerHTML = Handlebars.compile($('#info-template').html())();
-
-           return div;
-       };
-
-       info.addTo(map);
-    });
+  <script id="share-template" type="text/x-handlebars-template">
+    <div class="fb-share-button" data-href="http://zeus.ugent.be/blok/" data-layout="button_count"></div>
   </script>
+
+  <!-- Facebook SDK -->
+  <div id="fb-root"></div>
+  <script>(function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&appId=146947948791011&version=v2.0";
+      fjs.parentNode.insertBefore(js, fjs);
+  }(document, 'script', 'facebook-jssdk'));</script>
+  <!-- Google Analytics SDK -->
   <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
       (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
