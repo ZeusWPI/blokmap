@@ -59,6 +59,7 @@ table {
 .desktop tr td {
     padding-right: 5px;
     width: 75;
+    vertical-align: top;
 }
 
 .mobile tr td:first-child {

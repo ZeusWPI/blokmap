@@ -42,7 +42,7 @@
             "saturday": "8u30 - 22u",
             "sunday": "8u30 - 22u"
         },
-        "extra": "Enkel weekend en feestdagen. Registratie noodzakelijk: ieder zondag om 19u student.ugent.be",
+        "extra": "Enkel weekend, kerstverlof en feestdagen,Registratie noodzakelijk! Registreer <a href=\"http://student.UGent.be/blok/\">hier</a>. Vanaf 9u kunnen studenten zonder registratie toegang krijgen.",
         "type": "UGent"
     }
 },
@@ -90,7 +90,7 @@
             "saturday": "8u30 - 22u",
             "sunday": "8u30 - 22u"
         },
-        "extra": "Registratie noodzakelijk! Registreer via http://student.UGent.be/blok/ . Vanaf 9u kunnen studenten zonder registratie toegang krijgen.",
+        "extra": "Registratie noodzakelijk! Registreer <a href=\"http://student.UGent.be/blok/\">hier</a>. Vanaf 9u kunnen studenten zonder registratie toegang krijgen.",
         "type": "UGent"
     }
 },
@@ -114,7 +114,7 @@
             "saturday": "8u30 - 22u",
             "sunday": "8u30 - 22u"
         },
-        "extra": "Registratie noodzakelijk! Registreer via http://student.UGent.be/blok/ . Vanaf 9u kunnen studenten zonder registratie toegang krijgen. Sluitingsdagen: 25/12, 01/01, 3/01, 4/01, 5/01,6/01, 13/01 en 20/01.<br/>24/12 en 31/12: 8u-16u",
+        "extra": "Registratie noodzakelijk! Registreer <a href=\"http://student.UGent.be/blok/\">hier</a>. Vanaf 9u kunnen studenten zonder registratie toegang krijgen. Sluitingsdagen: 25/12, 01/01, 3/01, 4/01, 5/01,6/01, 13/01 en 20/01.<br/>24/12 en 31/12: 8u-16u",
         "type": "UGent"
     }
 },
@@ -204,7 +204,7 @@
         "hours": {
             "monday": "9u - 17u",
             "tuesday": "9u - 18u",
-            "wednesday": "9u - 11u30 en 12u45 - 16u45",
+            "wednesday": "9u - 11u30 <br> 12u45 - 16u45",
             "thursday": "9u - 18u",
             "friday": "9u - 17u",
             "saturday": false,
@@ -250,11 +250,11 @@
         "capacity": 15,
         "period": { "start": "05/01/2014", "end": "30/01/2015" },
         "hours": {
-            "monday": "10u - 12u30 en 13u - 16u15",
-            "tuesday": "10u - 12u30 en 13u - 16u15",
-            "wednesday": "10u - 12u30 en 13u - 16u15",
+            "monday": "10u - 12u30<br />13u - 16u15",
+            "tuesday": "10u - 12u30<br />13u - 16u15",
+            "wednesday": "10u - 12u30<br />13u - 16u15",
             "thursday": "10u - 12u",
-            "friday": "10u - 12u30 en 13u - 16u15",
+            "friday": "10u - 12u30<br />13u - 16u15",
             "saturday": false,
             "sunday": false
         },
@@ -274,11 +274,11 @@
         "capacity": 50,
         "period": { "start": "05/01/2014", "end": "30/01/2015" },
         "hours": {
-            "monday": "9u - 12u30 en 13u - 17u",
-            "tuesday": "8u30u - 12u30 en 13u - 17u",
-            "wednesday": "9u - 12u30 en 13u - 17u",
-            "thursday": "8u - 12u en 12u30 - 17u",
-            "friday": "8u - 12u en 12u30 - 17u",
+            "monday": "9u - 12u30<br />13u - 17u",
+            "tuesday": "8u30u - 12u30<br />13u - 17u",
+            "wednesday": "9u - 12u30<br />13u - 17u",
+            "thursday": "8u - 12u<br />12u30 - 17u",
+            "friday": "8u - 12u<br />12u30 - 17u",
             "saturday": false,
             "sunday": false
         },

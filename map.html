@@ -7,7 +7,7 @@
   <meta name="google-play-app" content="app-id=be.ugent.zeus.hydra">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
 
-  <meta property="og:site_name" content="zeus.ugent.be">
+  <meta property="og:site_name" content="Zeus WPI">
   <meta property="og:type" content="article">
   <meta property="og:title" content="Bloklocaties in Gent">
   <meta property="og:description" content="Deze kaart biedt Gentse studenten een handige opsomming van de verschillende bloklocaties in hun studentenstad">
@@ -15,7 +15,7 @@
   <meta property="og:image" content="http://www.schamper.ugent.be/files/imagecache/preview/images/IMG_8763.jpg">
 
   <meta name="twitter:card" content="summary">
-  <meta name="twitter:url" content="http://zeus.ugent.be/blokl/">
+  <meta name="twitter:url" content="http://zeus.ugent.be/blok/">
   <meta name="twitter:title" content="Bloklocaties in Gent">
   <meta name="twitter:description" content="Deze kaart biedt Gentse studenten een handige opsomming van de verschillende bloklocaties in hun studentenstad">
   <meta name="twitter:image" content="http://www.schamper.ugent.be/files/imagecache/preview/images/IMG_8763.jpg">
@@ -50,45 +50,45 @@
         <td>Zondag</td>
       </tr>
       <tr>
-        <td>{{#if hours.monday}}{{hours.monday}}{{else}}Gesloten{{/if}}</td>
-        <td>{{#if hours.tuesday}}{{hours.tuesday}}{{else}}Gesloten{{/if}}</td>
-        <td>{{#if hours.wednesday}}{{hours.wednesday}}{{else}}Gesloten{{/if}}</td>
-        <td>{{#if hours.thursday}}{{hours.thursday}}{{else}}Gesloten{{/if}}</td>
-        <td>{{#if hours.friday}}{{hours.friday}}{{else}}Gesloten{{/if}}</td>
-        <td>{{#if hours.saturday}}{{hours.saturday}}{{else}}Gesloten{{/if}}</td>
-        <td>{{#if hours.sunday}}{{hours.sunday}}{{else}}Gesloten{{/if}}</td>
+        <td>{{#if hours.monday}}{{{hours.monday}}}{{else}}Gesloten{{/if}}</td>
+        <td>{{#if hours.tuesday}}{{{hours.tuesday}}}{{else}}Gesloten{{/if}}</td>
+        <td>{{#if hours.wednesday}}{{{hours.wednesday}}}{{else}}Gesloten{{/if}}</td>
+        <td>{{#if hours.thursday}}{{{hours.thursday}}}{{else}}Gesloten{{/if}}</td>
+        <td>{{#if hours.friday}}{{{hours.friday}}}{{else}}Gesloten{{/if}}</td>
+        <td>{{#if hours.saturday}}{{{hours.saturday}}}{{else}}Gesloten{{/if}}</td>
+        <td>{{#if hours.sunday}}{{{hours.sunday}}}{{else}}Gesloten{{/if}}</td>
       </tr>
       </table>
       <table class="mobile">
         <tr>
           <td>Maandag</td>
-          <td>{{#if hours.monday}}{{hours.monday}}{{else}}Gesloten{{/if}}</td>
+          <td>{{#if hours.monday}}{{{hours.monday}}}{{else}}Gesloten{{/if}}</td>
         </tr>
         <tr>
             <td>Dinsdag</td>
-            <td>{{#if hours.tuesday}}{{hours.tuesday}}{{else}}Gesloten{{/if}}</td>
+            <td>{{#if hours.tuesday}}{{{hours.tuesday}}}{{else}}Gesloten{{/if}}</td>
         </tr>
         <tr>
             <td>Woensdag</td>
-            <td>{{#if hours.wednesday}}{{hours.wednesday}}{{else}}Gesloten{{/if}}</td>
+            <td>{{#if hours.wednesday}}{{{hours.wednesday}}}{{else}}Gesloten{{/if}}</td>
         </tr>
         <tr>
             <td>Donderdag</td>
-            <td>{{#if hours.thursday}}{{hours.thursday}}{{else}}Gesloten{{/if}}</td>
+            <td>{{#if hours.thursday}}{{{hours.thursday}}}{{else}}Gesloten{{/if}}</td>
         </tr><tr>
             <td>Vrijdag</td>
-            <td>{{#if hours.friday}}{{hours.friday}}{{else}}Gesloten{{/if}}</td>
+            <td>{{#if hours.friday}}{{{hours.friday}}}{{else}}Gesloten{{/if}}</td>
         </tr>
         <tr>
             <td>Zaterdag</td>
-            <td>{{#if hours.saturday}}{{hours.saturday}}{{else}}Gesloten{{/if}}</td>
+            <td>{{#if hours.saturday}}{{{hours.saturday}}}{{else}}Gesloten{{/if}}</td>
         </tr>
         <tr>
             <td>Zondag</td>
-            <td>{{#if hours.sunday}}{{hours.sunday}}{{else}}Gesloten{{/if}}</td>
+            <td>{{#if hours.sunday}}{{{hours.sunday}}}{{else}}Gesloten{{/if}}</td>
         </tr>
       </table>
-      {{#if extra}}{{extra}}{{/if}}
+      {{#if extra}}{{{extra}}}{{/if}}
     </div>
   </script>
   <script id="info-template" type="text/x-handlebars-template">
