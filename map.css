@@ -33,6 +33,10 @@ html, body {
     width:auto !important;
 }
 
+.leaflet-control-attribution {
+    bottom: 13px;
+}
+
 h4 {
     margin-top: 5px;
     margin-bottom: 5px;
