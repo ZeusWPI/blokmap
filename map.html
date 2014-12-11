@@ -82,11 +82,28 @@
   </script>
   <script type="text/javascript">
     var popuptemplate = Handlebars.compile($('#popup-template').html());
-
+    var RedIcon = L.Icon.Default.extend({
+        options: {
+            iconUrl: 'red-marker.png'
+        }
+    });
+    var redIcon = new RedIcon();
+    var BlueIcon = L.Icon.Default.extend({});
+    var blueIcon = new BlueIcon();
+    
     function onEachFeature(feature, layer) {
       if (feature.properties) {
         layer.bindPopup(popuptemplate(feature.properties));
       }
+    }
+
+    function pointToLayer(feature, latlng) {
+        if (feature.properties) {
+            if (!feature.properties.hours.saturday && !feature.properties.hours.sunday) {
+                return L.marker(latlng, {icon:blueIcon});
+            }
+        }
+        return L.marker(latlng, {icon: redIcon});
     }
 
     $(document).ready(function() {
@@ -97,7 +114,8 @@
       $.getJSON('data.json')
        .done(function(data) {
          var geojson = L.geoJson(data, {
-           onEachFeature: onEachFeature
+           onEachFeature: onEachFeature,
+           pointToLayer: pointToLayer
          });
          map.addLayer(geojson);
        });
