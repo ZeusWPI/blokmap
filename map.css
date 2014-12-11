@@ -34,7 +34,7 @@ html, body {
 }
 
 .leaflet-control-attribution {
-    bottom: 15px;
+    bottom: -5px;
 }
 
 h4 {
