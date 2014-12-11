@@ -29,7 +29,7 @@ $(document).ready(function() {
     map.addLayer(googleLayer);
 
     $.getJSON('data.json')
-    .done(function(data) {
+     .done(function(data) {
         var geojson = L.geoJson(data, {
             onEachFeature: onEachFeature,
             pointToLayer: pointToLayer
@@ -37,34 +37,30 @@ $(document).ready(function() {
         map.addLayer(geojson);
     });
 
-    var info = L.control();
+    var SimpleControl = L.Control.extend({
+      initialize: function(templateId, divClass, options) {
+        this.template = Handlebars.compile($(templateId).html());
+        this.divClass = divClass;
+        L.Util.setOptions(this, options);
+      },
 
-    info.onAdd = function (map) {
-        var div = L.DomUtil.create('div', 'info');
-        div.innerHTML = Handlebars.compile($('#info-template').html())();
+      onAdd: function (map) {
+        this._div = L.DomUtil.create('div', this.divClass);
+        this._div.innerHTML = this.template();
 
-        return div;
-    };
+        return this._div;
+      }
+    });
 
-    info.addTo(map);
+    var info = new SimpleControl('#info-template', 'info', {
+      position: 'topright'
+    }).addTo(map);
 
-    var sharePane = L.control().setPosition("bottomleft");
-    sharePane.onAdd = function (map) {
-        var div = L.DomUtil.create('div', 'info');
-        div.innerHTML = Handlebars.compile($('#share-template').html())();
+    var sharePane = new SimpleControl('#share-template', 'info', {
+      position: 'bottomleft'
+    }).addTo(map);
 
-        return div;
-    };
-
-    sharePane.addTo(map);
-
-    var legend = L.control().setPosition("topleft");
-    legend.onAdd = function (map) {
-        var div = L.DomUtil.create('div', 'legend');
-        div.innerHTML = Handlebars.compile($('#legend-template').html())();
-
-        return div;
-    };
-
-    legend.addTo(map);
+    var legend = new SimpleControl('#legend-template', 'legend', {
+      position: 'topleft'
+    }).addTo(map);
 });
