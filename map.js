@@ -57,4 +57,14 @@ $(document).ready(function() {
     };
 
     sharePane.addTo(map);
+
+    var legend = L.control().setPosition("topleft");
+    legend.onAdd = function (map) {
+        var div = L.DomUtil.create('div', 'legend');
+        div.innerHTML = Handlebars.compile($('#legend-template').html())();
+
+        return div;
+    };
+
+    legend.addTo(map);
 });

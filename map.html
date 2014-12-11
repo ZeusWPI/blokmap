@@ -12,13 +12,13 @@
   <meta property="og:title" content="Bloklocaties in Gent">
   <meta property="og:description" content="Deze kaart biedt Gentse studenten een handige opsomming van de verschillende bloklocaties in hun studentenstad">
   <meta property="og:url" content="http://zeus.ugent.be/blok/">
-  <meta property="og:image" content="http://www.schamper.ugent.be/files/imagecache/preview/images/IMG_8763.jpg">
+  <meta property="og:image" content="http://zeus.ugent.be/blok/share.jpg">
 
   <meta name="twitter:card" content="summary">
   <meta name="twitter:url" content="http://zeus.ugent.be/blok/">
   <meta name="twitter:title" content="Bloklocaties in Gent">
   <meta name="twitter:description" content="Deze kaart biedt Gentse studenten een handige opsomming van de verschillende bloklocaties in hun studentenstad">
-  <meta name="twitter:image" content="http://www.schamper.ugent.be/files/imagecache/preview/images/IMG_8763.jpg">
+  <meta name="twitter:image" content="http://zeus.ugent.be/blok/share.jpg">
 
   <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.css" />
   <link rel="stylesheet" href="map.css" />
@@ -92,10 +92,24 @@
     </div>
   </script>
   <script id="info-template" type="text/x-handlebars-template">
-    <a href="http://zeus.ugent.be/"><img src='logo.png'></a>
+    <a href="http://schamper.be/"><img src='schamper.png'></a>
+    <div style="padding-left: 5px"></div>
+    <a href="http://zeus.ugent.be/"><img src='zeus.png' style="float: right;"></a>
   </script>
   <script id="share-template" type="text/x-handlebars-template">
     <div class="fb-share-button" data-href="http://zeus.ugent.be/blok/" data-layout="button_count"></div>
+  </script>
+  <script id="legend-template" type="text/x-handlebars-template">
+    <div style="padding-top: 5px;">
+        <div style="width: 120px; height: 18px; padding-top: 5px; padding-left: 5px;">
+            <div style="height: 10px; width: 10px; background: rgb(209,39,35);"></div>
+            <span style="position: absolute; left: 20px; top: 5px;">Week en weekend</span>
+        </div>
+        <div style="width: 120px; height: 18px; padding-top: 5px; padding-left: 5px;">
+            <div style="height: 10px; width: 10px; background: rgb(36, 126, 202);"></div>
+            <span style="position: absolute; left: 20px; top: 30px;">Enkel week</span>
+        </div>
+    </div>
   </script>
 
   <!-- Facebook SDK -->
