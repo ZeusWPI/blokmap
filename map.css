@@ -83,9 +83,13 @@ table {
 }
 
 .legend {
-    position: absolute;
-    left: 35px;
-    background: rgba(255,255,255,0.7) !important;
+  position: absolute;
+  left: 35px;
+  top: 1px;
+  height: 52px;
+  width: 130px;
+  background-color: #fff;
+  box-shadow: 0 1px 5px rgba(0,0,0,0.65);
 }
 
 .type {
