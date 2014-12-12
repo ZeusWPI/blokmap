@@ -83,9 +83,7 @@ table {
 }
 
 .legend {
-  position: absolute;
-  left: 35px;
-  top: 1px;
+
   height: 52px;
   width: 130px;
   background-color: #fff;

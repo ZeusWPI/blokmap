@@ -61,6 +61,6 @@ $(document).ready(function() {
     }).addTo(map);
 
     var legend = new SimpleControl('#legend-template', 'legend', {
-      position: 'topleft'
+      position: 'bottomright'
     }).addTo(map);
 });
