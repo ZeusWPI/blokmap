@@ -59,6 +59,7 @@ table {
 .desktop tr td {
     padding-right: 5px;
     width: 75;
+    vertical-align: top;
 }
 
 .mobile tr td:first-child {
@@ -75,6 +76,18 @@ table {
     font: 14px/16px Arial, Helvetica, sans-serif;
     background: white;
     background: rgba(255,255,255,0.0);
+}
+
+#zeus {
+    padding-left: 10px;
+}
+
+.legend {
+
+  height: 52px;
+  width: 130px;
+  background-color: #fff;
+  box-shadow: 0 1px 5px rgba(0,0,0,0.65);
 }
 
 .type {
@@ -104,6 +117,20 @@ table {
 
     h3, .text {
         max-width: 150px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .info {
+        max-width: 90px;s
+    }
+
+    #schamper {
+        width: 90px;
+    }
+
+    #zeus {
+        width: 75px;
     }
 }
 
