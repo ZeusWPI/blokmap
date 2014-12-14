@@ -26,7 +26,7 @@ $(document).ready(function() {
 
     var map = L.map('map').setView([51.0475378, 3.7261835], 13);
     L.tileLayer('http://otile{s}.mqcdn.com/tiles/1.0.0/map/{z}/{x}/{y}.jpeg', {
-        attribution: 'Tiles Courtesy of <a href="http://www.mapquest.com/">MapQuest</a> &mdash; Map data &copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>',
+        attribution: 'Made with ❤ by <a href="http://zeus.ugent.be">Zeus WPI</a> | Tiles Courtesy of <a href="http://www.mapquest.com/">MapQuest</a> | Map data &copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>',
         subdomains: '1234'
     }).addTo(map);
 

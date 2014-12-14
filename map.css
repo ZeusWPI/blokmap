@@ -19,7 +19,7 @@ html, body {
     z-index: 2 !important;
 }
 
-.leaflet-google-layer {
+.leaflet-tile-container {
     z-index: 1 !important;
 }
 
@@ -34,11 +34,11 @@ html, body {
 }
 
 .leaflet-control-attribution {
-    bottom: -5px;
+    /*bottom: -5px;*/
 }
 
 div.leaflet-top.leaflet-right {
-    z-index:1;
+    z-index:3;
 }
 
 a img {
