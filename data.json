@@ -42,7 +42,7 @@
             "saturday": "8u30 - 22u",
             "sunday": "8u30 - 22u"
         },
-        "extra": "Enkel weekend, kerstverlof en feestdagen,Registratie noodzakelijk! Registreer <a href=\"http://student.UGent.be/blok/\">hier</a>. Vanaf 9u kunnen studenten zonder registratie toegang krijgen.",
+        "extra": "Enkel weekend, kerstverlof en feestdagen,Registratie noodzakelijk! Registreer <a href=\"http://student.UGent.be/blok_kantien/\">hier</a>. Vanaf 9u kunnen studenten zonder registratie toegang krijgen.",
         "type": "UGent"
     }
 },
@@ -114,7 +114,7 @@
             "saturday": "8u30 - 22u",
             "sunday": "8u30 - 22u"
         },
-        "extra": "Registratie noodzakelijk! Registreer <a href=\"http://student.UGent.be/blok/\">hier</a>. Vanaf 9u kunnen studenten zonder registratie toegang krijgen. Sluitingsdagen: 25/12, 01/01, 3/01, 4/01, 5/01,6/01, 13/01 en 20/01.<br/>24/12 en 31/12: 8u-16u",
+        "extra": "Registratie noodzakelijk! Registreer <a href=\"http://student.UGent.be/blok_aula/\">hier</a>. Vanaf 9u kunnen studenten zonder registratie toegang krijgen. Sluitingsdagen: 25/12, 01/01, 3/01, 4/01, 5/01,6/01, 13/01 en 20/01.<br/>24/12 en 31/12: 8u-16u",
         "type": "UGent"
     }
 },
