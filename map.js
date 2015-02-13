@@ -25,8 +25,9 @@ $(document).ready(function() {
     }
 
     var map = L.map('map').setView([51.0475378, 3.7261835], 13);
-    var googleLayer = new L.Google('TERRAIN');
-    map.addLayer(googleLayer);
+    var osm = L.tileLayer('https://{s}.tiles.mapbox.com/v3/feliciaan.keoaj8d5/{z}/{x}/{y}.png', {
+      attribution: '<a href="http://www.mapbox.com/about/maps/" target="_blank">Mapbox</a> | Made with ❤ by <a href="http://zeus.ugent.be">Zeus WPI</a>'
+    }).addTo(map);
 
     $.getJSON('data.json')
      .done(function(data) {

@@ -15,14 +15,6 @@ html, body {
   border-radius: 0px;
 }
 
-.leaflet-map-pane {
-    z-index: 2 !important;
-}
-
-.leaflet-google-layer {
-    z-index: 1 !important;
-}
-
 .leaflet-popup-content-wrapper {
   width: 600px;
   max-height: 400px;
@@ -31,14 +23,6 @@ html, body {
 
 .leaflet-popup-content {
     width:auto !important;
-}
-
-.leaflet-control-attribution {
-    bottom: -5px;
-}
-
-div.leaflet-top.leaflet-right {
-    z-index:1;
 }
 
 a img {
