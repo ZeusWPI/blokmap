@@ -12,27 +12,28 @@
   <meta property="og:title" content="Bloklocaties in Gent">
   <meta property="og:description" content="Samenhokken om te blokken? Er zijn maar liefst 4000 zitjes in Gent om dat te doen. Schamper en Zeus maakten een overzicht!">
   <meta property="og:url" content="//zeus.ugent.be/blok/">
-  <meta property="og:image" content="//zeus.ugent.be/blok/share.jpg">
+  <meta property="og:image" content="//zeus.ugent.be/blok/img/share.jpg">
 
   <meta name="twitter:card" content="summary">
   <meta name="twitter:url" content="//zeus.ugent.be/blok/">
   <meta name="twitter:title" content="Bloklocaties in Gent">
   <meta name="twitter:description" content="Samenhokken om te blokken? Er zijn maar liefst 4000 zitjes in Gent om dat te doen. Schamper en Zeus maakten een overzicht!">
-  <meta name="twitter:image" content="//zeus.ugent.be/blok/share.jpg">
+  <meta name="twitter:image" content="//zeus.ugent.be/blok/img/share.jpg">
 
-  <link rel="stylesheet" href="//cdn.leafletjs.com/leaflet-0.7.3/leaflet.css" />
-  <link rel="stylesheet" href="map.css" />
-  <script src="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.js"></script>
+  <link rel="stylesheet" href="css/leaflet.css" />
+  <link rel="stylesheet" href="css/map.css" />
+  
+  <script type="text/javascript" src="js/leaflet.js"></script>
   <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
   <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/handlebars.js/2.0.0/handlebars.min.js"></script>
-  <script type="text/javascript" src="map.js"></script>
+  <script type="text/javascript" src="js/map.js"></script>
 </head>
 <body>
   <div id="map"></div>
   <script id="popup-template" type="text/x-handlebars-template">
     <div id="resto-popup">
       <h3>{{name}} ({{capacity}} pl.)</h3>
-      <img src="{{type}}.png" class="type">
+      <img src="img/{{type}}.png" class="type">
       <div class="text">Locatie: {{address}}<br />
       Van {{period.start}} tot {{period.end}}
       </div>
@@ -90,8 +91,8 @@
     </div>
   </script>
   <script id="info-template" type="text/x-handlebars-template">
-    <a href="http://schamper.be/"><img id="schamper" src='schamper.png'></a>
-    <a href="http://zeus.ugent.be/"><img id="zeus" src='zeus.png'></a>
+    <a href="http://schamper.be/"><img id="schamper" src="img/schamper.png"></a>
+    <a href="http://zeus.ugent.be/"><img id="zeus" src="img/zeus.png"></a>
   </script>
   <script id="share-template" type="text/x-handlebars-template">
     <div class="fb-share-button" data-href="//zeus.ugent.be/blok/" data-layout="button_count"></div>

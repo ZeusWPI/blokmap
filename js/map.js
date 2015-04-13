@@ -1,8 +1,11 @@
 $(document).ready(function() {
+    /* change image path */
+    L.Icon.Default.imagePath = 'img';
+
     var popuptemplate = Handlebars.compile($('#popup-template').html());
     var RedIcon = L.Icon.Default.extend({
         options: {
-            iconUrl: 'red-marker.png'
+            iconUrl: 'img/red-marker.png'
         }
     });
     var redIcon = new RedIcon();
