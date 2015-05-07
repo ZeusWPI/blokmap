@@ -42,7 +42,7 @@
             "saturday": "8u30 - 22u",
             "sunday": "8u30 - 22u"
         },
-        "extra": "Enkel weekend, kerstverlof en feestdagen,Registratie noodzakelijk! Registreer <a href=\"http://student.UGent.be/blok_kantien/\">hier</a>. Vanaf 9u kunnen studenten zonder registratie toegang krijgen.",
+        "extra": "Enkel weekend en feestdagen,Registratie noodzakelijk! Registreer <a href=\"http://student.UGent.be/blok_kantien/\">hier</a>. Vanaf 9u kunnen studenten zonder registratie toegang krijgen.",
         "type": "UGent"
     }
 },
@@ -128,7 +128,7 @@
         "name": "Faculteit Rechten, faculteitsbibliotheek",
         "address": "Universiteitstraat 4, verdieping 1",
         "capacity": 227,
-        "period": { "start": "5/5/2015", "end": "30/6/2015" },
+        "period": { "start": "11/5/2015", "end": "26/6/2015" },
         "hours": {
             "monday": "8u30 - 19u",
             "tuesday": "8u30 - 19u",
@@ -152,7 +152,7 @@
         "name": "Faculteit Bio-Ingenieurswetenschappen, faculteitsbibliotheek.",
         "address": "Coupure 653",
         "capacity": 68,
-        "period": { "start": "18/05/2015", "end": "02/07/2015" },
+        "period": { "start": "18/05/2015", "end": "2/7/2015" },
         "hours": {
             "monday": "9u - 19u",
             "tuesday": "9u - 19u",
@@ -498,7 +498,31 @@
             "saturday": "10u - 18u",
             "sunday": "10u - 18u"
         },
-        "extra": "Gesloten op Pinkstermaandag.",
+        "extra": "Open op Pinkstermaandag.",
+        "type": "Stad Gent"
+    }
+},
+{
+    "type": "Feature",
+    "geometry": {
+        "type": "Point",
+        "coordinates": [3.726478, 51.056233]
+    },
+    "properties": {
+        "name": "Jeugddienst Gent",
+        "address": "Kammerstraat 10",
+        "capacity": 36,
+        "period": { "start": "19/05/2015", "end": "18/06/2015" },
+        "hours": {
+            "monday": false,
+            "tuesday": false,
+            "wednesday": false,
+            "thursday": false,
+            "friday": false,
+            "saturday": "9u - 18u",
+            "sunday": "9u - 18u"
+        },
+        "extra": false,
         "type": "Stad Gent"
     }
 },
