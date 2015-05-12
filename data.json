@@ -242,6 +242,30 @@
     "type": "Feature",
     "geometry": {
         "type": "Point",
+        "coordinates": [3.726433, 51.044644]
+    },
+    "properties": {
+        "name": "Blok@'t Unief'",
+        "address": "Sint-Pietersnieuwstraat 204",
+        "capacity": 300,
+        "period": { "start": "19/5/2015", "end": "30/06/2015" },
+        "hours": {
+            "monday": "10u-18u",
+            "tuesday": "10u-18u",
+            "wednesday": "10u-18u",
+            "thursday": "10u-18u",
+            "friday": "10u-18u",
+            "saturday": "10u-18u",
+            "sunday": "10u-18u"
+        },
+        "extra": "Registratie noodzakelijk! Registreer <a href=\"http://student.UGent.be/blok_tunief/\">hier</a>. Vanaf 11u kunnen studenten zonder registratie toegang krijgen.",
+        "type": "UGent"
+    }
+},
+{
+    "type": "Feature",
+    "geometry": {
+        "type": "Point",
         "coordinates": [3.702897, 51.031507]
     },
     "properties": {
