@@ -29,6 +29,10 @@ a img {
     border: none;
 }
 
+h3 {
+  max-width: 500px;
+}
+
 h4 {
     margin-top: 5px;
     margin-bottom: 5px;
