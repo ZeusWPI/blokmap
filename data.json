@@ -1,481 +1,481 @@
 [{
     "type": "Feature",
     "geometry": {
-        "type": "Point",
-        "coordinates": [3.726759, 51.045660]
+        "type":         "Point",
+        "coordinates":  [3.726759, 51.045660]
     },
     "properties": {
-        "name": "Studentenrestaurant De Brug",
-        "address": "Sint-Pietersnieuwstraat 45",
-        "capacity": 700,
-        "period": { "start": "17/8/2015", "end": "11/9/2015" },
+        "name":         "Studentenrestaurant De Brug",
+        "address":      "Sint-Pietersnieuwstraat 45",
+        "capacity":     700,
+        "period": {     "start": "17/8/2015", "end": "11/9/2015" },
         "hours": {
-            "monday": "8u - 21u30",
-            "tuesday": "8u - 21u30",
-            "wednesday": "8u - 21u30",
-            "thursday": "8u - 21u30",
-            "friday": "8u - 21u30",
-            "saturday": false,
-            "sunday": false
+            "monday":       "8u - 21u30",
+            "tuesday":      "8u - 21u30",
+            "wednesday":    "8u - 21u30",
+            "thursday":     "8u - 21u30",
+            "friday":       "8u - 21u30",
+            "saturday":     false,
+            "sunday":       false
         },
-        "extra": "2 aparte zaaltjes doorlopend beschikbaar (120 plaatsen). Restaurant (1ste en 2de verdieping) gesloten tussen 11u15 en 14u en na 17u",
-        "type": "UGent"
+        "extra":        "2 aparte zaaltjes doorlopend beschikbaar (120 plaatsen). Restaurant (1ste en 2de verdieping) gesloten tussen 11u15 en 14u en na 17u",
+        "type":         "UGent"
     }
 },
 {
     "type": "Feature",
     "geometry": {
-        "type": "Point",
-        "coordinates": [3.728294, 51.039980]
+        "type":         "Point",
+        "coordinates":  [3.728294, 51.039980]
     },
     "properties": {
-        "name": "Studentenrestaurant Kantienberg",
-        "address": "Stalhof 45",
-        "capacity": 300,
-        "period": { "start": "15/8/2015", "end": "30/8/2015" },
+        "name":         "Studentenrestaurant Kantienberg",
+        "address":      "Stalhof 45",
+        "capacity":     300,
+        "period": {     "start": "15/8/2015", "end": "30/8/2015" },
         "hours": {
-            "monday": false,
-            "tuesday": false,
-            "wednesday": false,
-            "thursday": false,
-            "friday": false,
-            "saturday": "8u30 - 22u",
-            "sunday": "8u30 - 22u"
+            "monday":       false,
+            "tuesday":      false,
+            "wednesday":    false,
+            "thursday":     false,
+            "friday":       false,
+            "saturday":     "8u30 - 22u",
+            "sunday":       "8u30 - 22u"
         },
-        "extra": "Enkel weekend en feestdagen, Registratie noodzakelijk! Registreer <a href=\"http://student.UGent.be/blok_kantien/\">hier</a>. Vanaf 9u kunnen studenten zonder registratie toegang krijgen.",
-        "type": "UGent"
+        "extra":        "Enkel weekend en feestdagen, Registratie noodzakelijk! Registreer <a href=\"http://student.UGent.be/blok_kantien/\">hier</a>. Vanaf 9u kunnen studenten zonder registratie toegang krijgen.",
+        "type":         "UGent"
     }
 },
 {
     "type": "Feature",
     "geometry": {
-        "type": "Point",
-        "coordinates": [ 3.724770, 51.045507 ]
+        "type":         "Point",
+        "coordinates":  [ 3.724770, 51.045507 ]
     },
     "properties": {
-        "name": "Faculteit Letteren en Wijsbegeerte, faculteitsbibliotheek, vleugels Magnel & Loveling",
-        "address": "Rozier 44",
-        "capacity": 580,
-        "period": { "start": "10/8/2015", "end": "11/9/2015" },
+        "name":         "Faculteit Letteren en Wijsbegeerte, faculteitsbibliotheek, vleugels Magnel & Loveling",
+        "address":      "Rozier 44",
+        "capacity":     580,
+        "period": {     "start": "10/8/2015", "end": "11/9/2015" },
         "hours": {
-            "monday": "9u - 20u",
-            "tuesday": "9u - 20u",
-            "wednesday": "9u - 20u",
-            "thursday": "9u - 20u",
-            "friday": "9u - 17u",
-            "saturday": false,
-            "sunday": false
+            "monday":       "9u - 20u",
+            "tuesday":      "9u - 20u",
+            "wednesday":    "9u - 20u",
+            "thursday":     "9u - 20u",
+            "friday":       "9u - 17u",
+            "saturday":     false,
+            "sunday":       false
         },
-        "extra": "Toegankelijk voor iedereen. Gesloten op feestdagen, weekends en tijdens de Gentse Feesten",
-        "type": "UGent"
+        "extra":        "Toegankelijk voor iedereen. Gesloten op feestdagen, weekends en tijdens de Gentse Feesten",
+        "type":         "UGent"
     }
 },
 {
     "type": "Feature",
     "geometry": {
-        "type": "Point",
-        "coordinates": [ 3.725181, 51.024972 ]
+        "type":         "Point",
+        "coordinates":  [ 3.725181, 51.024972 ]
     },
     "properties": {
-        "name": "Kenniscentrum Gezondheidszorg Gent",
-        "address": "De Pintelaan 185",
-        "capacity": 170,
-        "period": { "start": "3/8/2015", "end": "??/??/2015" },
+        "name":         "Kenniscentrum Gezondheidszorg Gent",
+        "address":      "De Pintelaan 185, gebouw 0K3",
+        "capacity":     170,
+        "period": {     "start": "3/8/2015", "end": "??/??/2015" },
         "hours": {
-            "monday": "9u - 17u",
-            "tuesday": "9u - 17u",
-            "wednesday": "9u - 17u",
-            "thursday": "9u - 17u",
-            "friday": "9u - 17u",
-            "saturday": false,
-            "sunday": false
+            "monday":       "9u - 17u",
+            "tuesday":      "9u - 17u",
+            "wednesday":    "9u - 17u",
+            "thursday":     "9u - 17u",
+            "friday":       "9u - 17u",
+            "saturday":     false,
+            "sunday":       false
         },
-        "extra": "Toegankelijk voor alle Gentse studenten. Gesloten op feestdagen en in weekends",
-        "type": "UGent"
+        "extra":        "Toegankelijk voor alle Gentse studenten. Gesloten op feestdagen en in weekends",
+        "type":         "UGent"
     }
 },
 {
     "type": "Feature",
     "geometry": {
-        "type": "Point",
-        "coordinates": [ 3.724908, 51.045759    ]
+        "type":         "Point",
+        "coordinates":  [ 3.724908, 51.045759    ]
     },
     "properties": {
-        "name": "Faculteit Ingenieurswetenschappen en Architectuur, faculteitsbibliotheek",
-        "address": "Plateaustraat 22",
-        "capacity": 48,
-        "period": { "start": "10/8/2015", "end": "11/9/2015" },
+        "name":         "Faculteit Ingenieurswetenschappen en Architectuur, faculteitsbibliotheek",
+        "address":      "Plateaustraat 22",
+        "capacity":     48,
+        "period": {     "start": "10/8/2015", "end": "11/9/2015" },
         "hours": {
-            "monday": "9u - 18u",
-            "tuesday": "9u - 18u",
-            "wednesday": "9u - 18u",
-            "thursday": "9u - 18u",
-            "friday": "9u - 16u",
-            "saturday": false,
-            "sunday": false
+            "monday":       "9u - 18u",
+            "tuesday":      "9u - 18u",
+            "wednesday":    "9u - 18u",
+            "thursday":     "9u - 18u",
+            "friday":       "9u - 16u",
+            "saturday":     false,
+            "sunday":       false
         },
-        "extra": "Toegankelijk voor iedereen. Gesloten op feestdagen, weekends en tijdens de Gentse Feesten",
-        "type": "UGent"
+        "extra":        "Toegankelijk voor iedereen. Gesloten op feestdagen, weekends en tijdens de Gentse Feesten",
+        "type":         "UGent"
     }
 },
 {
     "type": "Feature",
     "geometry": {
-        "type": "Point",
-        "coordinates": [ 3.724090, 51.051192 ]
+        "type":         "Point",
+        "coordinates":  [ 3.724090, 51.051192 ]
     },
     "properties": {
-        "name": "Faculteit Rechten, faculteitsbibliotheek",
-        "address": "Universiteitstraat 4, verdieping 1",
-        "capacity": 227,
-        "period": { "start": "10/8/2015", "end": "11/9/2015" },
+        "name":         "Faculteit Rechten, faculteitsbibliotheek",
+        "address":      "Universiteitstraat 4, verdieping 1",
+        "capacity":     227,
+        "period": {     "start": "10/8/2015", "end": "11/9/2015" },
         "hours": {
-            "monday": "8u30 - 19u",
-            "tuesday": "8u30 - 19u",
-            "wednesday": "8u30 - 19u",
-            "thursday": "8u30 - 19u",
-            "friday": "8u30 - 18u",
-            "saturday": false,
-            "sunday": false
+            "monday":       "8u30 - 19u",
+            "tuesday":      "8u30 - 19u",
+            "wednesday":    "8u30 - 19u",
+            "thursday":     "8u30 - 19u",
+            "friday":       "8u30 - 18u",
+            "saturday":     false,
+            "sunday":       false
         },
-        "extra": "Toegankelijk voor iedereen. Gesloten op feestdagen, weekends en tijdens de Gentse Feesten",
-        "type": "UGent"
+        "extra":        "Toegankelijk voor iedereen. Gesloten op feestdagen, weekends en tijdens de Gentse Feesten",
+        "type":         "UGent"
     }
 },
 {
     "type": "Feature",
     "geometry": {
-        "type": "Point",
-        "coordinates": [ 3.708577, 51.053446 ]
+        "type":         "Point",
+        "coordinates":  [ 3.708577, 51.053446 ]
     },
     "properties": {
-        "name": "Faculteit Bio-Ingenieurswetenschappen, faculteitsbibliotheek.",
-        "address": "Coupure 653",
-        "capacity": 68,
-        "period": { "start": "3/8/2015", "end": "??/9/2015" },
+        "name":         "Faculteit Bio-Ingenieurswetenschappen, faculteitsbibliotheek.",
+        "address":      "Coupure 653",
+        "capacity":     68,
+        "period": {     "start": "3/8/2015", "end": "??/9/2015" },
         "hours": {
-            "monday": "9u - 12u<br />13u30 - 17",
-            "tuesday": "9u - 12u<br />13u30 - 17",
-            "wednesday": "9u - 12u<br />13u30 - 17",
-            "thursday": "9u - 12u<br />13u30 - 17",
-            "friday": "9u - 12u<br />13u30 - 17",
-            "saturday": false,
-            "sunday": false
+            "monday":       "9u - 12u<br />13u30 - 17u",
+            "tuesday":      "9u - 12u<br />13u30 - 17u",
+            "wednesday":    "9u - 12u<br />13u30 - 17u",
+            "thursday":     "9u - 12u<br />13u30 - 17u",
+            "friday":       "9u - 12u<br />13u30 - 17u",
+            "saturday":     false,
+            "sunday":       false
         },
-        "extra": "Voorrang voor studenten van de faculteit. Gesloten op feestdagen, weekends en tijdens de Gentse Feesten",
-        "type": "UGent"
+        "extra":        "Voorrang voor studenten van de faculteit. Gesloten op feestdagen, weekends en tijdens de Gentse Feesten",
+        "type":         "UGent"
     }
 },
 {
     "type": "Feature",
     "geometry": {
-        "type": "Point",
-        "coordinates": [ 3.727543, 51.042857 ]
+        "type":         "Point",
+        "coordinates":  [ 3.727543, 51.042857 ]
     },
     "properties": {
-        "name": "Faculteit Economie en Bedrijfskunde.",
-        "address": "Tweekerkenstraat 2",
-        "capacity": 269,
-        "period": { "start": "27/7/2015", "end": "18/9/2015" },
+        "name":         "Faculteit Economie en Bedrijfskunde.",
+        "address":      "Tweekerkenstraat 2",
+        "capacity":     269,
+        "period": {     "start": "27/7/2015", "end": "18/9/2015" },
         "hours": {
-            "monday": "9u - 12u<br />13u - 17u",
-            "tuesday": "9u - 12u<br />13u - 17u",
-            "wednesday": "9u - 12u<br />13u - 17u",
-            "thursday": "9u - 12u<br />13u - 17u",
-            "friday": "9u - 12u<br />13u - 17u",
-            "saturday": false,
-            "sunday": false
+            "monday":       "9u - 12u<br />13u - 17u",
+            "tuesday":      "9u - 12u<br />13u - 17u",
+            "wednesday":    "9u - 12u<br />13u - 17u",
+            "thursday":     "9u - 12u<br />13u - 17u",
+            "friday":       "9u - 12u<br />13u - 17u",
+            "saturday":     false,
+            "sunday":       false
         },
-        "extra": "Toegankelijk voor iedereen. Gesloten op feestdagen, weekends en tijdens de Gentse Feesten",
-        "type": "UGent"
+        "extra":        "Toegankelijk voor iedereen. Gesloten op feestdagen, weekends en tijdens de Gentse Feesten",
+        "type":         "UGent"
     }
 },
 {
     "type": "Feature",
     "geometry": {
-        "type": "Point",
-        "coordinates": [3.727952, 51.044599]
+        "type":         "Point",
+        "coordinates":  [3.727952, 51.044599]
     },
     "properties": {
-        "name": "Blok@Therminal",
-        "address": "Hoveniersberg 24",
-        "capacity": 300,
-        "period": { "start": "10/8/2015", "end": "11/9/2015" },
+        "name":         "Blok@Therminal",
+        "address":      "Hoveniersberg 24",
+        "capacity":     300,
+        "period": {     "start": "10/8/2015", "end": "11/9/2015" },
         "hours": {
-            "monday": "8u30 - 22u",
-            "tuesday": "8u30 - 22u",
-            "wednesday": "8u30 - 22u",
-            "thursday": "8u30 - 22u",
-            "friday": "8u30 - 22u",
-            "saturday": "8u30 - 22u",
-            "sunday": "8u30 - 22u"
+            "monday":       "8u30 - 22u",
+            "tuesday":      "8u30 - 22u",
+            "wednesday":    "8u30 - 22u",
+            "thursday":     "8u30 - 22u",
+            "friday":       "8u30 - 22u",
+            "saturday":     "8u30 - 22u",
+            "sunday":       "8u30 - 22u"
         },
-        "extra": "Registratie noodzakelijk! Registreer <a href=\"http://student.UGent.be/blok/\">hier</a>. Vanaf 9u kunnen studenten zonder registratie toegang krijgen.",
-        "type": "UGent"
+        "extra":        "Registratie noodzakelijk! Registreer <a href=\"http://student.UGent.be/blok/\">hier</a>. Vanaf 9u kunnen studenten zonder registratie toegang krijgen.",
+        "type":         "UGent"
     }
 },
 {
     "type": "Feature",
     "geometry": {
-        "type": "Point",
-        "coordinates": [3.702897, 51.031507]
+        "type":         "Point",
+        "coordinates":  [3.702897, 51.031507]
     },
     "properties": {
-        "name": "BYTES & BOOKS @ gebouw D",
-        "address": "Openleercentrum campus Schoonmeersen",
-        "capacity": 444,
-        "period": { "start": "27/7/2015", "end": "??/??/2015" },
+        "name":         "BYTES & BOOKS @ gebouw D",
+        "address":      "Openleercentrum campus Schoonmeersen",
+        "capacity":     444,
+        "period": {     "start": "27/7/2015", "end": "??/??/2015" },
         "hours": {
-            "monday": "8u - 16u45",
-            "tuesday": "8u - 16u45",
-            "wednesday": "8u - 16u45",
-            "thursday": "8u - 16u45",
-            "friday": "8u - 16u45",
-            "saturday": false,
-            "sunday": false
+            "monday":       "8u - 16u45",
+            "tuesday":      "8u - 16u45",
+            "wednesday":    "8u - 16u45",
+            "thursday":     "8u - 16u45",
+            "friday":       "8u - 16u45",
+            "saturday":     false,
+            "sunday":       false
         },
-        "extra": "Toegankelijk voor alle Gentse studenten. Gesloten op feestdagen, weekends en tijdens de Gentse Feesten",
-        "type": "hogent"
+        "extra":        "Toegankelijk voor alle Gentse studenten. Gesloten op feestdagen, weekends en tijdens de Gentse Feesten",
+        "type":         "hogent"
     }
 },
 {
     "type": "Feature",
     "geometry": {
-        "type": "Point",
-        "coordinates": [3.727288, 51.020373 ]
+        "type":         "Point",
+        "coordinates":  [3.727288, 51.020373 ]
     },
     "properties": {
-        "name": "BYTES & BOOKS DE WIJNAERT",
-        "address": "Keramiekstraat 80",
-        "capacity": 38,
-        "period": { "start": "24/8/2015", "end": "??/??/2015" },
+        "name":         "BYTES & BOOKS DE WIJNAERT",
+        "address":      "Keramiekstraat 80",
+        "capacity":     38,
+        "period": {     "start": "24/8/2015", "end": "??/??/2015" },
         "hours": {
-            "monday": "9u - 18u",
-            "tuesday": "9u - 18u",
-            "wednesday": "9u - 18u",
-            "thursday": "9u - 18u",
-            "friday": "9u - 17u",
-            "saturday": false,
-            "sunday": false
+            "monday":       "9u - 18u",
+            "tuesday":      "9u - 18u",
+            "wednesday":    "9u - 18u",
+            "thursday":     "9u - 18u",
+            "friday":       "9u - 17u",
+            "saturday":     false,
+            "sunday":       false
         },
-        "extra": "Toegankelijk voor alle Gentse studenten. Gesloten op feestdagen en tijdens weekends",
-        "type": "hogent"
+        "extra":        "Toegankelijk voor alle Gentse studenten. Gesloten op feestdagen en tijdens weekends",
+        "type":         "hogent"
     }
 },
 {
     "type": "Feature",
     "geometry": {
-        "type": "Point",
-        "coordinates": [3.724278, 51.036589]
+        "type":         "Point",
+        "coordinates":  [3.724278, 51.036589]
     },
     "properties": {
-        "name": "BYTES & BOOKS LERA",
-        "address": "K.L. Ledeganckstraat 8",
-        "capacity": 110,
-        "period": { "start": "17/8/2015", "end": "11/9/2015" },
+        "name":         "BYTES & BOOKS LERA",
+        "address":      "K.L. Ledeganckstraat 8",
+        "capacity":     110,
+        "period": {     "start": "17/8/2015", "end": "11/9/2015" },
         "hours": {
-            "monday": "9u - 12u<br />13u - 16u",
-            "tuesday": "9u - 12u<br />13u - 16u",
-            "wednesday": "9u - 12u<br />13u - 16u",
-            "thursday": "9u - 12u<br />13u - 16u",
-            "friday": "9u - 12u<br />13u - 16u",
-            "saturday": false,
-            "sunday": false
+            "monday":       "9u - 12u<br />13u - 16u",
+            "tuesday":      "9u - 12u<br />13u - 16u",
+            "wednesday":    "9u - 12u<br />13u - 16u",
+            "thursday":     "9u - 12u<br />13u - 16u",
+            "friday":       "9u - 12u<br />13u - 16u",
+            "saturday":     false,
+            "sunday":       false
         },
-        "extra": "Toegankelijk voor alle Gentse studenten. Gesloten op feestdagen en tijdens het weekend",
-        "type": "hogent"
+        "extra":        "Toegankelijk voor alle Gentse studenten. Gesloten op feestdagen en tijdens het weekend",
+        "type":         "hogent"
     }
 },
 {
     "type": "Feature",
     "geometry": {
-        "type": "Point",
-        "coordinates": [3.726827, 51.019702]
+        "type":         "Point",
+        "coordinates":  [3.726827, 51.019702]
     },
     "properties": {
-        "name": "BYTES & BOOKS VESALIUS",
-        "address": "Keramiekstraat 80",
-        "capacity": 58,
-        "period": { "start": "10/8/2015", "end": "31/8/2015" },
+        "name":         "BYTES & BOOKS VESALIUS",
+        "address":      "Keramiekstraat 80",
+        "capacity":     58,
+        "period": {     "start": "10/8/2015", "end": "31/8/2015" },
         "hours": {
-            "monday": "9u - 16u",
-            "tuesday": "9u - 16u",
-            "wednesday": "9u - 16u",
-            "thursday": "9u - 16u",
-            "friday": "9u - 16u",
-            "saturday": false,
-            "sunday": false
+            "monday":       "9u - 16u",
+            "tuesday":      "9u - 16u",
+            "wednesday":    "9u - 16u",
+            "thursday":     "9u - 16u",
+            "friday":       "9u - 16u",
+            "saturday":     false,
+            "sunday":       false
         },
-        "extra": "Toegankelijk voor alle Gentse studenten. Gesloten op feestdagen en tijdens het weekend",
-        "type": "hogent"
+        "extra":        "Toegankelijk voor alle Gentse studenten. Gesloten op feestdagen en tijdens het weekend",
+        "type":         "hogent"
     }
 },
 {
     "type": "Feature",
     "geometry": {
-        "type": "Point",
-        "coordinates": [3.718445, 51.045588]
+        "type":         "Point",
+        "coordinates":  [3.718445, 51.045588]
     },
     "properties": {
-        "name": "BYTES & BOOKS BIJLOKE",
-        "address": "J. Kluyskensstraat 2",
-        "capacity": 44,
-        "period": { "start": "10/8/2015", "end": "31/8/2015" },
+        "name":         "BYTES & BOOKS BIJLOKE",
+        "address":      "J. Kluyskensstraat 2",
+        "capacity":     44,
+        "period": {     "start": "10/8/2015", "end": "31/8/2015" },
         "hours": {
-            "monday": "10u - 12u30<br />13u - 16u30",
-            "tuesday": "10u - 12u30<br />13u - 16u30",
-            "wednesday": "10u - 12u30<br />13u - 16u30",
-            "thursday": "10u - 12u30<br />13u - 16u30",
-            "friday": "10u - 12u30<br />13u - 16u30",
-            "saturday": false,
-            "sunday": false
+            "monday":       "10u - 12u30<br />13u - 16u30",
+            "tuesday":      "10u - 12u30<br />13u - 16u30",
+            "wednesday":    "10u - 12u30<br />13u - 16u30",
+            "thursday":     "10u - 12u30<br />13u - 16u30",
+            "friday":       "10u - 12u30<br />13u - 16u30",
+            "saturday":     false,
+            "sunday":       false
         },
-        "extra": "Toegankelijk voor alle Gentse studenten. Gesloten op feestdagen en tijdens het weekend",
-        "type": "hogent"
+        "extra":        "Toegankelijk voor alle Gentse studenten. Gesloten op feestdagen en tijdens het weekend",
+        "type":         "hogent"
     }
 },
 {
     "type": "Feature",
     "geometry": {
-        "type": "Point",
-        "coordinates": [3.746496, 51.038855]
+        "type":         "Point",
+        "coordinates":  [3.746496, 51.038855]
     },
     "properties": {
-        "name": "BYTES & BOOKS MELLE",
-        "address": "Brusselsesteenweg 161",
-        "capacity": 50,
-        "period": { "start": "10/8/2015", "end": "??/??/2015" },
+        "name":         "BYTES & BOOKS MELLE",
+        "address":      "Brusselsesteenweg 161",
+        "capacity":     50,
+        "period": {     "start": "10/8/2015", "end": "??/??/2015" },
         "hours": {
-            "monday": "9u - 16u30",
-            "tuesday": "8u - 16u30",
-            "wednesday": "9u - 16u30",
-            "thursday": "8u - 16u30",
-            "friday": "8u - 16u30",
-            "saturday": false,
-            "sunday": false
+            "monday":       "9u - 16u30",
+            "tuesday":      "8u - 16u30",
+            "wednesday":    "9u - 16u30",
+            "thursday":     "8u - 16u30",
+            "friday":       "8u - 16u30",
+            "saturday":     false,
+            "sunday":       false
         },
-        "extra": "Toegankelijk voor alle Gentse studenten. Gesloten op feestdagen en tijdens het weekend",
-        "type": "hogent"
+        "extra":        "Toegankelijk voor alle Gentse studenten. Gesloten op feestdagen en tijdens het weekend",
+        "type":         "hogent"
     }
 },
 {
     "type": "Feature",
     "geometry": {
-        "type": "Point",
-        "coordinates": [3.728505, 51.040832]
+        "type":         "Point",
+        "coordinates":  [3.728505, 51.040832]
     },
     "properties": {
-        "name": "Mediatheek campus Kantienberg",
-        "address": "Voetweg 66",
-        "capacity": 190,
-        "period": { "start": "20/8/2015", "end": "14/9/2015" },
+        "name":         "Mediatheek campus Kantienberg",
+        "address":      "Voetweg 66",
+        "capacity":     190,
+        "period": {     "start": "20/8/2015", "end": "14/9/2015" },
         "hours": {
-            "monday": "9u - 17u",
-            "tuesday": "9u - 17u",
-            "wednesday": "9u - 17u",
-            "thursday": "9u - 17u",
-            "friday": "9u - 16u",
-            "saturday": false,
-            "sunday": false
+            "monday":       "9u - 17u",
+            "tuesday":      "9u - 17u",
+            "wednesday":    "9u - 17u",
+            "thursday":     "9u - 17u",
+            "friday":       "9u - 16u",
+            "saturday":     false,
+            "sunday":       false
         },
-        "extra": "Toegankelijk voor alle Gentse studenten, gesloten op 4 september. 40 stille plaatsen.",
-        "type": "Arteveldehogeschool"
+        "extra":        "Toegankelijk voor alle Gentse studenten, gesloten op 4 september. 40 stille plaatsen.",
+        "type":         "Arteveldehogeschool"
     }
 },
 {
     "type": "Feature",
     "geometry": {
-        "type": "Point",
-        "coordinates": [ 3.728544, 51.051602 ]
+        "type":         "Point",
+        "coordinates":  [ 3.728544, 51.051602 ]
     },
     "properties": {
-        "name": "Bibliotheek",
-        "address": "Reep 1",
-        "capacity": 25,
-        "period": { "start": "17/8/2015", "end": "??/??/2015" },
+        "name":         "Bibliotheek",
+        "address":      "Reep 1",
+        "capacity":     25,
+        "period": {     "start": "17/8/2015", "end": "??/??/2015" },
         "hours": {
-            "monday": "10u - 12u<br />13u - 17u",
-            "tuesday": "10u - 12u<br />13u - 17u",
-            "wednesday": "10u - 12u",
-            "thursday": "10u - 12u<br />13u - 17u",
-            "friday": "10u - 12u",
-            "saturday": false,
-            "sunday": false
+            "monday":       "10u - 12u<br />13u - 17u",
+            "tuesday":      "10u - 12u<br />13u - 17u",
+            "wednesday":    "10u - 12u",
+            "thursday":     "10u - 12u<br />13u - 17u",
+            "friday":       "10u - 12u",
+            "saturday":     false,
+            "sunday":       false
         },
-        "extra": "Toegankelijk voor iedereen. Gesloten op feestdagen, weekends, tijdens de Gentse Feesten en op 11 en 27 augustus",
-        "type": "Vlerick Business School"
+        "extra":        "Toegankelijk voor iedereen. Gesloten op feestdagen, weekends, tijdens de Gentse Feesten en op 11 en 27 augustus",
+        "type":         "Vlerick Business School"
     }
 },
 {
     "type": "Feature",
     "geometry": {
-        "type": "Point",
-        "coordinates": [3.708694, 51.061123]
+        "type":         "Point",
+        "coordinates":  [3.708694, 51.061123]
     },
     "properties": {
-        "name": "Bibliotheek",
-        "address": "Gebr. Desmetstraat 1",
-        "capacity": 50,
-        "period": { "start": "17/8/2015", "end": "??/??/2015" },
+        "name":         "Bibliotheek",
+        "address":      "Gebr. Desmetstraat 1",
+        "capacity":     50,
+        "period": {     "start": "17/8/2015", "end": "??/??/2015" },
         "hours": {
-            "monday": "8u30 - 17u30",
-            "tuesday": "8u30 - 17u30",
-            "wednesday": "8u30 - 17u30",
-            "thursday": "8u30 - 17u30",
-            "friday": "9u - 16u",
-            "saturday": false,
-            "sunday": false
+            "monday":       "8u30 - 17u30",
+            "tuesday":      "8u30 - 17u30",
+            "wednesday":    "8u30 - 17u30",
+            "thursday":     "8u30 - 17u30",
+            "friday":       "9u - 16u",
+            "saturday":     false,
+            "sunday":       false
         },
-        "type": "Odisee",
-        "extra": false
+        "type":         "Odisee",
+        "extra":        false
     }
 },
 {
     "type": "Feature",
     "geometry": {
-        "type": "Point",
-        "coordinates": [3.726730, 51.042146]
+        "type":         "Point",
+        "coordinates":  [3.726730, 51.042146]
     },
     "properties": {
-        "name": "Sint-Pietersabdij Monikkenzolder",
-        "address": "Sint-Pietersabdij Monikkenzolder",
-        "capacity": 60,
-        "period": { "start": "18/8/2015", "end": "12/9/2015" },
+        "name":         "Sint-Pietersabdij Monikkenzolder",
+        "address":      "Sint-Pietersabdij Monikkenzolder",
+        "capacity":     60,
+        "period": {     "start": "18/8/2015", "end": "12/9/2015" },
         "hours": {
-            "monday": false,
-            "tuesday": "10u - 18u",
-            "wednesday": "10u - 18u",
-            "thursday": "10u - 18u",
-            "friday": "10u - 18u",
-            "saturday": "10u - 18u",
-            "sunday": "10u - 18u"
+            "monday":       false,
+            "tuesday":      "10u - 18u",
+            "wednesday":    "10u - 18u",
+            "thursday":     "10u - 18u",
+            "friday":       "10u - 18u",
+            "saturday":     "10u - 18u",
+            "sunday":       "10u - 18u"
         },
-        "extra": false,
-        "type": "Stad Gent"
+        "extra":        false,
+        "type":         "Stad Gent"
     }
 },
 {
     "type": "Feature",
     "geometry": {
-        "type": "Point",
-        "coordinates": [3.731393, 51.047282]
+        "type":         "Point",
+        "coordinates":  [3.731393, 51.047282]
     },
     "properties": {
-        "name": "Openbare Bibliotheek Zuid",
-        "address": "Achilles Musschezaal",
-        "capacity": 100,
-        "period": { "start": "3/8/2015", "end": "5/9/2015" },
+        "name":         "Openbare Bibliotheek Zuid",
+        "address":      "Achilles Musschezaal",
+        "capacity":     100,
+        "period": {     "start": "3/8/2015", "end": "5/9/2015" },
         "hours": {
-            "monday": "10u - 18u45",
-            "tuesday": "10u - 18u45",
-            "wednesday": "10u - 18u45",
-            "thursday": "10u - 18u45",
-            "friday": "8u30 - 16u45",
-            "saturday": "8u30 - 16u45",
-            "sunday": false
+            "monday":       "10u - 18u45",
+            "tuesday":      "10u - 18u45",
+            "wednesday":    "10u - 18u45",
+            "thursday":     "10u - 18u45",
+            "friday":       "8u30 - 16u45",
+            "saturday":     "8u30 - 16u45",
+            "sunday":       false
         },
-        "extra": "Gesloten op 15 augustus",
-        "type": "Stad Gent"
+        "extra":        "Gesloten op 15 augustus",
+        "type":         "Stad Gent"
     }
 }
 ]
