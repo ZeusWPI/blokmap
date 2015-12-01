@@ -234,7 +234,7 @@
             "saturday":     false,
             "sunday":       false
         },
-        "extra":        "Toegankelijk voor alle Gentse studenten. Gesloten tijdens kerstvakantie",
+        "extra":        "Toegankelijk voor alle Gentse studenten. <strong>Gesloten tijdens kerstvakantie.</strong>",
         "type":         "hogent"
     }
 },
@@ -379,7 +379,7 @@
             "sunday":       false
         },
         "extra":        "<strong>Gesloten vanaf 15u op 24/12 tot en met 1/01/2016</strong></br><a href=\"http://www.vlerick.be/library\">Ga naar de website</a>.",
-        "type":         "Vlerick Business School"
+        "type":         "vlerick"
     }
 },
 {
