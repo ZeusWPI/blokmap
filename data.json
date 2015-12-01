@@ -18,7 +18,7 @@
             "saturday":     false,
             "sunday":       false
         },
-        "extra":        "2 aparte zaaltjes doorlopend beschikbaar (120 plaatsen).</br> Restaurant (1ste en 2de verdieping) gesloten tussen 11u15 en 14u en na 17u. Gesloten op 8/01.",
+        "extra":        "2 aparte zaaltjes doorlopend beschikbaar (120 plaatsen).</br> Restaurant (1ste en 2de verdieping) gesloten tussen 11u15 en 14u en na 17u. <strong>Gesloten op 8/01</strong>.",
         "type":         "UGent"
     }
 },
@@ -42,7 +42,7 @@
             "saturday":     "8u30 - 22u",
             "sunday":       "8u30 - 22u"
         },
-        "extra":        "Enkel weekend en feestdagen, Registratie noodzakelijk! Registreer <a href=\"http://student.UGent.be/blok_kantien/\">hier</a> iedere zondag om 20u.</br>Vanaf 9u kunnen studenten zonder registratie toegang krijgen. Op 24/12 en 31/12 open tot 16u.",
+        "extra":        "Enkel weekend en feestdagen, Registratie noodzakelijk! Registreer <a href=\"http://student.UGent.be/blok_kantien/\">hier</a> iedere zondag om 20u.</br>Vanaf 9u kunnen studenten zonder registratie toegang krijgen. <strong>Op 24/12 en 31/12 open tot 16u.</strong>",
         "type":         "UGent"
     }
 },
@@ -90,7 +90,7 @@
             "saturday":     false,
             "sunday":       false
         },
-        "extra":        "Toegankelijk voor iedereen. Gesloten vanaf 24/12 om 12u tot en met 3/01.</br><a href=\"http://www.ugent.be/re/nl/diensten/bibliotheek\">Ga naar de website</a>." ,
+        "extra":        "Toegankelijk voor iedereen. <strong>Gesloten om 12u vanaf 24/12 tot en met 3/01</strong>.</br><a href=\"http://www.ugent.be/re/nl/diensten/bibliotheek\">Ga naar de website</a>." ,
         "type":         "UGent"
     }
 },
@@ -114,7 +114,7 @@
             "saturday":     false,
             "sunday":       false
         },
-        "extra":        "Gesloten vanaf 25/12 tot en met 3/01.</br> ¹: tussen 21/12 tot 24/12 open van 9u tot 17u.</br><a href=\"http://lib.ugent.be/en/libraries/ALLW\">Ga naar de website</a>.",
+        "extra":        "<strong>Gesloten vanaf 25/12 tot en met 3/01.</strong></br> ¹: tussen 21/12 tot 24/12 gesloten om 17u.</br><a href=\"http://lib.ugent.be/en/libraries/ALLW\">Ga naar de website</a>.",
         "type":         "UGent"
     }
 },
@@ -138,7 +138,7 @@
             "saturday":     false,
             "sunday":       false
         },
-        "extra":        "Gesloten vanaf 25/12 tot en met 3/01.",
+        "extra":        "<strong>Gesloten vanaf 25/12 tot en met 3/01.</strong>",
         "type":         "UGent"
     }
 },
@@ -162,7 +162,7 @@
             "saturday":     false,
             "sunday":       false
         },
-        "extra":        "Gesloten vanaf 24/12 tot en met 3/01. Van 21/12 tot en met 23/12 open van 8u30 tot 17u.</br><a href=\"http://www.ugent.be/eb/nl/diensten/faculteitsbibliotheek-ebib/\">Ga naar de website</a>.",
+        "extra":        "<strong>Gesloten vanaf 24/12 tot en met 3/01. Van 21/12 tot en met 23/12 slechts open tot 17u.</strong></br><a href=\"http://www.ugent.be/eb/nl/diensten/faculteitsbibliotheek-ebib/\">Ga naar de website</a>.",
         "type":         "UGent"
     }
 },
@@ -186,7 +186,7 @@
             "saturday":     "8u30 - 24u",
             "sunday":       "8u30 - 24u"
         },
-        "extra":        "Registratie week op voorhand noodzakelijk! Registreer <a href=\"http://student.UGent.be/blok/\">hier</a> iedere zondag om 19u. Vanaf 9u kunnen studenten zonder registratie toegang krijgen. Gesloten op 25/12 en 01/01.</br>¹: Op 24/12 en 31/12 gesloten om 16u.",
+        "extra":        "Registratie week op voorhand noodzakelijk! Registreer <a href=\"http://student.UGent.be/blok/\">hier</a> iedere zondag om 19u. Vanaf 9u kunnen studenten zonder registratie toegang krijgen.<strong> Gesloten op 25/12 en 01/01.</br>¹: Op 24/12 en 31/12 gesloten om 16u.</strong>",
         "type":         "UGent"
     }
 },
@@ -210,7 +210,7 @@
             "saturday":     false,
             "sunday":       false
         },
-        "extra":        "Toegankelijk voor alle Gentse studenten. Gesloten op feestdagen, weekends. Op 21,22,23/12 en 28,29,30/12: 8u - 18u. Op 24/12 en 31/12: 8u - 12u. In januari open op zaterdag en zondag van 8u - 18u.",
+        "extra":        "Toegankelijk voor alle Gentse studenten. <strong>Gesloten op feestdagen, weekends. Op 21,22,23/12 en 28,29,30/12: 8u - 18u. Op 24/12 en 31/12: 8u - 12u. In januari open op zaterdag en zondag van 8u - 18u.</strong>",
         "type":         "hogent"
     }
 },
@@ -258,7 +258,7 @@
             "saturday":     false,
             "sunday":       false
         },
-        "extra":        "Toegankelijk voor alle Gentse studenten. Gesloten tijdens de kerstvakantie.",
+        "extra":        "Toegankelijk voor alle Gentse studenten. <strong>Gesloten tijdens de kerstvakantie.</strong>"<strong>,
         "type":         "hogent"
     }
 },
@@ -282,7 +282,7 @@
             "saturday":     false,
             "sunday":       false
         },
-        "extra":        "Toegankelijk voor alle Gentse studenten. Gesloten tijdens de kerstvakantie.",
+        "extra":        "Toegankelijk voor alle Gentse studenten. <strong>Gesloten tijdens de kerstvakantie.</strong>",
         "type":         "hogent"
     }
 },
@@ -306,7 +306,7 @@
             "saturday":     false,
             "sunday":       false
         },
-        "extra":        "Toegankelijk voor alle Gentse studenten. Gesloten tijdens de kerstvakantie",
+        "extra":        "Toegankelijk voor alle Gentse studenten. <strong>Gesloten tijdens de kerstvakantie.</strong>",
         "type":         "hogent"
     }
 },
@@ -330,7 +330,7 @@
             "saturday":     false,
             "sunday":       false
         },
-        "extra":        "Toegankelijk voor alle Gentse studenten. Gesloten tijdens de kerstvakantie",
+        "extra":        "Toegankelijk voor alle Gentse studenten. <strong>Gesloten tijdens de kerstvakantie.</strong>",
         "type":         "hogent"
     }
 },
@@ -354,7 +354,7 @@
             "saturday":     false,
             "sunday":       false
         },
-        "extra":        "Toegankelijk voor alle Gentse studenten, gesloten vanaf 23/12 tot en met 3/01. Geen parkeermogelijkheden op het terrein. 40 stille plaatsen.",
+        "extra":        "Toegankelijk voor alle Gentse studenten, <strong>gesloten vanaf 23/12 tot en met 3/01.</strong> Geen parkeermogelijkheden op het terrein. 40 stille plaatsen.",
         "type":         "Arteveldehogeschool"
     }
 },
@@ -378,7 +378,7 @@
             "saturday":     false,
             "sunday":       false
         },
-        "extra":        "Gesloten vanaf 15u op 24/12 tot en met 1/01/2016</br><a href=\"http://www.vlerick.be/library\">Ga naar de website</a>.",
+        "extra":        "<strong>Gesloten vanaf 15u op 24/12 tot en met 1/01/2016</strong></br><a href=\"http://www.vlerick.be/library\">Ga naar de website</a>.",
         "type":         "Vlerick Business School"
     }
 },
@@ -427,7 +427,7 @@
             "sunday":       false
         },
         "type":         "Odisee",
-        "extra":        "Gesloten vanaf 15u op 24/12 tot en met 1/01/2016.</br><a href=\"http://www.vlerick.be/library\">Ga naar de website</a>."
+        "extra":        "<strong>Gesloten vanaf 15u op 24/12 tot en met 1/01/2016.</strong></br><a href=\"http://www.vlerick.be/library\">Ga naar de website</a>."
     }
 },
 {
@@ -474,7 +474,7 @@
             "saturday":     "8u30 - 16u45",
             "sunday":       false
         },
-        "extra":        "De Achilles Musschezaal is niet beschikbaar op do 3/12, di 8/12 en do 7/01. Zowel de bib als de zaal zijn gesloten op 25/12,26/12 en op 1/01,2/01.</br><a href=\"https://www.gent.be/bibliotheek/aanbod-voorscholen/hoger-onderwijs/studeren-bibliotheek-zuid\">Ga naar de website</a>.",
+        "extra":        "<strong>De Achilles Musschezaal is niet beschikbaar op do 3/12, di 8/12 en do 7/01. Zowel de bib als de zaal zijn gesloten op 25/12,26/12 en op 1/01,2/01.</strong></br><a href=\"https://www.gent.be/bibliotheek/aanbod-voorscholen/hoger-onderwijs/studeren-bibliotheek-zuid\">Ga naar de website</a>.",
         "type":         "Stad Gent"
     }
 },
@@ -498,7 +498,7 @@
             "saturday":     "9u - 18u",
             "sunday":       "9u - 18u"
         },
-        "extra":        "Enkel open tijdens de kerstvakantie en weekends. Op 21,22 en 23/12 gesloten om 17u. Gesloten op 24, 25, 26/12 en op 31/12, 1/01 en 2/01.",
+        "extra":        "<strong>Enkel open tijdens de kerstvakantie en weekends. Op 21,22 en 23/12 gesloten om 17u. Gesloten op 24, 25, 26/12 en op 31/12, 1/01 en 2/01.</strong>",
         "type":         "Stad Gent"
     }
 }
