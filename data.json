@@ -114,7 +114,7 @@
             "saturday":     false,
             "sunday":       false
         },
-        "extra":        "Gesloten vanaf 25/12 tot en met 3/01. ¹: tussen 21/12 tot 24/12 open van 9u tot 17u.</br><a href=\"http://lib.ugent.be/en/libraries/ALLW\">Ga naar de website</a>.",
+        "extra":        "Gesloten vanaf 25/12 tot en met 3/01.</br> ¹: tussen 21/12 tot 24/12 open van 9u tot 17u.</br><a href=\"http://lib.ugent.be/en/libraries/ALLW\">Ga naar de website</a>.",
         "type":         "UGent"
     }
 },
@@ -176,7 +176,7 @@
         "name":         "Blok@Therminal",
         "address":      "Hoveniersberg 24",
         "capacity":     300,
-        "period": {     "start": "10/8/2015", "end": "11/9/2015" },
+        "period": {     "start": "18/12/2015", "end": "30/01/2015" },
         "hours": {
             "monday":       "8u30 - 24u",
             "tuesday":      "8u30 - 24u",
@@ -186,7 +186,7 @@
             "saturday":     "8u30 - 24u",
             "sunday":       "8u30 - 24u"
         },
-        "extra":        "Registratie week op voorhand noodzakelijk! Registreer <a href=\"http://student.UGent.be/blok/\">hier</a> iedere zondag om 19u. Vanaf 9u kunnen studenten zonder registratie toegang krijgen. Gesloten op 25/12 en 01/01. ¹: Op 24/12 en 31/12 gesloten om 16u.",
+        "extra":        "Registratie week op voorhand noodzakelijk! Registreer <a href=\"http://student.UGent.be/blok/\">hier</a> iedere zondag om 19u. Vanaf 9u kunnen studenten zonder registratie toegang krijgen. Gesloten op 25/12 en 01/01.</br>¹: Op 24/12 en 31/12 gesloten om 16u.",
         "type":         "UGent"
     }
 },
@@ -368,7 +368,7 @@
         "name":         "Bibliotheek",
         "address":      "Reep 1",
         "capacity":     25,
-        "period": {     "start": "17/8/2015", "end": "??/??/2015" },
+        "period": {     "start": "altijd", "end": "ooit" },
         "hours": {
             "monday":       "10u - 12u<br />13u - 17u",
             "tuesday":      "10u - 12u<br />13u - 17u",
@@ -378,7 +378,7 @@
             "saturday":     false,
             "sunday":       false
         },
-        "extra":        "Toegankelijk voor iedereen. Gesloten op feestdagen, weekends, tijdens de Gentse Feesten en op 11 en 27 augustus",
+        "extra":        "Gesloten vanaf 15u op 24/12 tot en met 1/01/2016</br><a href=\"http://www.vlerick.be/library\">Ga naar de website</a>.",
         "type":         "Vlerick Business School"
     }
 },
