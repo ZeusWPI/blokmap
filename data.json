@@ -80,7 +80,7 @@
         "name":         "Faculteit Rechten, faculteitsbibliotheek",
         "address":      "Universiteitstraat 4, verdieping 1",
         "capacity":     235,
-        "period": {     "start": "altijd", "end":"ooit" },
+        "period": {     "start": false, "end": false },
         "hours": {
             "monday":       "8u30 - 19u",
             "tuesday":      "8u30 - 19u",
@@ -152,7 +152,7 @@
         "name":         "Faculteit Economie en Bedrijfskunde.",
         "address":      "Tweekerkenstraat 2",
         "capacity":     215,
-        "period": {     "start": "altijd", "end":"ooit" },
+        "period": {     "start": false, "end": false },
         "hours": {
             "monday":       "8u30 - 22u",
             "tuesday":      "8u30 - 22u",
@@ -224,7 +224,7 @@
         "name":         "BYTES & BOOKS DE WIJNAERT",
         "address":      "Keramiekstraat 80",
         "capacity":     38,
-        "period": {     "start": "altijd", "end":"ooit" },
+        "period": {     "start": false, "end": false },
         "hours": {
             "monday":       "9u - 18u",
             "tuesday":      "9u - 18u",
@@ -234,7 +234,7 @@
             "saturday":     false,
             "sunday":       false
         },
-        "extra":        "Toegankelijk voor alle Gentse studenten. <strong>Gesloten tijdens kerstvakantie.</strong>",
+        "extra":        "Toegankelijk voor alle Gentse studenten. <strong>Gesloten tijdens kerstvakantie (23/12-3/01).</strong>",
         "type":         "hogent"
     }
 },
@@ -248,7 +248,7 @@
         "name":         "BYTES & BOOKS LERA",
         "address":      "K.L. Ledeganckstraat 8",
         "capacity":     110,
-        "period": {     "start": "altijd", "end":"ooit" },
+        "period": {     "start": false, "end": false },
         "hours": {
             "monday":       "8u15 - 18u",
             "tuesday":      "8u15 - 18u",
@@ -258,7 +258,7 @@
             "saturday":     false,
             "sunday":       false
         },
-        "extra":        "Toegankelijk voor alle Gentse studenten. <strong>Gesloten tijdens de kerstvakantie.</strong>",
+        "extra":        "Toegankelijk voor alle Gentse studenten. <strong>Gesloten vanaf 25/12 tot en met 3/01.</strong>",
         "type":         "hogent"
     }
 },
@@ -272,7 +272,7 @@
         "name":         "BYTES & BOOKS VESALIUS",
         "address":      "Keramiekstraat 80",
         "capacity":     58,
-        "period": {     "start": "altijd", "end":"ooit" },
+        "period": {     "start": false, "end": false },
         "hours": {
             "monday":       "9u - 17u",
             "tuesday":      "9u - 18u",
@@ -282,7 +282,7 @@
             "saturday":     false,
             "sunday":       false
         },
-        "extra":        "Toegankelijk voor alle Gentse studenten. <strong>Gesloten tijdens de kerstvakantie.</strong>",
+        "extra":        "Toegankelijk voor alle Gentse studenten. <strong>Gesloten vanaf 25/12 tot en met 3/01.</strong>",
         "type":         "hogent"
     }
 },
@@ -296,7 +296,7 @@
         "name":         "BYTES & BOOKS BIJLOKE",
         "address":      "J. Kluyskensstraat 2",
         "capacity":     44,
-        "period": {     "start": "altijd", "end":"ooit" },
+        "period": {     "start": false, "end": false},
         "hours": {
             "monday":       "8u30 - 17u",
             "tuesday":      "8u30 - 17u",
@@ -306,7 +306,7 @@
             "saturday":     false,
             "sunday":       false
         },
-        "extra":        "Toegankelijk voor alle Gentse studenten. <strong>Gesloten tijdens de kerstvakantie.</strong>",
+        "extra":        "Toegankelijk voor alle Gentse studenten. <strong>Gesloten vanaf 25/12 tot en met 3/01.</strong>",
         "type":         "hogent"
     }
 },
@@ -320,7 +320,7 @@
         "name":         "BYTES & BOOKS MELLE",
         "address":      "Brusselsesteenweg 161",
         "capacity":     50,
-        "period": {     "start": "altijd", "end":"ooit" },
+        "period": {     "start": false, "end": false},
         "hours": {
             "monday":       "9u - 12u30</br>13u - 17u",
             "tuesday":      "8u - 12u30<br/>13u - 17u",
@@ -330,7 +330,7 @@
             "saturday":     false,
             "sunday":       false
         },
-        "extra":        "Toegankelijk voor alle Gentse studenten. <strong>Gesloten tijdens de kerstvakantie.</strong>",
+        "extra":        "Toegankelijk voor alle Gentse studenten. <strong>Gesloten vanaf 25/12 tot en met 3/01.</strong>",
         "type":         "hogent"
     }
 },
@@ -368,7 +368,7 @@
         "name":         "Bibliotheek",
         "address":      "Reep 1",
         "capacity":     25,
-        "period": {     "start": "altijd", "end": "ooit" },
+        "period": {     "start": false, "end": false },
         "hours": {
             "monday":       "10u - 12u<br />13u - 17u",
             "tuesday":      "10u - 12u<br />13u - 17u",
@@ -416,7 +416,7 @@
         "name":         "Bibliotheek",
         "address":      "Reep 1",
         "capacity":     25,
-        "period": {     "start": "altijd", "end":"ooit" },
+        "period": {     "start": false, "end": false},
         "hours": {
             "monday":       "10u - 12u</br>13u - 17u",
             "tuesday":      "10u - 12u</br>13u - 17u",
