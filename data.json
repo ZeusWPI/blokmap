@@ -74,6 +74,30 @@
     "type": "Feature",
     "geometry": {
         "type":         "Point",
+        "coordinates":  [ 3.725235, 51.044131]
+    },
+    "properties": {
+        "name":         "Faculteit Letteren en Wijsbegeerte, Blandijnberg 2 Leslokalen",
+        "address":      "Rozier 44",
+        "capacity":     100,
+        "period": {     "start": "14/12/2015", "end": "28/01/2016" },
+        "hours": {
+            "monday":       "8u - 19u",
+            "tuesday":      "8u - 19u",
+            "wednesday":    "8u - 19u",
+            "thursday":     "8u - 19u",
+            "friday":       "8u - 19u",
+            "saturday":     false,
+            "sunday":       false
+        },
+        "extra":        "Toegankelijk voor iedereen. Leslokalen 090.034 - 090.036 - 090.038 (kelder) en 110.046 (1e verdiep). <strong>Gesloten van 19/12/2015 tot en met 3/01/2016.</strong>",
+        "type":         "UGent"
+    }
+},
+{
+    "type": "Feature",
+    "geometry": {
+        "type":         "Point",
         "coordinates":  [ 3.724090, 51.051192 ]
     },
     "properties": {
@@ -499,6 +523,30 @@
             "sunday":       "9u - 18u"
         },
         "extra":        "<strong>Enkel open tijdens de kerstvakantie en weekends. Op 21,22 en 23/12 gesloten om 17u. Gesloten op 24, 25, 26/12 en op 31/12, 1/01 en 2/01.</strong>",
+        "type":         "Stad Gent"
+    }
+},
+{
+    "type": "Feature",
+    "geometry": {
+        "type":         "Point",
+        "coordinates":  [3.717077, 51.064869]
+    },
+    "properties": {
+        "name":         "Minus One",
+        "address":      "Opgeëistenlaan 455",
+        "capacity":     40,
+        "period": {     "start": "6/01/2016", "end": "29/01/2016" },
+        "hours": {
+            "monday":       "10u - 18u",
+            "tuesday":      "10u - 18u",
+            "wednesday":    "10u - 18u",
+            "thursday":     "10u - 18u",
+            "friday":       "10u - 18u",
+            "saturday":     false,
+            "sunday":       false
+        },
+        "extra":        "Eenmalige registratie ter plaatse. ",
         "type":         "Stad Gent"
     }
 }
