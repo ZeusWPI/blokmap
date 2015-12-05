@@ -362,8 +362,8 @@
     "type": "Feature",
     "geometry": {
         "type":         "Point",
-        "coordinates":  [3.746496, 51.038855]
-    },
+        "coordinates":  [3.786580, 51.014401]
+        },
     "properties": {
         "name":         "BYTES & BOOKS MELLE",
         "address":      "Brusselsesteenweg 161",
