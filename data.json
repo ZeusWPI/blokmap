@@ -77,7 +77,7 @@
         "coordinates":  [ 3.725235, 51.044131]
     },
     "properties": {
-        "name":         "Faculteit Letteren en Wijsbegeerte, Blandijnberg 2 Leslokalen",
+        "name":         "Blok@Blandijn",
         "address":      "Rozier 44",
         "capacity":     100,
         "period": {     "start": "14/12/2015", "end": "28/01/2016" },
@@ -90,7 +90,7 @@
             "saturday":     false,
             "sunday":       false
         },
-        "extra":        "Toegankelijk voor iedereen. Leslokalen 090.034 - 090.036 - 090.038 (kelder) en 110.046 (1e verdiep). <strong>Gesloten van 19/12/2015 tot en met 3/01/2016.</strong>",
+        "extra":        "Toegankelijk voor iedereen. Leslokalen 090.034 - 090.036 - 090.038 (kelder) en 110.046 (1e verdiep). <strong>Gesloten van 25/12/2015 tot en met 3/01/2016.</strong>",
         "type":         "UGent"
     }
 },
@@ -536,7 +536,7 @@
         "name":         "Jeugddienst Gent",
         "address":      "Kamerstraat 10",
         "capacity":     20,
-        "period": {     "start": "19/12/2015", "end": "24/01/2016" },
+        "period": {     "start": "20/12/2015", "end": "24/01/2016" },
         "hours": {
             "monday":       false,
             "tuesday":      false,
