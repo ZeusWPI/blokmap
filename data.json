@@ -29,7 +29,7 @@
         "coordinates":  [3.728294, 51.039980]
     },
     "properties": {
-        "name":         "Studentenrestaurant Kantienberg",
+        "name":         "Blok@Kantienberg",
         "address":      "Stalhof 45",
         "capacity":     300,
         "period": {     "start": "19/12/2015", "end": "24/01/2016" },
@@ -200,7 +200,7 @@
         "name":         "Blok@Therminal",
         "address":      "Hoveniersberg 24",
         "capacity":     300,
-        "period": {     "start": "18/12/2015", "end": "30/01/2015" },
+        "period": {     "start": "18/12/2015", "end": "29/01/2015" },
         "hours": {
             "monday":       "8u30 - 24u",
             "tuesday":      "8u30 - 24u",
@@ -211,6 +211,30 @@
             "sunday":       "8u30 - 24u"
         },
         "extra":        "Registratie week op voorhand noodzakelijk! Registreer <a href=\"http://student.UGent.be/blok/\">hier</a> iedere zondag om 19u. Vanaf 9u kunnen studenten zonder registratie toegang krijgen.<strong> Gesloten op 25/12 en 01/01.</br>¹: Op 24/12 en 31/12 gesloten om 16u.</strong>",
+        "type":         "UGent"
+    }
+},
+{
+    "type": "Feature",
+    "geometry": {
+        "type":         "Point",
+        "coordinates":  [3.712859, 51.026039]
+    },
+    "properties": {
+        "name":         "Blok@S5",
+        "address":      "Krijgslaan 281 Gebouw S5",
+        "capacity":     300,
+        "period": {     "start": "03/01/2016", "end": "29/01/2015" },
+        "hours": {
+            "monday":       "9u - 21u",
+            "tuesday":      "9u - 21u",
+            "wednesday":    "9u - 21u",
+            "thursday":     "9u - 21u",
+            "friday":       "9u - 21u",
+            "saturday":     "9u - 21u",
+            "sunday":       "9u - 21u"
+        },
+        "extra":        "",
         "type":         "UGent"
     }
 },
