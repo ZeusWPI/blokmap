@@ -98,6 +98,31 @@
     "type": "Feature",
     "geometry": {
         "type":         "Point",
+        "coordinates":  [ 3.704200, 51.048679]
+    },
+    "properties": {
+        "name":         "Blok@FPPW",
+        "address":      "Henri Dunantlaan 2",
+        "capacity":     116,
+        "period": {     "start": "14/12/2015", "end": "29/01/2016" },
+        "hours": {
+            "monday":       "8u30 - 18u",
+            "tuesday":      "8u30 - 18u",
+            "wednesday":    "8u30 - 18u",
+            "thursday":     "8u30 - 18u",
+            "friday":       "8u30 - 15u",
+            "saturday":     false,
+            "sunday":       false
+        },
+        "extra":        "Toegankelijk voor iedereen. <strong>Gesloten van 25/12/2015 tot en met 3/01/2016.</strong>",
+        "type":         "UGent"
+    }
+},
+
+{
+    "type": "Feature",
+    "geometry": {
+        "type":         "Point",
         "coordinates":  [ 3.724090, 51.051192 ]
     },
     "properties": {
@@ -223,7 +248,7 @@
     "properties": {
         "name":         "Blok@S5",
         "address":      "Krijgslaan 281 Gebouw S5",
-        "capacity":     300,
+        "capacity":     350,
         "period": {     "start": "03/01/2016", "end": "29/01/2015" },
         "hours": {
             "monday":       "9u - 21u",
