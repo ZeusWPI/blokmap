@@ -8,9 +8,16 @@ $(document).ready(function() {
             iconUrl: 'img/red-marker.png'
         }
     });
+    var ChristmasIcon = L.Icon.Default.extend({
+        options: {
+            iconUrl: 'img/christmas-marker.png'
+        }
+    });
     var redIcon = new RedIcon();
     var BlueIcon = L.Icon.Default.extend({});
     var blueIcon = new BlueIcon();
+    var christmasIcon = new ChristmasIcon();
+    var christmasHoliday = Date.now() < new Date("2016-01-04").getTime();
 
     function onEachFeature(feature, layer) {
         if (feature.properties) {
@@ -20,6 +27,9 @@ $(document).ready(function() {
 
     function pointToLayer(feature, latlng) {
         if (feature.properties) {
+            if (feature.properties.holidays && christmasHoliday) {
+              return L.marker(latlng, {icon:christmasIcon});
+            }
             if (!feature.properties.hours.saturday && !feature.properties.hours.sunday) {
                 return L.marker(latlng, {icon:blueIcon});
             }
@@ -64,7 +74,7 @@ $(document).ready(function() {
       position: 'bottomleft'
     }).addTo(map);
 
-    var legend = new SimpleControl('#legend-template', 'legend', {
+    var legend = new SimpleControl('#legend-template', christmasHoliday ? "holiday-legend" : "legend", {
       position: 'bottomright'
     }).addTo(map);
 });
