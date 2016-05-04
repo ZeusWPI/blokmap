@@ -431,7 +431,7 @@
             "saturday":     false,
             "sunday":       false
         },
-        "extra":        "Toegankelijk voor alle Gentse studenten. <strong>Gesloten vanaf 25/12 tot en met 3/01.</strong>",
+        "extra":        "Toegankelijk voor alle Gentse studenten. <strong>Gesloten op 16 mei.</strong>",
         "type":         "hogent"
     }
 },
@@ -445,7 +445,7 @@
         "name":         "Mediatheek campus Kantienberg",
         "address":      "Voetweg 66",
         "capacity":     190,
-        "period": {     "start": "21/12/2016", "end": "28/01/2016" },
+        "period": {     "start": "3/5/2016", "end": "1/7/2016" },
         "hours": {
             "monday":       "9u - 17u",
             "tuesday":      "9u - 17u",
@@ -455,7 +455,7 @@
             "saturday":     false,
             "sunday":       false
         },
-        "extra":        "Toegankelijk voor alle Gentse studenten, <strong>gesloten vanaf 23/12 tot en met 3/01.</strong> Geen parkeermogelijkheden op het terrein. 40 stille plaatsen.",
+        "extra":        "Toegankelijk voor alle Gentse studenten, <strong>gesloten op 14 juni.</strong> Geen parkeermogelijkheden op het terrein. 40 stille plaatsen.",
         "type":         "Arteveldehogeschool"
     }
 },
@@ -468,18 +468,18 @@
     "properties": {
         "name":         "Studentenhuis",
         "address":      "Persellestraat 9",
-        "capacity":     190,
-        "period": {     "start": "21/12/2016", "end": "28/01/2016" },
+        "capacity":     20,
+        "period": {     "start": "6/6/2016", "end": "24/6/2016" },
         "hours": {
             "monday":       "9u - 17u",
             "tuesday":      "9u - 17u",
             "wednesday":    "9u - 17u",
             "thursday":     "9u - 17u",
-            "friday":       "9u - 16u",
+            "friday":       "9u - 17u",
             "saturday":     false,
             "sunday":       false
         },
-        "extra":        "Toegankelijk voor alle Gentse studenten, <strong>gesloten vanaf 23/12 tot en met 3/01.</strong> Geen parkeermogelijkheden op het terrein. 40 stille plaatsen.",
+        "extra":        "Toegankelijk voor alle Gentse studenten, <strong>gesloten op 16 juni.</strong> Geen parkeermogelijkheden op het terrein.",
         "type":         "Arteveldehogeschool"
     }
 },
@@ -493,12 +493,12 @@
         "name":         "Bibliotheek",
         "address":      "Gebr. Desmetstraat 1",
         "capacity":     75,
-        "period": {     "start": "4/01/2016", "end": "29/01/2016" },
+        "period": {     "start": "30/5/2016", "end": "24/6/2016" },
         "hours": {
-            "monday":       "8u30 - 17u30",
-            "tuesday":      "8u30 - 17u30",
-            "wednesday":    "8u30 - 17u30",
-            "thursday":     "8u30 - 17u30",
+            "monday":       "8u30 - 18u",
+            "tuesday":      "8u30 - 18u",
+            "wednesday":    "8u30 - 18u",
+            "thursday":     "8u30 - 18u",
             "friday":       "9u - 16u",
             "saturday":     false,
             "sunday":       false
@@ -527,7 +527,7 @@
             "saturday":     false,
             "sunday":       false
         },
-        "extra":        "<strong>Gesloten vanaf 15u op 24/12 tot en met 1/01/2016</strong></br><a href=\"http://www.vlerick.be/library\">Ga naar de website</a>.",
+        "extra":        "<a href=\"http://www.vlerick.be/library\">Ga naar de website</a>.",
         "type":         "vlerick"
     }
 },
@@ -541,7 +541,7 @@
         "name":         "Sint-Pietersabdij Monnikenzolder",
         "address":      "Sint-Pietersplein 9",
         "capacity":     60,
-        "period": {     "start": "16/12/2016", "end": "30/01/2016" },
+        "period": {     "start": "24/5/2016", "end": "2/7/2016" },
         "hours": {
             "monday":       false,
             "tuesday":      "10u - 18u",
@@ -566,7 +566,7 @@
         "name":         "Openbare Bibliotheek Zuid Achilles Musschezaal",
         "address":      "Graaf van Vlaanderenplein 40",
         "capacity":     100,
-        "period": {     "start": "24/11/2016", "end": "23/01/2016" },
+        "period": {     "start": false, "end": false },
         "hours": {
             "monday":       "10u - 18u45",
             "tuesday":      "10u - 18u45",
@@ -577,7 +577,7 @@
             "sunday":       false
         },
         "holidays":     true,
-        "extra":        "<strong>De Achilles Musschezaal is niet beschikbaar op do 3/12, di 8/12 en do 7/01. Zowel de bib als de zaal zijn gesloten op 25/12,26/12 en op 1/01,2/01.</strong></br><a href=\"https://www.gent.be/bibliotheek/aanbod-voorscholen/hoger-onderwijs/studeren-bibliotheek-zuid\">Ga naar de website</a>.",
+        "extra":        false,
         "type":         "Stad Gent"
     }
 },
@@ -591,7 +591,7 @@
         "name":         "Jeugddienst Gent",
         "address":      "Kamerstraat 10",
         "capacity":     20,
-        "period": {     "start": "20/12/2016", "end": "24/01/2016" },
+        "period": {     "start": "21/5/2016", "end": "19/6/2016" },
         "hours": {
             "monday":       false,
             "tuesday":      false,
@@ -602,7 +602,7 @@
             "sunday":       "9u - 18u"
         },
         "holidays":     true,
-        "extra":        "<strong>Enkel open tijdens de kerstvakantie en weekends. Op 21,22 en 23/12 gesloten om 17u. Gesloten op 24, 25, 26/12 en op 31/12, 1/01 en 2/01.</strong>",
+        "extra":        false,
         "type":         "Stad Gent"
     }
 },
