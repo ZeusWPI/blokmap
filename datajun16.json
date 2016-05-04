@@ -225,7 +225,7 @@
         "name":         "Blok@Therminal",
         "address":      "Hoveniersberg 24",
         "capacity":     300,
-        "period": {     "start": "18/12/2016", "end": "29/01/2016" },
+        "period": {     "start": "16/5/2016", "end": "25/6/2016" },
         "hours": {
             "monday":       "8u30 - 24u",
             "tuesday":      "8u30 - 24u",
@@ -236,7 +236,7 @@
             "sunday":       "8u30 - 24u"
         },
         "holidays": true,
-        "extra":        "Registratie week op voorhand noodzakelijk! Registreer <a href=\"http://student.UGent.be/blok/\">hier</a> iedere zondag om 19u. Vanaf 9u kunnen studenten zonder registratie toegang krijgen.<strong> Gesloten op 25/12 en 01/01.</br>¹: Op 24/12 en 31/12 gesloten om 16u.</strong>",
+        "extra":        "Registratie week op voorhand noodzakelijk! Registreer <a href=\"http://student.UGent.be/blok/\">hier</a> iedere zondag om 19u. Vanaf 9u kunnen studenten zonder registratie toegang krijgen.",
         "type":         "UGent"
     }
 },
@@ -250,7 +250,7 @@
         "name":         "Blok@Kantienberg",
         "address":      "Stalhof 45",
         "capacity":     300,
-        "period": {     "start": "19/12/2016", "end": "24/01/2016" },
+        "period": {     "start": "21/5/2016", "end": "19/6/2016" },
         "hours": {
             "monday":       false,
             "tuesday":      false,
@@ -261,7 +261,7 @@
             "sunday":       "8u30 - 22u"
         },
         "holidays": true,
-        "extra":        "Enkel weekend en feestdagen, Registratie noodzakelijk! Registreer <a href=\"http://student.UGent.be/blok_kantien/\">hier</a> iedere zondag om 20u.</br>Vanaf 9u kunnen studenten zonder registratie toegang krijgen. <strong>Op 24/12 en 31/12 open tot 16u.</strong>",
+        "extra":        "Enkel open tijdens de weekends, Registratie noodzakelijk! Registreer <a href=\"http://student.UGent.be/blok_kantien/\">hier</a> iedere zondag om 20u.</br>Vanaf 9u kunnen studenten zonder registratie toegang krijgen.",
         "type":         "UGent"
     }
 },
@@ -275,7 +275,7 @@
         "name":         "BYTES & BOOKS @ gebouw D",
         "address":      "Openleercentrum campus Schoonmeersen",
         "capacity":     444,
-        "period": {     "start": "14/12/2016", "end": "29/01/2016" },
+        "period": {     "start": "23/5/2016", "end": "24/6/2016" },
         "hours": {
             "monday":       "8u - 21u45",
             "tuesday":      "8u - 21u45",
@@ -286,7 +286,7 @@
             "sunday":       false
         },
         "holidays": true,
-        "extra":        "Toegankelijk voor alle Gentse studenten. <strong>Gesloten op feestdagen, weekends. Op 21,22,23/12 en 28,29,30/12: 8u - 16u45</strong>",
+        "extra":        "Toegankelijk voor alle Gentse studenten.",
         "type":         "hogent"
     }
 },
@@ -300,7 +300,7 @@
         "name":         "Resto gebouw D",
         "address":      "Openleercentrum campus Schoonmeersen",
         "capacity":     250,
-        "period": {     "start": "21/12/2016", "end": "24/01/2016" },
+        "period": {     "start": "19/5/2016", "end": "24/06/2016" },
         "hours": {
             "monday":       "8u - 18u",
             "tuesday":      "8u - 18u",
@@ -311,7 +311,7 @@
             "sunday":       "8u - 18u"
         },
         "holidays": true,
-        "extra":        "<strong>Enkel open in de periode voor kerstmis (21/12, 22/12, 23/12 & 24/12) en Nieuwjaar (28/12, 29/12, 30/12 & 1/1) plus de weekends van januari. Op 24/12 en 31/12 gesloten vanaf 12u</strong>. Alleen beschikbaar voor studenten met een campuskaart Schoonmeersen",
+        "extra":        "Alleen beschikbaar voor studenten met een campuskaart Schoonmeersen",
         "type":         "hogent"
     }
 },
@@ -327,15 +327,15 @@
         "capacity":     110,
         "period": {     "start": false, "end": false },
         "hours": {
-            "monday":       "9u - 17u",
-            "tuesday":      "9u - 18u",
-            "wednesday":    "9u - 11u30 </br> 12u15 - 17u",
-            "thursday":     "9u - 18u",
-            "friday":       "9u - 17u",
+            "monday":       "8u15 - 18u",
+            "tuesday":      "8u15 - 18u",
+            "wednesday":    "8u15 - 18u",
+            "thursday":     "8u15 - 18u",
+            "friday":       "8u15 - 18u",
             "saturday":     false,
             "sunday":       false
         },
-        "extra":        "Toegankelijk voor alle Gentse studenten. <strong>Gesloten vanaf 25/12 tot en met 3/01.</strong>",
+        "extra":        "Toegankelijk voor alle Gentse studenten. <strong>Gesloten op 16 mei</strong>",
         "type":         "hogent"
     }
 },
@@ -355,11 +355,11 @@
             "tuesday":      "9u - 18u",
             "wednesday":    "9u - 11u30 </br> 12u15 - 17u",
             "thursday":     "9u - 18u",
-            "friday":       "9u - 17u",
+            "friday":       "9u - 11u30 </br> 12u15 - 16u",
             "saturday":     false,
             "sunday":       false
         },
-        "extra":        "Toegankelijk voor alle Gentse studenten. <strong>Gesloten vanaf 25/12 tot en met 3/01.</strong>",
+        "extra":        "Toegankelijk voor alle Gentse studenten. <strong>Gesloten op 16 mei.</strong>",
         "type":         "hogent"
     }
 },
@@ -383,7 +383,7 @@
             "saturday":     false,
             "sunday":       false
         },
-        "extra":        "Toegankelijk voor alle Gentse studenten. <strong>Gesloten vanaf 25/12 tot en met 3/01.</strong>",
+        "extra":        "Toegankelijk voor alle Gentse studenten. <strong>Gesloten op 16 mei.</strong>",
         "type":         "hogent"
     }
 },
@@ -396,18 +396,18 @@
     "properties": {
         "name":         "BYTES & BOOKS DE WIJNAERT",
         "address":      "Keramiekstraat 80",
-        "capacity":     38,
+        "capacity":     25,
         "period": {     "start": false, "end": false },
         "hours": {
-            "monday":       "9u - 18u",
-            "tuesday":      "9u - 18u",
+            "monday":       "9u - 17u",
+            "tuesday":      "9u - 17u",
             "wednesday":    "9u - 18u",
-            "thursday":     "9u - 18u",
+            "thursday":     "9u - 15u",
             "friday":       "9u - 17u",
             "saturday":     false,
             "sunday":       false
         },
-        "extra":        "Toegankelijk voor alle Gentse studenten. <strong>Gesloten vanaf 23/12 tot en met 3/01.</strong>",
+        "extra":        "Toegankelijk voor alle Gentse studenten. <strong>Gesloten op 16 mei.</strong>",
         "type":         "hogent"
     }
 },
