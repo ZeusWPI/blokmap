@@ -1,52 +1,4 @@
-[{
-    "type": "Feature",
-    "geometry": {
-        "type":         "Point",
-        "coordinates":  [3.726759, 51.045660]
-    },
-    "properties": {
-        "name":         "Studentenrestaurant De Brug",
-        "address":      "Sint-Pietersnieuwstraat 45",
-        "capacity":     700,
-        "period": {     "start": "4/01/2015", "end": "22/01/2016" },
-        "hours": {
-            "monday":       "8u - 21u30",
-            "tuesday":      "8u - 21u30",
-            "wednesday":    "8u - 21u30",
-            "thursday":     "8u - 21u30",
-            "friday":       "8u - 21u30",
-            "saturday":     false,
-            "sunday":       false
-        },
-        "extra":        "2 aparte zaaltjes doorlopend beschikbaar (120 plaatsen).</br> Restaurant (1ste en 2de verdieping) gesloten tussen 11u15 en 14u en na 17u. <strong>Gesloten op 8/01</strong>.",
-        "type":         "UGent"
-    }
-},
-{
-    "type": "Feature",
-    "geometry": {
-        "type":         "Point",
-        "coordinates":  [3.728294, 51.039980]
-    },
-    "properties": {
-        "name":         "Blok@Kantienberg",
-        "address":      "Stalhof 45",
-        "capacity":     300,
-        "period": {     "start": "19/12/2015", "end": "24/01/2016" },
-        "hours": {
-            "monday":       false,
-            "tuesday":      false,
-            "wednesday":    false,
-            "thursday":     false,
-            "friday":       false,
-            "saturday":     "8u30 - 22u",
-            "sunday":       "8u30 - 22u"
-        },
-        "holidays": true,
-        "extra":        "Enkel weekend en feestdagen, Registratie noodzakelijk! Registreer <a href=\"http://student.UGent.be/blok_kantien/\">hier</a> iedere zondag om 20u.</br>Vanaf 9u kunnen studenten zonder registratie toegang krijgen. <strong>Op 24/12 en 31/12 open tot 16u.</strong>",
-        "type":         "UGent"
-    }
-},
+[
 {
     "type": "Feature",
     "geometry": {
@@ -57,17 +9,17 @@
         "name":         "Faculteit Letteren en Wijsbegeerte, faculteitsbibliotheek, vleugels Magnel & Loveling",
         "address":      "Rozier 44",
         "capacity":     580,
-        "period": {     "start": "16/11/2015", "end": "29/01/2016" },
+        "period": {     "start": "2/5/2016", "end": "1/8/2016" },
         "hours": {
             "monday":       "9u - 20u¹",
             "tuesday":      "9u - 20u¹",
             "wednesday":    "9u - 20u¹",
-            "thursday":     "9u - 20u",
-            "friday":       "9u - 17u²",
+            "thursday":     "9u - 20u¹",
+            "friday":       "9u - 17u",
             "saturday":     false,
             "sunday":       false
         },
-        "extra":        "Toegankelijk voor iedereen. Vleugel Magnel bevat 242 werkplekken. De nieuwe vleugel Loveling bevat 338 werkplekken. <strong>Gesloten in de weekends en vanaf 24/12 tot en met 3/01. </strong></br>¹: Gewijzigde openingsuren van 21 tot en met 23/12/2015: open van 9u tot 17u. </br>²: Op vrijdag 22/1/2016 open van 9u tot 12u. </br><a href=\"http://www.flw.ugent.be/bibliotheek\">Ga naar de website</a>.",
+        "extra":        "Toegankelijk voor alle gentse studenten. Vleugel Magnel bevat 242 werkplekken. De nieuwe vleugel Loveling bevat 338 werkplekken. <strong>Gesloten op 16 mei. </strong></br>¹: Gewijzigde openingsuren van 27 juni tot en met 1 augustus: open van 9u tot 17u.</br><a href=\"http://www.flw.ugent.be/bibliotheek\">Ga naar de website</a>.",
         "type":         "UGent"
     }
 },
@@ -75,13 +27,13 @@
     "type": "Feature",
     "geometry": {
         "type":         "Point",
-        "coordinates":  [ 3.725235, 51.044131]
+        "coordinates":  [ 3.725235, 51.044131 ]
     },
     "properties": {
-        "name":         "Blok@Blandijn",
-        "address":      "Rozier 44",
+        "name":         "Faculteit Letteren en Wijsbegeerte, leslokalen",
+        "address":      "blandijnberg 2",
         "capacity":     100,
-        "period": {     "start": "14/12/2015", "end": "28/01/2016" },
+        "period": {     "start": "23/5/2016", "end": "24/6/2016" },
         "hours": {
             "monday":       "8u - 19u",
             "tuesday":      "8u - 19u",
@@ -91,35 +43,10 @@
             "saturday":     false,
             "sunday":       false
         },
-        "extra":        "Toegankelijk voor iedereen. Leslokalen 090.034 - 090.036 - 090.038 (kelder) en 110.046 (1e verdiep). <strong>Gesloten van 25/12/2015 tot en met 3/01/2016.</strong>",
+        "extra":        "Toegankelijk voor alle gentse studenten. Leslokalen 090.034 - 090.036 - 090.038 (kelderverdieping).",
         "type":         "UGent"
     }
 },
-{
-    "type": "Feature",
-    "geometry": {
-        "type":         "Point",
-        "coordinates":  [ 3.704200, 51.048679]
-    },
-    "properties": {
-        "name":         "Blok@FPPW",
-        "address":      "Henri Dunantlaan 2",
-        "capacity":     116,
-        "period": {     "start": "14/12/2015", "end": "29/01/2016" },
-        "hours": {
-            "monday":       "8u30 - 18u",
-            "tuesday":      "8u30 - 18u",
-            "wednesday":    "8u30 - 18u",
-            "thursday":     "8u30 - 18u",
-            "friday":       "8u30 - 15u",
-            "saturday":     false,
-            "sunday":       false
-        },
-        "extra":        "Toegankelijk voor iedereen. <strong>Gesloten van 25/12/2015 tot en met 3/01/2016.</strong>",
-        "type":         "UGent"
-    }
-},
-
 {
     "type": "Feature",
     "geometry": {
@@ -130,7 +57,7 @@
         "name":         "Faculteit Rechten, faculteitsbibliotheek",
         "address":      "Universiteitstraat 4, verdieping 1",
         "capacity":     235,
-        "period": {     "start": false, "end": false },
+        "period": {     "start": "17/5/2016", "end": "1/7/2016" },
         "hours": {
             "monday":       "8u30 - 19u",
             "tuesday":      "8u30 - 19u",
@@ -140,7 +67,7 @@
             "saturday":     false,
             "sunday":       false
         },
-        "extra":        "Toegankelijk voor iedereen. <strong>Gesloten om 12u vanaf 24/12 tot en met 3/01</strong>.</br><a href=\"http://www.ugent.be/re/nl/diensten/bibliotheek\">Ga naar de website</a>." ,
+        "extra":        "Toegankelijk voor alle gentse studenten. </br><a href=\"http://www.ugent.be/re/nl/diensten/bibliotheek\">Ga naar de website</a>." ,
         "type":         "UGent"
     }
 },
@@ -154,17 +81,17 @@
         "name":         "Faculteit Bio-Ingenieurswetenschappen, faculteitsbibliotheek.",
         "address":      "Coupure 653",
         "capacity":     68,
-        "period": {     "start": "14/12/2015", "end": "28/01/2016" },
+        "period": {     "start": "9/5/2016", "end": "24/6/2016" },
         "hours": {
-            "monday":       "9u - 19u¹",
-            "tuesday":      "9u - 19u¹",
-            "wednesday":    "9u - 19u¹",
-            "thursday":     "9u - 19u¹",
-            "friday":       "9u - 19u¹",
+            "monday":       "9u - 19u30",
+            "tuesday":      "9u - 19u30",
+            "wednesday":    "9u - 19u30",
+            "thursday":     "9u - 19u30",
+            "friday":       "9u - 17u",
             "saturday":     false,
             "sunday":       false
         },
-        "extra":        "<strong>Gesloten vanaf 25/12 tot en met 3/01.</strong></br> ¹: tussen 21/12 tot 24/12 gesloten om 17u.</br><a href=\"http://lib.ugent.be/en/libraries/ALLW\">Ga naar de website</a>.",
+        "extra":        "Toegankelijk voor alle gentse studenten. <strong>Gesloten op 16 mei.</strong><a href=\"http://lib.ugent.be/en/libraries/ALLW\">Ga naar de website</a>.",
         "type":         "UGent"
     }
 },
@@ -178,7 +105,7 @@
         "name":         "Faculteit Bio-Ingenieurswetenschappen, Resto Agora.",
         "address":      "Coupure 653",
         "capacity":     400,
-        "period": {     "start": "14/12/2015", "end": "28/01/2016" },
+        "period": {     "start": "9/5/2016", "end": "24/6/2016" },
         "hours": {
             "monday":       "14u - 20u",
             "tuesday":      "14u - 20u",
@@ -188,7 +115,7 @@
             "saturday":     false,
             "sunday":       false
         },
-        "extra":        "<strong>Gesloten vanaf 25/12 tot en met 3/01.</strong>",
+        "extra":        "Toegankelijk voor alle gentse studenten. <strong>Gesloten op 16 mei.</strong>",
         "type":         "UGent"
     }
 },
@@ -212,7 +139,79 @@
             "saturday":     false,
             "sunday":       false
         },
-        "extra":        "<strong>Gesloten vanaf 24/12 tot en met 3/01. Van 21/12 tot en met 23/12 slechts open tot 17u.</strong></br><a href=\"http://www.ugent.be/eb/nl/diensten/faculteitsbibliotheek-ebib/\">Ga naar de website</a>.",
+        "extra":        "Toegankelijk voor alle gentse studenten. <strong>Gesloten op 16 mei.</strong></br><a href=\"http://www.ugent.be/eb/nl/diensten/faculteitsbibliotheek-ebib/\">Ga naar de website</a>.",
+        "type":         "UGent"
+    }
+},
+{
+    "type": "Feature",
+    "geometry": {
+        "type":         "Point",
+        "coordinates":  [3.712859, 51.026039]
+    },
+    "properties": {
+        "name":         "Faculteit Wetenschappen, resto S5",
+        "address":      "Krijgslaan 281 Gebouw S5",
+        "capacity":     400,
+        "period": {     "start": "17/5/2016", "end": "24/6/2016" },
+        "hours": {
+            "monday":       "14u - 22u",
+            "tuesday":      "14u - 22u",
+            "wednesday":    "14u - 22u",
+            "thursday":     "14u - 22u",
+            "friday":       "14u - 22u",
+            "saturday":     false,
+            "sunday":       false
+        },
+        "extra":        "Toegankelijk voor alle gentse studenten.",
+        "type":         "UGent"
+    }
+},
+{
+    "type": "Feature",
+    "geometry": {
+        "type":         "Point",
+        "coordinates":  [ 3.704200, 51.048679]
+    },
+    "properties": {
+        "name":         "Faculteit Psychologie en Pedagogische Wetenschappen",
+        "address":      "Henri Dunantlaan 2",
+        "capacity":     116,
+        "period": {     "start": false, "end": false },
+        "hours": {
+            "monday":       "8u30 - 18u",
+            "tuesday":      "8u30 - 18u",
+            "wednesday":    "8u30 - 18u",
+            "thursday":     "8u30 - 18u",
+            "friday":       "8u30 - 15u",
+            "saturday":     false,
+            "sunday":       false
+        },
+        "extra":        "Toegankelijk voor alle gentse studenten. <strong>Gesloten op 16 mei.</strong>",
+        "type":         "UGent"
+    }
+},
+{
+    "type": "Feature",
+    "geometry": {
+        "type":         "Point",
+        "coordinates":  [3.726759, 51.045660]
+    },
+    "properties": {
+        "name":         "Studentenrestaurant De Brug",
+        "address":      "Sint-Pietersnieuwstraat 45",
+        "capacity":     700,
+        "period": {     "start": "17/5/2016", "end": "24/6/2016" },
+        "hours": {
+            "monday":       "8u - 21u30",
+            "tuesday":      "8u - 21u30",
+            "wednesday":    "8u - 21u30",
+            "thursday":     "8u - 21u30",
+            "friday":       "8u - 21u30",
+            "saturday":     false,
+            "sunday":       false
+        },
+        "extra":        "2 aparte zaaltjes doorlopend beschikbaar (120 plaatsen).</br> Restaurant (1ste en 2de verdieping) gesloten tussen 11u15 en 14u en na 17u.",
         "type":         "UGent"
     }
 },
@@ -226,7 +225,7 @@
         "name":         "Blok@Therminal",
         "address":      "Hoveniersberg 24",
         "capacity":     300,
-        "period": {     "start": "18/12/2015", "end": "29/01/2015" },
+        "period": {     "start": "16/5/2016", "end": "25/6/2016" },
         "hours": {
             "monday":       "8u30 - 24u",
             "tuesday":      "8u30 - 24u",
@@ -237,7 +236,7 @@
             "sunday":       "8u30 - 24u"
         },
         "holidays": true,
-        "extra":        "Registratie week op voorhand noodzakelijk! Registreer <a href=\"http://student.UGent.be/blok/\">hier</a> iedere zondag om 19u. Vanaf 9u kunnen studenten zonder registratie toegang krijgen.<strong> Gesloten op 25/12 en 01/01.</br>¹: Op 24/12 en 31/12 gesloten om 16u.</strong>",
+        "extra":        "Registratie week op voorhand noodzakelijk! Registreer <a href=\"http://student.UGent.be/blok/\">hier</a> iedere zondag om 19u. Vanaf 9u kunnen studenten zonder registratie toegang krijgen.",
         "type":         "UGent"
     }
 },
@@ -245,23 +244,24 @@
     "type": "Feature",
     "geometry": {
         "type":         "Point",
-        "coordinates":  [3.712859, 51.026039]
+        "coordinates":  [3.728294, 51.039980]
     },
     "properties": {
-        "name":         "Blok@S5",
-        "address":      "Krijgslaan 281 Gebouw S5",
-        "capacity":     350,
-        "period": {     "start": "03/01/2016", "end": "29/01/2015" },
+        "name":         "Blok@Kantienberg",
+        "address":      "Stalhof 45",
+        "capacity":     300,
+        "period": {     "start": "21/5/2016", "end": "19/6/2016" },
         "hours": {
-            "monday":       "9u - 21u",
-            "tuesday":      "9u - 21u",
-            "wednesday":    "9u - 21u",
-            "thursday":     "9u - 21u",
-            "friday":       "9u - 21u",
-            "saturday":     "9u - 21u",
-            "sunday":       "9u - 21u"
+            "monday":       false,
+            "tuesday":      false,
+            "wednesday":    false,
+            "thursday":     false,
+            "friday":       false,
+            "saturday":     "8u30 - 22u",
+            "sunday":       "8u30 - 22u"
         },
-        "extra":        "",
+        "holidays": true,
+        "extra":        "Enkel open tijdens de weekends, Registratie noodzakelijk! Registreer <a href=\"http://student.UGent.be/blok_kantien/\">hier</a> iedere zondag om 20u.</br>Vanaf 9u kunnen studenten zonder registratie toegang krijgen.",
         "type":         "UGent"
     }
 },
@@ -275,7 +275,7 @@
         "name":         "BYTES & BOOKS @ gebouw D",
         "address":      "Openleercentrum campus Schoonmeersen",
         "capacity":     444,
-        "period": {     "start": "14/12/2015", "end": "29/01/2015" },
+        "period": {     "start": "23/5/2016", "end": "24/6/2016" },
         "hours": {
             "monday":       "8u - 21u45",
             "tuesday":      "8u - 21u45",
@@ -286,7 +286,7 @@
             "sunday":       false
         },
         "holidays": true,
-        "extra":        "Toegankelijk voor alle Gentse studenten. <strong>Gesloten op feestdagen, weekends. Op 21,22,23/12 en 28,29,30/12: 8u - 16u45</strong>",
+        "extra":        "Toegankelijk voor alle Gentse studenten.",
         "type":         "hogent"
     }
 },
@@ -300,7 +300,7 @@
         "name":         "Resto gebouw D",
         "address":      "Openleercentrum campus Schoonmeersen",
         "capacity":     250,
-        "period": {     "start": "21/12/2015", "end": "24/01/2015" },
+        "period": {     "start": "19/5/2016", "end": "24/06/2016" },
         "hours": {
             "monday":       "8u - 18u",
             "tuesday":      "8u - 18u",
@@ -311,7 +311,7 @@
             "sunday":       "8u - 18u"
         },
         "holidays": true,
-        "extra":        "<strong>Enkel open in de periode voor kerstmis (21/12, 22/12, 23/12 & 24/12) en Nieuwjaar (28/12, 29/12, 30/12 & 1/1) plus de weekends van januari. Op 24/12 en 31/12 gesloten vanaf 12u</strong>. Alleen beschikbaar voor studenten met een campuskaart Schoonmeersen",
+        "extra":        "Alleen beschikbaar voor studenten met een campuskaart Schoonmeersen",
         "type":         "hogent"
     }
 },
@@ -319,34 +319,10 @@
     "type": "Feature",
     "geometry": {
         "type":         "Point",
-        "coordinates":  [3.727288, 51.020373 ]
+        "coordinates":  [3.724287, 51.036624]
     },
     "properties": {
-        "name":         "BYTES & BOOKS DE WIJNAERT",
-        "address":      "Keramiekstraat 80",
-        "capacity":     38,
-        "period": {     "start": false, "end": false },
-        "hours": {
-            "monday":       "9u - 18u",
-            "tuesday":      "9u - 18u",
-            "wednesday":    "9u - 18u",
-            "thursday":     "9u - 18u",
-            "friday":       "9u - 17u",
-            "saturday":     false,
-            "sunday":       false
-        },
-        "extra":        "Toegankelijk voor alle Gentse studenten. <strong>Gesloten vanaf 23/12 tot en met 3/01.</strong>",
-        "type":         "hogent"
-    }
-},
-{
-    "type": "Feature",
-    "geometry": {
-        "type":         "Point",
-        "coordinates":  [3.724278, 51.036589]
-    },
-    "properties": {
-        "name":         "BYTES & BOOKS LERA",
+        "name":         "BYTES & BOOKS LEDEGANCK",
         "address":      "K.L. Ledeganckstraat 8",
         "capacity":     110,
         "period": {     "start": false, "end": false },
@@ -359,7 +335,7 @@
             "saturday":     false,
             "sunday":       false
         },
-        "extra":        "Toegankelijk voor alle Gentse studenten. <strong>Gesloten vanaf 25/12 tot en met 3/01.</strong>",
+        "extra":        "Toegankelijk voor alle Gentse studenten. <strong>Gesloten op 16 mei</strong>",
         "type":         "hogent"
     }
 },
@@ -379,11 +355,11 @@
             "tuesday":      "9u - 18u",
             "wednesday":    "9u - 11u30 </br> 12u15 - 17u",
             "thursday":     "9u - 18u",
-            "friday":       "9u - 17u",
+            "friday":       "9u - 11u30 </br> 12u15 - 16u",
             "saturday":     false,
             "sunday":       false
         },
-        "extra":        "Toegankelijk voor alle Gentse studenten. <strong>Gesloten vanaf 25/12 tot en met 3/01.</strong>",
+        "extra":        "Toegankelijk voor alle Gentse studenten. <strong>Gesloten op 16 mei.</strong>",
         "type":         "hogent"
     }
 },
@@ -407,7 +383,31 @@
             "saturday":     false,
             "sunday":       false
         },
-        "extra":        "Toegankelijk voor alle Gentse studenten. <strong>Gesloten vanaf 25/12 tot en met 3/01.</strong>",
+        "extra":        "Toegankelijk voor alle Gentse studenten. <strong>Gesloten op 16 mei.</strong>",
+        "type":         "hogent"
+    }
+},
+{
+    "type": "Feature",
+    "geometry": {
+        "type":         "Point",
+        "coordinates":  [3.727288, 51.020373 ]
+    },
+    "properties": {
+        "name":         "BYTES & BOOKS DE WIJNAERT",
+        "address":      "Keramiekstraat 80",
+        "capacity":     25,
+        "period": {     "start": false, "end": false },
+        "hours": {
+            "monday":       "9u - 17u",
+            "tuesday":      "9u - 17u",
+            "wednesday":    "9u - 18u",
+            "thursday":     "9u - 15u",
+            "friday":       "9u - 17u",
+            "saturday":     false,
+            "sunday":       false
+        },
+        "extra":        "Toegankelijk voor alle Gentse studenten. <strong>Gesloten op 16 mei.</strong>",
         "type":         "hogent"
     }
 },
@@ -431,7 +431,7 @@
             "saturday":     false,
             "sunday":       false
         },
-        "extra":        "Toegankelijk voor alle Gentse studenten. <strong>Gesloten vanaf 25/12 tot en met 3/01.</strong>",
+        "extra":        "Toegankelijk voor alle Gentse studenten. <strong>Gesloten op 16 mei.</strong>",
         "type":         "hogent"
     }
 },
@@ -445,7 +445,7 @@
         "name":         "Mediatheek campus Kantienberg",
         "address":      "Voetweg 66",
         "capacity":     190,
-        "period": {     "start": "21/12/2015", "end": "28/01/2016" },
+        "period": {     "start": "3/5/2016", "end": "1/7/2016" },
         "hours": {
             "monday":       "9u - 17u",
             "tuesday":      "9u - 17u",
@@ -455,8 +455,56 @@
             "saturday":     false,
             "sunday":       false
         },
-        "extra":        "Toegankelijk voor alle Gentse studenten, <strong>gesloten vanaf 23/12 tot en met 3/01.</strong> Geen parkeermogelijkheden op het terrein. 40 stille plaatsen.",
+        "extra":        "Toegankelijk voor alle Gentse studenten, <strong>gesloten op 14 juni.</strong> Geen parkeermogelijkheden op het terrein. 40 stille plaatsen.",
         "type":         "Arteveldehogeschool"
+    }
+},
+{
+    "type": "Feature",
+    "geometry": {
+        "type":         "Point",
+        "coordinates":  [3.718998, 51.042936]
+    },
+    "properties": {
+        "name":         "Studentenhuis",
+        "address":      "Persellestraat 9",
+        "capacity":     20,
+        "period": {     "start": "6/6/2016", "end": "24/6/2016" },
+        "hours": {
+            "monday":       "9u - 17u",
+            "tuesday":      "9u - 17u",
+            "wednesday":    "9u - 17u",
+            "thursday":     "9u - 17u",
+            "friday":       "9u - 17u",
+            "saturday":     false,
+            "sunday":       false
+        },
+        "extra":        "Toegankelijk voor alle Gentse studenten, <strong>gesloten op 16 juni.</strong> Geen parkeermogelijkheden op het terrein.",
+        "type":         "Arteveldehogeschool"
+    }
+},
+{
+    "type": "Feature",
+    "geometry": {
+        "type":         "Point",
+        "coordinates":  [3.708694, 51.061123]
+    },
+    "properties": {
+        "name":         "Bibliotheek",
+        "address":      "Gebr. Desmetstraat 1",
+        "capacity":     75,
+        "period": {     "start": "30/5/2016", "end": "24/6/2016" },
+        "hours": {
+            "monday":       "8u30 - 18u",
+            "tuesday":      "8u30 - 18u",
+            "wednesday":    "8u30 - 18u",
+            "thursday":     "8u30 - 18u",
+            "friday":       "9u - 16u",
+            "saturday":     false,
+            "sunday":       false
+        },
+        "type":         "Odisee",
+        "extra":        false
     }
 },
 {
@@ -479,56 +527,8 @@
             "saturday":     false,
             "sunday":       false
         },
-        "extra":        "<strong>Gesloten vanaf 15u op 24/12 tot en met 1/01/2016</strong></br><a href=\"http://www.vlerick.be/library\">Ga naar de website</a>.",
+        "extra":        "<a href=\"http://www.vlerick.be/library\">Ga naar de website</a>.",
         "type":         "vlerick"
-    }
-},
-{
-    "type": "Feature",
-    "geometry": {
-        "type":         "Point",
-        "coordinates":  [3.708694, 51.061123]
-    },
-    "properties": {
-        "name":         "Bibliotheek",
-        "address":      "Gebr. Desmetstraat 1",
-        "capacity":     75,
-        "period": {     "start": "4/01/2016", "end": "29/01/2016" },
-        "hours": {
-            "monday":       "8u30 - 17u30",
-            "tuesday":      "8u30 - 17u30",
-            "wednesday":    "8u30 - 17u30",
-            "thursday":     "8u30 - 17u30",
-            "friday":       "9u - 16u",
-            "saturday":     false,
-            "sunday":       false
-        },
-        "type":         "Odisee",
-        "extra":        false
-    }
-},
-{
-    "type": "Feature",
-    "geometry": {
-        "type":         "Point",
-        "coordinates":  [3.7278144,51.0513118]
-    },
-    "properties": {
-        "name":         "Bibliotheek",
-        "address":      "Reep 1",
-        "capacity":     25,
-        "period": {     "start": false, "end": false},
-        "hours": {
-            "monday":       "10u - 12u</br>13u - 17u",
-            "tuesday":      "10u - 12u</br>13u - 17u",
-            "wednesday":    "10u - 12u",
-            "thursday":     "10u - 12u</br>13u - 17u",
-            "friday":       "10u - 12u",
-            "saturday":     false,
-            "sunday":       false
-        },
-        "type":         "Odisee",
-        "extra":        "<strong>Gesloten vanaf 15u op 24/12 tot en met 1/01/2016.</strong></br><a href=\"http://www.vlerick.be/library\">Ga naar de website</a>."
     }
 },
 {
@@ -538,10 +538,10 @@
         "coordinates":  [3.726730, 51.042146]
     },
     "properties": {
-        "name":         "Sint-Pietersabdij Monikkenzolder",
+        "name":         "Sint-Pietersabdij Monnikenzolder",
         "address":      "Sint-Pietersplein 9",
         "capacity":     60,
-        "period": {     "start": "16/12/2015", "end": "30/01/2016" },
+        "period": {     "start": "24/5/2016", "end": "2/7/2016" },
         "hours": {
             "monday":       false,
             "tuesday":      "10u - 18u",
@@ -566,7 +566,7 @@
         "name":         "Openbare Bibliotheek Zuid Achilles Musschezaal",
         "address":      "Graaf van Vlaanderenplein 40",
         "capacity":     100,
-        "period": {     "start": "24/11/2015", "end": "23/01/2016" },
+        "period": {     "start": false, "end": false },
         "hours": {
             "monday":       "10u - 18u45",
             "tuesday":      "10u - 18u45",
@@ -577,7 +577,7 @@
             "sunday":       false
         },
         "holidays":     true,
-        "extra":        "<strong>De Achilles Musschezaal is niet beschikbaar op do 3/12, di 8/12 en do 7/01. Zowel de bib als de zaal zijn gesloten op 25/12,26/12 en op 1/01,2/01.</strong></br><a href=\"https://www.gent.be/bibliotheek/aanbod-voorscholen/hoger-onderwijs/studeren-bibliotheek-zuid\">Ga naar de website</a>.",
+        "extra":        false,
         "type":         "Stad Gent"
     }
 },
@@ -591,7 +591,7 @@
         "name":         "Jeugddienst Gent",
         "address":      "Kamerstraat 10",
         "capacity":     20,
-        "period": {     "start": "20/12/2015", "end": "24/01/2016" },
+        "period": {     "start": "21/5/2016", "end": "19/6/2016" },
         "hours": {
             "monday":       false,
             "tuesday":      false,
@@ -602,31 +602,7 @@
             "sunday":       "9u - 18u"
         },
         "holidays":     true,
-        "extra":        "<strong>Enkel open tijdens de kerstvakantie en weekends. Op 21,22 en 23/12 gesloten om 17u. Gesloten op 24, 25, 26/12 en op 31/12, 1/01 en 2/01.</strong>",
-        "type":         "Stad Gent"
-    }
-},
-{
-    "type": "Feature",
-    "geometry": {
-        "type":         "Point",
-        "coordinates":  [3.717077, 51.064869]
-    },
-    "properties": {
-        "name":         "Minus One",
-        "address":      "Opgeëistenlaan 455",
-        "capacity":     40,
-        "period": {     "start": "6/01/2016", "end": "28/01/2016" },
-        "hours": {
-            "monday":       "9u - 18u",
-            "tuesday":      "9u - 18u",
-            "wednesday":    "9u - 18u",
-            "thursday":     "9u - 18u",
-            "friday":       "9u - 18u",
-            "saturday":     "9u - 18u",
-            "sunday":       false
-        },
-        "extra":        "Eenmalige registratie ter plaatse. ",
+        "extra":        false,
         "type":         "Stad Gent"
     }
 }
