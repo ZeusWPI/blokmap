@@ -38,8 +38,9 @@ $(document).ready(function() {
     }
 
     var map = L.map('map').setView([51.0475378, 3.7261835], 13);
-    var osm = L.tileLayer('https://{s}.tiles.mapbox.com/v3/feliciaan.keoaj8d5/{z}/{x}/{y}.png', {
-      attribution: '© <a href="https://www.mapbox.com/map-feedback/">Mapbox</a> | © <a href="https://www.openstreetmap.org/copyright" target="_blank">OpenStreetMap</a>-contributors | Made with ❤ by <a href="https://zeus.ugent.be">Zeus WPI</a>'
+    var osm = L.tileLayer('https://{s}.tiles.mapbox.com/v3/feliciaan.keoaj8d5/{z}/{x}/{y}{r}.png', {
+      attribution: '© <a href="https://www.mapbox.com/map-feedback/">Mapbox</a> | © <a href="https://www.openstreetmap.org/copyright" target="_blank">OpenStreetMap</a>-contributors | Made with ❤ by <a href="https://zeus.ugent.be">Zeus WPI</a>',
+      detectRetina: true
     }).addTo(map);
 
     $.getJSON('data.json')
