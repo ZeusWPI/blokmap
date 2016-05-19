@@ -31,7 +31,7 @@
     },
     "properties": {
         "name":         "Faculteit Letteren en Wijsbegeerte, leslokalen",
-        "address":      "blandijnberg 2",
+        "address":      "Blandijnberg 2",
         "capacity":     100,
         "period": {     "start": "23/5/2016", "end": "24/6/2016" },
         "hours": {
