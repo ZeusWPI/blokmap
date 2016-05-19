@@ -19,7 +19,7 @@
             "saturday":     false,
             "sunday":       false
         },
-        "extra":        "Toegankelijk voor alle gentse studenten. Vleugel Magnel bevat 242 werkplekken. De nieuwe vleugel Loveling bevat 338 werkplekken. <strong>Gesloten op 16 mei. </strong></br>¹: Gewijzigde openingsuren van 27 juni tot en met 1 augustus: open van 9u tot 17u.</br><a href=\"http://www.flw.ugent.be/bibliotheek\">Ga naar de website</a>.",
+        "extra":        "Toegankelijk voor alle Gentse studenten. Vleugel Magnel bevat 242 werkplekken. De nieuwe vleugel Loveling bevat 338 werkplekken. <strong>Gesloten op 16 mei. </strong></br>¹: Gewijzigde openingsuren van 27 juni tot en met 1 augustus: open van 9u tot 17u.</br><a href=\"http://www.flw.ugent.be/bibliotheek\">Ga naar de website</a>.",
         "type":         "UGent"
     }
 },
@@ -43,7 +43,7 @@
             "saturday":     false,
             "sunday":       false
         },
-        "extra":        "Toegankelijk voor alle gentse studenten. Leslokalen 090.034 - 090.036 - 090.038 (kelderverdieping) en 110.046.",
+        "extra":        "Toegankelijk voor alle Gentse studenten. Leslokalen 090.034 - 090.036 - 090.038 (kelderverdieping) en 110.046.",
         "type":         "UGent"
     }
 },
@@ -67,7 +67,7 @@
             "saturday":     false,
             "sunday":       false
         },
-        "extra":        "Toegankelijk voor alle gentse studenten. </br><a href=\"http://www.ugent.be/re/nl/diensten/bibliotheek\">Ga naar de website</a>." ,
+        "extra":        "Toegankelijk voor alle Gentse studenten. </br><a href=\"http://www.ugent.be/re/nl/diensten/bibliotheek\">Ga naar de website</a>." ,
         "type":         "UGent"
     }
 },
@@ -91,7 +91,7 @@
             "saturday":     false,
             "sunday":       false
         },
-        "extra":        "Toegankelijk voor alle gentse studenten. <strong>Gesloten op 16 mei.</strong><a href=\"http://lib.ugent.be/en/libraries/ALLW\">Ga naar de website</a>.",
+        "extra":        "Toegankelijk voor alle Gentse studenten. <strong>Gesloten op 16 mei.</strong><a href=\"http://lib.ugent.be/en/libraries/ALLW\">Ga naar de website</a>.",
         "type":         "UGent"
     }
 },
@@ -115,7 +115,7 @@
             "saturday":     false,
             "sunday":       false
         },
-        "extra":        "Toegankelijk voor alle gentse studenten. <strong>Gesloten op 16 mei.</strong>",
+        "extra":        "Toegankelijk voor alle Gentse studenten. <strong>Gesloten op 16 mei.</strong>",
         "type":         "UGent"
     }
 },
@@ -139,7 +139,7 @@
             "saturday":     false,
             "sunday":       false
         },
-        "extra":        "Toegankelijk voor alle gentse studenten. <strong>Gesloten op 16 mei.</strong></br><a href=\"http://www.ugent.be/eb/nl/diensten/faculteitsbibliotheek-ebib/\">Ga naar de website</a>.",
+        "extra":        "Toegankelijk voor alle Gentse studenten. <strong>Gesloten op 16 mei.</strong></br><a href=\"http://www.ugent.be/eb/nl/diensten/faculteitsbibliotheek-ebib/\">Ga naar de website</a>.",
         "type":         "UGent"
     }
 },
@@ -163,7 +163,7 @@
             "saturday":     false,
             "sunday":       false
         },
-        "extra":        "Toegankelijk voor alle gentse studenten.",
+        "extra":        "Toegankelijk voor alle Gentse studenten.",
         "type":         "UGent"
     }
 },
@@ -187,7 +187,7 @@
             "saturday":     false,
             "sunday":       false
         },
-        "extra":        "Toegankelijk voor alle gentse studenten. <strong>Gesloten op 16 mei.</strong>",
+        "extra":        "Toegankelijk voor alle Gentse studenten. <strong>Gesloten op 16 mei.</strong>",
         "type":         "UGent"
     }
 },
