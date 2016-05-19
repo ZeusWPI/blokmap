@@ -35,15 +35,15 @@
         "capacity":     100,
         "period": {     "start": "23/5/2016", "end": "24/6/2016" },
         "hours": {
-            "monday":       "8u - 19u",
-            "tuesday":      "8u - 19u",
-            "wednesday":    "8u - 19u",
-            "thursday":     "8u - 19u",
-            "friday":       "8u - 19u",
+            "monday":       "8u - 22u",
+            "tuesday":      "8u - 22u",
+            "wednesday":    "8u - 22u",
+            "thursday":     "8u - 22u",
+            "friday":       "8u - 22u",
             "saturday":     false,
             "sunday":       false
         },
-        "extra":        "Toegankelijk voor alle gentse studenten. Leslokalen 090.034 - 090.036 - 090.038 (kelderverdieping).",
+        "extra":        "Toegankelijk voor alle gentse studenten. Leslokalen 090.034 - 090.036 - 090.038 (kelderverdieping) en 110.046.",
         "type":         "UGent"
     }
 },
