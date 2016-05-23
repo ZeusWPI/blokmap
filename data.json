@@ -150,20 +150,20 @@
         "coordinates":  [3.712859, 51.026039]
     },
     "properties": {
-        "name":         "Faculteit Wetenschappen, resto S5",
+        "name":         "Faculteit Wetenschappen, Resto S5",
         "address":      "Krijgslaan 281 Gebouw S5",
         "capacity":     400,
         "period": {     "start": "17/5/2016", "end": "24/6/2016" },
         "hours": {
-            "monday":       "14u - 22u",
-            "tuesday":      "14u - 22u",
-            "wednesday":    "14u - 22u",
-            "thursday":     "14u - 22u",
-            "friday":       "14u - 22u",
-            "saturday":     false,
-            "sunday":       false
+            "monday":       "9u - 21u",
+            "tuesday":      "9u - 21u",
+            "wednesday":    "9u - 21u",
+            "thursday":     "9u - 21u",
+            "friday":       "9u - 21u",
+            "saturday":     "9u - 21u",
+            "sunday":       "9u - 21u"
         },
-        "extra":        "Toegankelijk voor alle Gentse studenten.",
+        "extra":        "Toegankelijk voor alle Gentse studenten. De bibliotheek is open tot 17u, en gesloten in het weekend.",
         "type":         "UGent"
     }
 },
