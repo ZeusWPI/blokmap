@@ -3,6 +3,30 @@
     "type": "Feature",
     "geometry": {
         "type":         "Point",
+        "coordinates":  [3.7245747, 51.0517789]
+    },
+    "properties": {
+        "name":         "Faculteit Politieke en Sociale Wetenschappen, PC-knooppunt",
+        "address":      "Paddenhoek 3, 2de verdiep lokaal 007",
+        "capacity":     "?",
+        "period": {     "start": "10/01/2017", "end": "03/02/2017" },
+        "hours": {
+            "monday":       "9u - 19u",
+            "tuesday":      "9u - 19u",
+            "wednesday":    "9u - 19u",
+            "thursday":     "9u - 19u",
+            "friday":       "9u - 17u",
+            "saturday":     false,
+            "sunday":       false
+        },
+        "extra":        "<strong>Niet toegankelijk op 20/01 en 30/01 in de voormiddag.</strong> Enkel voor studenten van de UGent. <a href='http://www.ugent.be/ps/nl/diensten/pc-knooppunt/pc-klas'>Bekijk de website.</a>",
+        "type":         "UGent"
+    }
+},
+{
+    "type": "Feature",
+    "geometry": {
+        "type":         "Point",
         "coordinates":  [ 3.724770, 51.045507 ]
     },
     "properties": {
