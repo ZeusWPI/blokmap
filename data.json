@@ -8,7 +8,7 @@
     "properties": {
         "name":         "Faculteit Politieke en Sociale Wetenschappen, PC-knooppunt",
         "address":      "Paddenhoek 3, 2de verdiep lokaal 007",
-        "capacity":     "?",
+        "capacity":     59,
         "period": {     "start": "10/01/2017", "end": "03/02/2017" },
         "hours": {
             "monday":       "9u - 19u",
