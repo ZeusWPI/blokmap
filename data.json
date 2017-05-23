@@ -545,7 +545,7 @@
             "monday":       "10u - 19u",
             "tuesday":      "10u - 19u",
             "wednesday":    "10u - 19u",
-            "thursday":     "10u - 21u,
+            "thursday":     "10u - 21u",
             "friday":       "10u - 17u",
             "saturday":     "10u - 19u",
             "sunday":       false
