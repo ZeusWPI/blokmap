@@ -174,9 +174,9 @@
         "coordinates":  [ 3.723718, 51.024573]
     },
     "properties": {
-        "name":         "Faculteit Geneeskunde en Gezondheidswetenschappen",
+        "name":         "Faculteit Geneeskunde en Gezondheidswetenschappen - bib KCGG",
         "address":      "De Pintelaan 185 (0K3) - ingang 42",
-        "capacity":     132,
+        "capacity":     "?",
         "period": {     "start": "29/05/2017", "end": "29/06/2017" },
         "hours": {
             "monday":       "8u30 - 22u",
@@ -188,7 +188,7 @@
             "sunday":       "8u30 - 22u"
         },
 		"holidays": true,
-        "extra":        "Enkel voor studenten van de UGent <i>Gesloten op maandag 5/6</i>",
+        "extra":        "Enkel voor studenten van de UGent. <br> Ingang via de zijkant, voor meer info zie <a href=\"www.stugg.be/blok\">de website</a>",
         "type":         "UGent"
     }
 },
