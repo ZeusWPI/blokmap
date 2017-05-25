@@ -139,7 +139,7 @@
             "saturday":     false,
             "sunday":       false
         },
-        "extra":        "Toegankelijk voor alle Gentse studenten. <i>Gesloten op maandag 16/5</i>",
+        "extra":        "Toegankelijk voor alle Gentse studenten. <i>Gesloten op maandag 5/6</i>",
         "type":         "UGent"
     }
 },
@@ -164,6 +164,31 @@
             "sunday":       false
         },
         "extra":        "<i>Gesloten op 25/5, 26/5 en 5/6</i>",
+        "type":         "UGent"
+    }
+},
+{
+    "type": "Feature",
+    "geometry": {
+        "type":         "Point",
+        "coordinates":  [ 3.723718, 51.024573]
+    },
+    "properties": {
+        "name":         "Faculteit Geneeskunde en Gezondheidswetenschappen",
+        "address":      "De Pintelaan 185 (0K3) - ingang 42",
+        "capacity":     132,
+        "period": {     "start": "29/05/2017", "end": "29/06/2017" },
+        "hours": {
+            "monday":       "8u30 - 22u",
+            "tuesday":      "8u30 - 22u",
+            "wednesday":    "8u30 - 22u",
+            "thursday":     "8u30 - 22u",
+            "friday":       "8u30 - 22u",
+            "saturday":     "8u30 - 22u",
+            "sunday":       "8u30 - 22u"
+        },
+		"holidays": true,
+        "extra":        "Enkel voor studenten van de UGent <i>Gesloten op maandag 5/6</i>",
         "type":         "UGent"
     }
 },
