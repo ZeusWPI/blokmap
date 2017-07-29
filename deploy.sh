@@ -13,7 +13,7 @@ echo "-> Pulling latest release"
 git pull
 
 echo "-> Checking validity of data.json"
-cat src/data.json | json_verify
+jsonlint src/data.json
 
 
 # Create release dir and copy sources to that dir
