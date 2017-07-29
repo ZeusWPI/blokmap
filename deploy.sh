@@ -12,6 +12,10 @@ declare release_dir="$dir/releases/$timestamp"
 echo "-> Pulling latest release"
 git pull
 
+echo "-> Checking validity of data.json"
+cat src/data.json | json_verify
+
+
 # Create release dir and copy sources to that dir
 echo "-> This release will be stored in $release_dir"
 mkdir -p "$release_dir"
