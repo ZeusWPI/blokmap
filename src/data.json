@@ -115,7 +115,6 @@
             "saturday":     false,
             "sunday":       false
         },
-        "holidays": true,
         "extra":        "Toegankelijk voor alle Gentse studenten.",
         "type":         "UGent"
     }
@@ -164,7 +163,6 @@
             "saturday":     "8u30 - 24u",
             "sunday":       "8u30 - 24u"
         },
-        "holidays": true,
         "extra":        "<strong>Enkel na registratie week op voorhand:</strong> iedere zondag om 19u op <a href=\"http://student.ugent.be/blok/\">deze website</a>.</br>Om hier tijdens de weekends te studeren, kunnen ook niet-UGent-studenten hier een aanvraag voor indienen.",
         "type":         "UGent"
     }
@@ -189,7 +187,6 @@
             "saturday":     "8u30 - 22u",
             "sunday":       "8u30 - 22u"
         },
-        "holidays": true,
         "extra":        "<strong>Enkel na reservatie week op voorhand:</strong> iedere zondag om 19u op <a href=\"http://student.ugent.be/blok/\">de website</a>.</br><i>Gesloten op 25/12 en 1/01.</i>",
         "type":         "UGent"
     }
@@ -611,18 +608,18 @@
     "properties": {
         "name":         "Bibliotheek Odisee + bloklokaal D049",
         "address":      "Gebr. Desmetstraat 1",
-        "capacity":     140,
-        "period": {     "start": "08/01/2018", "end": "01/02/2018" },
+        "capacity":     80,
+        "period": {     "start": "29/05/2018", "end": "23/06/2018" },
         "hours": {
-            "monday":       "8u30 - 17u</br>D049: 17-21u",
-            "tuesday":      "8u30 - 17u</br>D049: 17-21u",
-            "wednesday":    "8u30 - 17u</br>D049: 17-21u",
-            "thursday":     "8u30 - 17u</br>D049: 17-21u",
-            "friday":       "9u - 16u",
+            "monday":       "8u30 - 18u",
+            "tuesday":      "8u30 - 18u",
+            "wednesday":    "8u30 - 18u",
+            "thursday":     "8u30 - 18u",
+            "friday":       "8u30 - 16u30",
             "saturday":     false,
             "sunday":       false
         },
-        "extra":        "Gesloten tijdens kerstvakantie</br><i>Bloklokaal D049 gesloten op vrijdag</i>",
+        "extra":        "Gesloten op feestdagen en brugdagen.",
         "type":         "Odisee"
     }
 },
@@ -646,7 +643,7 @@
             "saturday":     false,
             "sunday":       false
         },
-        "extra":        "Toegankelijk voor alle Gentse studenten. </br><i>Gesloten van 25/12 tot en met 01/01.</i></br> <a href=\"http://www.vlerick.be/library\">Ga naar de website</a>.",
+        "extra":        "Toegankelijk voor alle Gentse studenten. </br><i>Gesloten op feestdagen en brugdagen.</i></br> <a href=\"http://www.vlerick.be/library\">Ga naar de website</a>.",
         "type":         "vlerick"
     }
 },
@@ -660,7 +657,7 @@
         "name":         "Sint-Pietersabdij Monnikenzolder",
         "address":      "Sint-Pietersplein 9",
         "capacity":     60,
-        "period": {     "start": "19/12/2017", "end": "28/01/2018" },
+        "period": {     "start": "24/05/2018", "end": "02/07/2018" },
         "hours": {
             "monday":       false,
             "tuesday":      "10u - 18u",
@@ -670,8 +667,7 @@
             "saturday":     "10u - 18u",
             "sunday":       "10u - 18u"
         },
-        "holidays":     true,
-        "extra":        "<i>Gesloten op 24,25/12, 31/12, 1/10 en maandagen.</i>",
+        "extra":        "Gesloten op maandag",
         "type":         "Stad Gent"
     }
 },
@@ -695,8 +691,7 @@
             "saturday":     "10u - 19u",
             "sunday":       false
         },
-        "holidays":     true,
-        "extra":        "200 plaatsen in de lees- en studiezaal op 3e verdiep.</br> 3x 20 stille werkplekken op 1e, 2e en 3e verdiep aan de kant Platteberg. </br><strong>Respecteer de voorbehouden plaatsen voor het raadplegen van de collectie. In de Kinder- en Jongerenbibliotheek (-1 en -2) zijn er geenstudieplekken.</strong>",
+        "extra":        "200 plaatsen in de lees- en studiezaal op 3e verdiep.</br> 3x 20 stille werkplekken op 1e, 2e en 3e verdiep aan de kant Platteberg. </br><strong>Respecteer de voorbehouden plaatsen voor het raadplegen van de collectie. In de Kinder- en Jongerenbibliotheek (-1 en -2) zijn er geen studieplekken.</strong><i>Gesloten op 10/05/18 en 21/05/18</i>",
         "type":         "Stad Gent"
     }
 },
@@ -704,24 +699,23 @@
     "type": "Feature",
     "geometry": {
         "type":         "Point",
-        "coordinates":  [3.722736, 51.047558]
+        "coordinates":  [3.726392, 51.056168]
     },
     "properties": {
-        "name":         "Rijksarchief Gent - Leeszaal 2e verdieping",
-        "address":      "Bagattenstraat 43",
-        "capacity":     40,
-        "period": {     "start": "16/11/2017", "end": "28/01/2017" },
+        "name":         "Jeugddienst Gent",
+        "address":      "Kammerstraat 10",
+        "capacity":     60,
+        "period": {     "start": "19/05/2018", "end": "24/06/2018" },
         "hours": {
             "monday":       false,
-            "tuesday":      "9u - 16u30",
-            "wednesday":    "9u - 16u30",
-            "thursday":     "9u - 16u30",
-            "friday":       "9u - 16u30",
-            "saturday":     false,
-            "sunday":       false
+            "tuesday":      false,
+            "wednesday":    false,
+            "thursday":     false,
+            "friday":       false,
+            "saturday":     "9u - 18u",
+            "sunday":       "9u - 18u",
         },
-        "holidays":     true,
-        "extra":        "40 plaasten voor studenten, lezerskaart (€10/jaar) is verplicht, geen wifi <a href=\"http://arch.arch.be\">Bekijk de website hier</a></br><i>Gesloten van 23/12 tot en met 1/01</i>",
+        "extra":        "<a href=\"facebook.com/bloklocatiejeugddienstgent\">Zie de Facebookpagina</a>",
         "type":         "Stad Gent"
     }
 },
@@ -735,12 +729,12 @@
         "name":         "Bond Moyson Historische kelder",
         "address":      "Vrijdagsmarkt 10",
         "capacity":     20,
-        "period": {     "start": "27/12/2017", "end": "05/08/2017" },
+        "period": {     "start": "23/05/2018", "end": "30/06/2018" },
         "hours": {
-            "monday":       "9u - 16u30",
-            "tuesday":      "9u - 16u30",
-            "wednesday":    "9u - 16u30",
-            "thursday":     "9u - 16u30",
+            "monday":       "9u - 12u30 </br> 12u30 - 16u30",
+            "tuesday":      "9u - 12u30 </br> 12u30 - 16u30",
+            "wednesday":    "9u - 12u30 </br> 12u30 - 16u30",
+            "thursday":     "9u - 12u30 </br> 12u30 - 16u30",
             "friday":       "9u - 12u30",
             "saturday":     false,
             "sunday":       false
@@ -758,8 +752,8 @@
     "properties": {
         "name":         "Sint-Michielhuis",
         "address":      "Lange Violettenstraat 277",
-        "capacity":     25,
-        "period": {     "start": "02/01/2018", "end": "31/01/2018" },
+        "capacity":     30,
+        "period": {     "start": "29/05/2018", "end": "30/06/2018" },
         "hours": {
             "monday":       "9u - 22u",
             "tuesday":      "9u - 22u",
@@ -769,8 +763,31 @@
             "saturday":     false,
             "sunday":       false
         },
-        "holidays":     true,
-        "extra":        "'s Avonds steeds mogelijkheid op een warme maaltijd</br>Enkel per reservatie naar gent.sintmichiel@telenet.be",
+        "extra":        "'s Avonds van maandag tot donderdag mogelijkheid op een warme maaltijd</br>Enkel per reservatie naar gent.sintmichiel@telenet.be of 0474 06 43 85.",
+        "type":         "Andere"
+    }
+},
+{
+    "type": "Feature",
+    "geometry": {
+        "type":         "Point",
+        "coordinates":  [3.722736, 51.047558]
+    },
+    "properties": {
+        "name":         "Rijksarchief Gent - Leeszaal 2e verdieping",
+        "address":      "Bagattenstraat 43",
+        "capacity":     40,
+        "period": {     "start": false, "end": false },
+        "hours": {
+            "monday":       false,
+            "tuesday":      "9u - 16u30",
+            "wednesday":    "9u - 16u30",
+            "thursday":     "9u - 16u30",
+            "friday":       "9u - 16u30",
+            "saturday":     false,
+            "sunday":       false
+        },
+        "extra":        "40 plaasten voor studenten, lezerskaart (€10/jaar) is verplicht, geen wifi <a href=\"http://arch.arch.be\">Bekijk de website hier</a></br><i>In juli/augustus van 12u - 13u gesloten</i>",
         "type":         "Andere"
     }
 }
