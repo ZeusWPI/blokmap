@@ -8,8 +8,8 @@
     "properties": {
         "name":         "Faculteit Politieke en Sociale Wetenschappen",
         "address":      "Paddenhoek 3, 2de verdiep lokaal 007",
-        "capacity":     59,
-        "period": {     "start": "02/01/2018", "end": "28/01/2018" },
+        "capacity":     60,
+        "period": {     "start": "29/05/2018", "end": "07/07/2018" },
         "hours": {
             "monday":       "9u - 19u",
             "tuesday":      "9u - 19u",
@@ -33,7 +33,7 @@
         "name":         "Faculteit Letteren en Wijsbegeerte, faculteitsbibliotheek, vleugels Magnel & Loveling",
         "address":      "Rozier 44",
         "capacity":     580,
-        "period": {     "start": "20/11/2017", "end": "26/01/2018" },
+        "period": {     "start": "08/05/2018", "end": "30/06/2018" },
         "hours": {
             "monday":       "9u - 20u",
             "tuesday":      "9u - 20u",
@@ -43,7 +43,7 @@
             "saturday":     false,
             "sunday":       false
         },
-        "extra":        "Toegankelijk voor alle Gentse studenten. <a href=\"http://www.flw.ugent.be/bibliotheek\">Ga naar de website</a>.</br> <i>Gesloten van 25/12 tot en met 01/01<i/> </br> Tijdens de week van 1 januari is de bib iedere maar open tot 17u.",
+        "extra":        "Toegankelijk voor iedereen. <a href=\"http://www.flw.ugent.be/bibliotheek\">Ga naar de website</a>.</br>Vleugel Magnel bevat 242 werkplekken. De vleugel Loveling bevat 338 werkplekken.",
         "type":         "UGent"
     }
 },
@@ -57,17 +57,17 @@
         "name":         "Faculteit recht en criminologie",
         "address":      "Universiteitstraat 4, verdieping 1",
         "capacity":     235,
-        "period": {     "start": "02/01/2018", "end": "09/02/2018" },
+        "period": {     "start": "15/05/2018", "end": "30/06/2018" },
         "hours": {
-            "monday":       "8u30 - 16u30 </br> Tussen 08/01 en 26/01: </br> 8u30 - 22u",
-            "tuesday":      "8u30 - 16u30 </br> Tussen 08/01 en 26/01: </br> 8u30 - 22u",
-            "wednesday":    "8u30 - 16u30 </br> Tussen 08/01 en 26/01: </br> 8u30 - 22u",
-            "thursday":     "8u30 - 16u30 </br> Tussen 08/01 en 26/01: </br> 8u30 - 22u",
+            "monday":       "8u30 - 22u",
+            "tuesday":      "8u30 - 22u",
+            "wednesday":    "8u30 - 22u",
+            "thursday":     "8u30 - 22u",
             "friday":       "8u30 - 16u30",
             "saturday":     false,
             "sunday":       false
         },
-        "extra":        "Toegankelijk voor alle Gentse studenten. <a href=\"http://www.ugent.be/re/nl/diensten/bibliotheek\n>Bekijk de website</a> <i>Gesloten van 26/12 tot en met 1/01.</i>" ,
+        "extra":        "Toegankelijk voor alle Gentse studenten. <a href=\"http://www.ugent.be/re/nl/diensten/bibliotheek\">Bekijk de website</a> <i>Gesloten op 25/05, 26/05 en 05/06</i>" ,
         "type":         "UGent"
     }
 },
@@ -81,17 +81,17 @@
         "name":         "Faculteit Bio-Ingenieurswetenschappen, Resto Agora. (gelijkvloers gebouw E)",
         "address":      "Coupure 653",
         "capacity":     400,
-        "period": {     "start": "02/01/2018", "end": "02/02/2018" },
+        "period": {     "start": "25/05/2018", "end": "29/06/2018" },
         "hours": {
-            "monday":       "14u - 19u",
-            "tuesday":      "14u - 19u",
-            "wednesday":    "14u - 19u",
-            "thursday":     "14u - 19u",
-            "friday":       "14u - 19u",
+            "monday":       "9u - 19u",
+            "tuesday":      "9u - 19u",
+            "wednesday":    "9u - 19u",
+            "thursday":     "9u - 19u",
+            "friday":       "9u - 19u",
             "saturday":     false,
             "sunday":       false
         },
-        "extra":        "Toegankelijk voor alle Gentse studenten. <a href=\"http://lib.ugent.be/en/libraries/ALLW\">Ga naar de website</a>. <i>Gesloten van 23/12 tot en met 1/01</i>",
+        "extra":        "Toegankelijk voor alle Gentse studenten. <a href=\"http://lib.ugent.be/en/libraries/ALLW\">Ga naar de website</a>.",
         "type":         "UGent"
     }
 },
@@ -105,18 +105,18 @@
         "name":         "Faculteit Wetenschappen, Resto S5",
         "address":      "Krijgslaan 281 Gebouw S5",
         "capacity":     400,
-        "period": {     "start": "26/12/2017", "end": "02/02/2018" },
+        "period": {     "start": "22/05/2017", "end": "29/06/2018" },
         "hours": {
-            "monday":       "8u30 - 22u </br> Na 31/12: </br>15u - 22u",
-            "tuesday":      "8u30 - 22u </br> Na 31/12: </br>15u - 22u",
-            "wednesday":    "8u30 - 22u </br> Na 31/12: </br>15u - 22u",
-            "thursday":     "8u30 - 22u </br> Na 31/12: </br>15u - 22u",
-            "friday":       "8u30 - 22u </br> Na 31/12: </br>15u - 22u",
-            "saturday":     "8u30 - 22u",
-            "sunday":       "8u30 - 22u"
+            "monday":       "15u - 22u",
+            "tuesday":      "15u - 22u",
+            "wednesday":    "15u - 22u",
+            "thursday":     "15u - 22u",
+            "friday":       "15u - 22u",
+            "saturday":     false,
+            "sunday":       false
         },
         "holidays": true,
-        "extra":        "Toegankelijk voor alle Gentse studenten.</br> <strong><i>In het weekend</i>enkel na reservatie week op voorhand noodzakelijk:</strong> iedere zondag om 19u30 op <a href=\"http://student.ugent.be/blok/\">de website</a>.",
+        "extra":        "Toegankelijk voor alle Gentse studenten.",
         "type":         "UGent"
     }
 },
@@ -130,7 +130,7 @@
         "name":         "Faculteit Psychologie en Pedagogische Wetenschappen",
         "address":      "Henri Dunantlaan 2",
         "capacity":     132,
-        "period": {     "start": "18/12/2017", "end": "01/02/2018" },
+        "period": {     "start": "22/05/2018", "end": "05/07/2018" },
         "hours": {
             "monday":       "8u30 - 19u30",
             "tuesday":      "8u30 - 19u30",
@@ -140,31 +140,7 @@
             "saturday":     false,
             "sunday":       false
         },
-        "extra":        "<i>Gesloten op 22/12, van 25/12 t.e.m. 01/01 en op 02/01 van 13u - 19u30.</i> </br> <a href=\"https://lib.ugent.be/nl/libraries/PPW\">Ga naar de website</a> of <a href=\"https://www.facebook.com/BibFPPW\">de facebookpagina</a>.",
-        "type":         "UGent"
-    }
-},
-{
-    "type": "Feature",
-    "geometry": {
-        "type":         "Point",
-        "coordinates":  [3.726759, 51.045660]
-    },
-    "properties": {
-        "name":         "Studentenrestaurant De Brug",
-        "address":      "Sint-Pietersnieuwstraat 45",
-        "capacity":     700,
-        "period": {     "start": "02/01/2018", "end": "02/02/2018" },
-        "hours": {
-            "monday":       "8u - 11u15 en 14u-17u</br> Aparte zaaltjes: 8u - 21u30",
-            "tuesday":      "8u - 11u15 en 14u-17u</br> Aparte zaaltjes: 8u - 21u30",
-            "wednesday":    "8u - 11u15 en 14u-17u</br> Aparte zaaltjes: 8u - 21u30",
-            "thursday":     "8u - 11u15 en 14u-17u</br> Aparte zaaltjes: 8u - 21u30",
-            "friday":       "8u - 11u15 en 14u-17u</br> Aparte zaaltjes: 8u - 21u30",
-            "saturday":     false,
-            "sunday":       false
-        },
-        "extra":        "Blokzones restaurant: 1e en 2e verdieping.</br><i>Gesloten op 12/01</i>",
+        "extra":        "<i>Gesloten op 05/06</i> </br> <a href=\"https://lib.ugent.be/nl/libraries/PPW\">Ga naar de website</a> of <a href=\"https://www.facebook.com/BibFPPW\">de facebookpagina</a>.",
         "type":         "UGent"
     }
 },
@@ -178,7 +154,7 @@
         "name":         "Blok@Therminal",
         "address":      "Hoveniersberg 24",
         "capacity":     300,
-        "period": {     "start": "18/12/2017", "end": "02/02/2018" },
+        "period": {     "start": "22/05/2018", "end": "30/06/2018" },
         "hours": {
             "monday":       "8u30 - 24u",
             "tuesday":      "8u30 - 24u",
@@ -189,7 +165,7 @@
             "sunday":       "8u30 - 24u"
         },
         "holidays": true,
-        "extra":        "<strong>Enkel na registratie week op voorhand:</strong> iedere zondag om 19u op <a href=\"http://student.ugent.be/blok/\">deze website</a>.</br><i>Gesloten op 25:12 en 01/01. Beperkte openinsuren op 24/12 en 31/12: 8u30 - 16u.</i> </br> Om hier tijdens de weekends te studeren, kunnen ook niet-UGent-studenten hier een aanvraag voor indienen.",
+        "extra":        "<strong>Enkel na registratie week op voorhand:</strong> iedere zondag om 19u op <a href=\"http://student.ugent.be/blok/\">deze website</a>.</br>Om hier tijdens de weekends te studeren, kunnen ook niet-UGent-studenten hier een aanvraag voor indienen.",
         "type":         "UGent"
     }
 },
@@ -203,18 +179,18 @@
         "name":         "Studentenrestaurant Kantienberg",
         "address":      "Stalhof 45",
         "capacity":     300,
-        "period": {     "start": "26/12/2017", "end": "28/01/2018" },
+        "period": {     "start": "22/05/2017", "end": "29/06/2018" },
         "hours": {
-            "monday":       "8u30 - 22u",
-            "tuesday":      "8u30 - 22u",
-            "wednesday":    "8u30 - 22u",
-            "thursday":     "8u30 - 22u",
-            "friday":       "8u30 - 22u",
+            "monday":       false,
+            "tuesday":      false,
+            "wednesday":    false,
+            "thursday":     false,
+            "friday":       false,
             "saturday":     "8u30 - 22u",
             "sunday":       "8u30 - 22u"
         },
         "holidays": true,
-        "extra":        "<strong>Enkel na reservatie week op voorhand:</strong> iedere zondag om 19u op <a href=\"http://student.ugent.be/blok/\">de website</a>.</br><strong>Enkel open tijdens de kerstvakantie en weekends!</strong> </br> <i>Gesloten op 25/12 en 1/01.</i> </br> Om hier tijdens de weekends te studeren, kunnen ook niet-UGent-studenten hier een aanvraag voor indienen.",
+        "extra":        "<strong>Enkel na reservatie week op voorhand:</strong> iedere zondag om 19u op <a href=\"http://student.ugent.be/blok/\">de website</a>.</br><i>Gesloten op 25/12 en 1/01.</i>",
         "type":         "UGent"
     }
 },
@@ -390,7 +366,7 @@
     "type": "Feature",
     "geometry": {
         "type":         "Point",
-        "coordinates":  [3.718128, 51.043652] 
+        "coordinates":  [3.718128, 51.043652]
         },
     "properties": {
         "name":         "Kunstenbibliotheek",
