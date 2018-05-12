@@ -195,7 +195,7 @@
     "type": "Feature",
     "geometry": {
         "type":         "Point",
-        "coordinates":  [3.703126, 51.031652]
+        "coordinates":  [3.703135, 51.031663]
     },
     "properties": {
         "name":         "BYTES & BOOKS @ gebouw D",
