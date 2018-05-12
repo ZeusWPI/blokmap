@@ -219,7 +219,7 @@
     "type": "Feature",
     "geometry": {
         "type":         "Point",
-        "coordinates":  [3.703125, 51.031653]
+        "coordinates":  [3.704, 51.031663]
     },
     "properties": {
         "name":         "Resto D Schoonmeersen",
@@ -435,7 +435,7 @@
     "type": "Feature",
     "geometry": {
         "type":         "Point",
-        "coordinates":  [3.724520, 51.041703]
+        "coordinates":  [3.725, 51.041703]
     },
     "properties": {
         "name":         "Mediatheek campus Kattenberg",
