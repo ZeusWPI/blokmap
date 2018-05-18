@@ -129,17 +129,17 @@
         "name":         "Faculteit Psychologie en Pedagogische Wetenschappen",
         "address":      "Henri Dunantlaan 2",
         "capacity":     132,
-        "period": {     "start": "22/05/2018", "end": "05/07/2018" },
+        "period": {     "start": "22/05/2018", "end": "28/06/2018" },
         "hours": {
-            "monday":       "8u30 - 19u30",
-            "tuesday":      "8u30 - 19u30",
-            "wednesday":    "8u30 - 19u30",
-            "thursday":     "8u30 - 19u30",
+            "monday":       "8u30 - 19u00",
+            "tuesday":      "8u30 - 19u00",
+            "wednesday":    "8u30 - 19u00",
+            "thursday":     "8u30 - 19u00",
             "friday":       "8u30 - 15u",
             "saturday":     false,
             "sunday":       false
         },
-        "extra":        "<i>Gesloten op 05/06</i> </br> <a href=\"https://lib.ugent.be/nl/libraries/PPW\">Ga naar de website</a> of <a href=\"https://www.facebook.com/BibFPPW\">de facebookpagina</a>.",
+        "extra":        "<i>Ook gesloten op feestdagen</li> <br/> <a href=\"https://lib.ugent.be/nl/libraries/PPW\">Ga naar de website</a> of <a href=\"https://www.facebook.com/BibFPPW\">de facebookpagina</a>.",
         "type":         "UGent"
     }
 },
