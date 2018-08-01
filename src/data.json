@@ -346,7 +346,7 @@
         "name":         "Mediatheek campus Kantienberg",
         "address":      "Voetweg 66",
         "capacity":     190,
-        "period": {     "start": "14/05/2018", "end": "29/06/2018" },
+        "period": {     "start": "16/08/2018", "end": "07/09/2018" },
         "hours": {
             "monday":       "8u - 18u",
             "tuesday":      "8u - 18u",
@@ -356,31 +356,7 @@
             "saturday":     false,
             "sunday":       false
         },
-        "extra":        "Toegankelijk voor alle Gentse studenten. </br><i>Gesloten op 21/05</i>",
-        "type":         "Arteveldehogeschool"
-    }
-},
-{
-    "type": "Feature",
-    "geometry": {
-        "type":         "Point",
-        "coordinates":  [3.728741, 51.041231]
-    },
-    "properties": {
-        "name":         "De Kantiene",
-        "address":      "Voetweg 66",
-        "capacity":     400,
-        "period": {     "start": "14/05/2018", "end": "29/06/2018" },
-        "hours": {
-            "monday":       "8u - 21u",
-            "tuesday":      "8u - 21u",
-            "wednesday":    "8u - 21u",
-            "thursday":     "8u - 21u",
-            "friday":       "8u - 19u30",
-            "saturday":     false,
-            "sunday":       false
-        },
-        "extra":        "Toegankelijk voor alle Gentse studenten.</br>Stilte is niet gegarandeerd. Eters krijgen voorrang. <i>Gesloten op 21/05</i>",
+        "extra":        "Toegankelijk voor alle Gentse studenten.</br> Geen parkeermogelijkheid op het terrein.</br> Jullie zorgen zelf voor de stilte.</br> <i>Gesloten vanaf 17u op 16/08, 21/08, 23/08, 27/08, 28/08, en de hele dag op 05/09.</i>",
         "type":         "Arteveldehogeschool"
     }
 },
@@ -394,7 +370,7 @@
         "name":         "Mediatheek campus Kattenberg",
         "address":      "Kattenberg 9",
         "capacity":     40,
-        "period": {     "start": "14/05/2018", "end": "29/06/2018" },
+        "period": {     "start": "16/08/2018", "end": "07/09/2018" },
         "hours": {
             "monday":       "8u - 18u",
             "tuesday":      "8u - 18u",
@@ -404,7 +380,7 @@
             "saturday":     false,
             "sunday":       false
         },
-        "extra":        "Toegankelijk voor studenten van de Arteveldehogeschool (wegens badgecontrole aan de ingang). <i>Gesloten op 21/05</i>",
+        "extra":        "Toegankelijk voor alle Gentse studenten.</br> Geen parkeermogelijkheid op het terrein.</br> Jullie zorgen zelf voor de stilte.</br> <i>Gesloten op 05/09.</i>",
         "type":         "Arteveldehogeschool"
     }
 },
@@ -418,7 +394,7 @@
         "name":         "Ontspanningsruimte campus Kattenberg",
         "address":      "Kattenberg 9",
         "capacity":     80,
-        "period": {     "start": "14/05/2018", "end": "29/06/2018" },
+        "period": {     "start": "16/08/2018", "end": "07/09/2018" },
         "hours": {
             "monday":       "8u30 - 18u30",
             "tuesday":      "8u30 - 18u30",
@@ -428,7 +404,7 @@
             "saturday":     false,
             "sunday":       false
         },
-        "extra":        "Toegankelijk voor studenten van de Arteveldehogeschool (wegens badgecontrole aan de ingang).</br><i>Gesloten op 21/05</i>",
+        "extra":        "Toegankelijk voor alle Gentse studenten.</br> Geen parkeermogelijkheid op het terrein.</br> Jullie zorgen zelf voor de stilte.",
         "type":         "Arteveldehogeschool"
     }
 },
@@ -442,7 +418,7 @@
         "name":         "Mediatheek campus Mariakerke",
         "address":      "Industrieweg 232, 9030 Mariakerke",
         "capacity":     40,
-        "period": {     "start": "14/05/2018", "end": "29/06/2018" },
+        "period": {     "start": "16/08/2018", "end": "07/09/2018" },
         "hours": {
             "monday":       "8u30 - 13u</br>13u30 - 17u",
             "tuesday":      "8u30 - 13u</br>13u30 - 17u",
@@ -452,7 +428,7 @@
             "saturday":     false,
             "sunday":       false
         },
-        "extra":        "Toegankelijk voor studenten van de Arteveldehogeschool (wegens badgecontrole aan de ingang).</br><i>Gesloten op 21/05</i>",
+        "extra":        "TToegankelijk voor alle Gentse studenten.</br> Geen parkeermogelijkheid op het terrein.</br> Jullie zorgen zelf voor de stilte.</br> <i>Gesloten op 16/08, 17/08 21/08, 22/08.</i>",
         "type":         "Arteveldehogeschool"
     }
 },
@@ -466,7 +442,7 @@
         "name":         "Ontspanningsruimte campus BPS",
         "address":      "Brusselsepoortstraat 93",
         "capacity":     90,
-        "period": {     "start": "14/05/2018", "end": "29/06/2018" },
+        "period": {     "start": "16/08/2018", "end": "07/09/2018" },
         "hours": {
             "monday":       "8u30 - 18u30",
             "tuesday":      "8u30 - 18u30",
@@ -476,7 +452,7 @@
             "saturday":     false,
             "sunday":       false
         },
-        "extra":        "Toegankelijk voor studenten van de Arteveldehogeschool (wegens badgecontrole aan de ingang).</br><i>Gesloten op 21/05</i>",
+        "extra":        "Toegankelijk voor alle Gentse studenten.</br> Geen parkeermogelijkheid op het terrein.</br> Jullie zorgen zelf voor de stilte.</br>",
         "type":         "Arteveldehogeschool"
     }
 },
@@ -496,11 +472,11 @@
             "tuesday":      "8u45 - 17u30",
             "wednesday":    "8u45 - 17u30",
             "thursday":     "8u45 - 17u30",
-            "friday":       "8u45 - 17u30",
+            "friday":       "8u45 - 16u",
             "saturday":     false,
             "sunday":       false
         },
-        "extra":        "Toegankelijk voor studenten van de Arteveldehogeschool (wegens badgecontrole aan de ingang).</br><i>Gesloten op 21/05 en 27/06</i>",
+        "extra":        "Toegankelijk voor alle Gentse studenten.</br> Geen parkeermogelijkheid op het terrein.</br> Jullie zorgen zelf voor de stilte.</br> <i>Gesloten op 05/09.</i>",
         "type":         "Arteveldehogeschool"
     }
 },
@@ -514,7 +490,7 @@
         "name":         "Ontspanningsruimte campus Stropkaai",
         "address":      "Stropkaai 14",
         "capacity":     35,
-        "period": {     "start": "14/05/2017", "end": "29/06/2018" },
+        "period": {     "start": "16/08/2017", "end": "07/09/2018" },
         "hours": {
             "monday":       "8u - 18u30",
             "tuesday":      "8u - 18u30",
@@ -524,7 +500,7 @@
             "saturday":     false,
             "sunday":       false
         },
-        "extra":        "Toegankelijk voor studenten van de Arteveldehogeschool (wegens badgecontrole aan de ingang).</br><i>Gesloten op 21/05</i>",
+        "extra":        "Toegankelijk voor alle Gentse studenten.</br> Geen parkeermogelijkheid op het terrein.</br> Jullie zorgen zelf voor de stilte.",
         "type":         "Arteveldehogeschool"
     }
 },
@@ -538,7 +514,7 @@
         "name":         "Ontspanningsruimtes campus Leeuwstraat",
         "address":      "Leeuwstraat 1",
         "capacity":     90,
-        "period": {     "start": "14/05/2018", "end": "29/06/2018" },
+        "period": {     "start": "16/08/2018", "end": "07/09/2018" },
         "hours": {
             "monday":       "8u - 18u30",
             "tuesday":      "8u - 18u30",
@@ -548,7 +524,7 @@
             "saturday":     false,
             "sunday":       false
         },
-        "extra":        "Toegankelijk voor studenten van de Arteveldehogeschool (wegens badgecontrole aan de ingang).</br><i>Gesloten op 21/05</i>",
+        "extra":        "Toegankelijk voor alle Gentse studenten.</br> Geen parkeermogelijkheid op het terrein.</br> Jullie zorgen zelf voor de stilte.</br> ",
         "type":         "Arteveldehogeschool"
     }
 },
@@ -559,20 +535,20 @@
         "coordinates":  [ 3.708502, 51.060961 ]
     },
     "properties": {
-        "name":         "Bibliotheek Odisee + bloklokaal D049",
+        "name":         "Bibliotheek Odisee",
         "address":      "Gebr. Desmetstraat 1",
         "capacity":     80,
-        "period": {     "start": "29/05/2018", "end": "23/06/2018" },
+        "period": {     "start": "16/08/2018", "end": "22/09/2018" },
         "hours": {
-            "monday":       "8u30 - 18u",
-            "tuesday":      "8u30 - 18u",
-            "wednesday":    "8u30 - 18u",
-            "thursday":     "8u30 - 18u",
-            "friday":       "8u30 - 16u30",
+            "monday":       "8u30 - 17u",
+            "tuesday":      "8u30 - 17u",
+            "wednesday":    "8u30 - 17u",
+            "thursday":     "8u30 - 17u",
+            "friday":       "9u - 16u",
             "saturday":     false,
             "sunday":       false
         },
-        "extra":        "Gesloten op feestdagen en brugdagen.",
+        "extra":        "Toegankelijk voor alle Gentse studenten.",
         "type":         "Odisee"
     }
 },
@@ -610,7 +586,7 @@
         "name":         "Sint-Pietersabdij Monnikenzolder",
         "address":      "Sint-Pietersplein 9",
         "capacity":     60,
-        "period": {     "start": "24/05/2018", "end": "02/07/2018" },
+        "period": {     "start": "16/08/2018", "end": "15/09/2018" },
         "hours": {
             "monday":       false,
             "tuesday":      "10u - 18u",
@@ -640,35 +616,11 @@
             "tuesday":      "10u - 19u",
             "wednesday":    "10u - 19u",
             "thursday":     "10u - 21u",
-            "friday":       "10u - 17u",
+            "friday":       "10u - 19u",
             "saturday":     "10u - 19u",
             "sunday":       false
         },
-        "extra":        "200 plaatsen in de lees- en studiezaal op 3e verdiep.</br> 3x 20 stille werkplekken op 1e, 2e en 3e verdiep aan de kant Platteberg. </br><strong>Respecteer de voorbehouden plaatsen voor het raadplegen van de collectie. In de Kinder- en Jongerenbibliotheek (-1 en -2) zijn er geen studieplekken.</strong><i>Gesloten op 10/05/18 en 21/05/18</i>",
-        "type":         "Stad Gent"
-    }
-},
-{
-    "type": "Feature",
-    "geometry": {
-        "type":         "Point",
-        "coordinates":  [3.726392, 51.056168]
-    },
-    "properties": {
-        "name":         "Jeugddienst Gent",
-        "address":      "Kammerstraat 10",
-        "capacity":     60,
-        "period": {     "start": "19/05/2018", "end": "24/06/2018" },
-        "hours": {
-            "monday":       false,
-            "tuesday":      false,
-            "wednesday":    false,
-            "thursday":     false,
-            "friday":       false,
-            "saturday":     "9u - 18u",
-            "sunday":       "9u - 18u"
-        },
-        "extra":        "<a href=\"facebook.com/bloklocatiejeugddienstgent\">Zie de Facebookpagina</a>",
+        "extra":        "240 plaatsen in de lees- en studiezaal op 3e verdiep.</br> 3x 20 stille werkplekken op 1e, 2e en 3e verdiep aan de kant Platteberg. </br><strong>Respecteer de voorbehouden plaatsen voor het raadplegen van de collectie. In de Kinder- en Jongerenbibliotheek (-1 en -2) zijn er geen studieplekken.</strong><i>Gesloten op 10/05/18 en 21/05/18</i>",
         "type":         "Stad Gent"
     }
 },
@@ -682,7 +634,7 @@
         "name":         "Bond Moyson Historische kelder",
         "address":      "Vrijdagsmarkt 10",
         "capacity":     20,
-        "period": {     "start": "23/05/2018", "end": "30/06/2018" },
+        "period": {     "start": "20/08/2018", "end": "31/08/2018" },
         "hours": {
             "monday":       "9u - 12u30 </br> 12u30 - 16u30",
             "tuesday":      "9u - 12u30 </br> 12u30 - 16u30",
@@ -693,54 +645,6 @@
             "sunday":       false
         },
         "extra":        "Reserveren per sessie op <a href=\"http://www.supersaas.be/schedule/Bond_Moyson/samen_studeren_bij_bond_moyson\">deze website</a>.",
-        "type":         "Andere"
-    }
-},
-{
-    "type": "Feature",
-    "geometry": {
-        "type":         "Point",
-        "coordinates":  [3.734755, 51.046126]
-    },
-    "properties": {
-        "name":         "Sint-Michielhuis",
-        "address":      "Lange Violettenstraat 277",
-        "capacity":     30,
-        "period": {     "start": "29/05/2018", "end": "30/06/2018" },
-        "hours": {
-            "monday":       "9u - 22u",
-            "tuesday":      "9u - 22u",
-            "wednesday":    "9u - 22u",
-            "thursday":     "9u - 22u",
-            "friday":       "9u - 22u",
-            "saturday":     false,
-            "sunday":       false
-        },
-        "extra":        "'s Avonds van maandag tot donderdag mogelijkheid op een warme maaltijd</br>Enkel per reservatie naar gent.sintmichiel@telenet.be of 0474 06 43 85.",
-        "type":         "Andere"
-    }
-},
-{
-    "type": "Feature",
-    "geometry": {
-        "type":         "Point",
-        "coordinates":  [3.722736, 51.047558]
-    },
-    "properties": {
-        "name":         "Rijksarchief Gent - Leeszaal 2e verdieping",
-        "address":      "Bagattenstraat 43",
-        "capacity":     40,
-        "period": {     "start": false, "end": false },
-        "hours": {
-            "monday":       false,
-            "tuesday":      "9u - 16u30",
-            "wednesday":    "9u - 16u30",
-            "thursday":     "9u - 16u30",
-            "friday":       "9u - 16u30",
-            "saturday":     false,
-            "sunday":       false
-        },
-        "extra":        "40 plaasten voor studenten, lezerskaart (€10/jaar) is verplicht, geen wifi <a href=\"http://arch.arch.be\">Bekijk de website hier</a></br><i>In juli/augustus van 12u - 13u gesloten</i>",
         "type":         "Andere"
     }
 }
