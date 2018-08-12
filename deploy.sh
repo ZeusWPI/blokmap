@@ -10,7 +10,7 @@ declare release_dir="$dir/releases/$timestamp"
 
 # Pull latest revision
 echo "-> Pulling latest release"
-git pull
+git pull | grep -q -v 'Already up-to-date.' && echo "Already up-to-date" && exit 0
 
 echo "-> Checking validity of data.json"
 jsonlint src/data.json
