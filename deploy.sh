@@ -14,7 +14,7 @@ echo "-> Pulling latest release"
 git pull | grep 'Already up[- ]to[- ]date.' && echo "No updates, exiting..." && exit 20
 
 echo "-> Checking validity of data.json"
-jsonlint src/data.json
+python -m json.tool src/data.json > /dev/null
 
 
 # Create release dir and copy sources to that dir
