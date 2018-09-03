@@ -147,6 +147,29 @@
 {
     "type": "Feature",
     "geometry": {
+        "type": "Point",
+        "coordinates": [3.7014217, 51.0491106]
+    },
+    "properties": {
+        "name":         "Faculteit Psychologie en Pedagogische Wetenschappen",
+        "address":      "Henri Dunantlaan 2",
+        "capacity":     132,
+        "period":{      "start": "16/08/18", "end": "21/09"},
+        "hours": {
+            "monday":       "8u30 - 15u",
+            "tuesday":      "8u30 - 15u",
+            "wednesday":    "8u30 - 15u",
+            "thursday":     "8u30 - 15u",
+            "friday":       "8u30 - 15u",
+            "saturday":     false,
+            "sunday":       false
+        },
+        "extra":        "Gesloten tijdens het weekend.</br><a href='https://www.ugent.be/pp/nl/diensten/faculteitsbibliotheek'>https://www.ugent.be/pp/nl/diensten/faculteitsbibliotheek</a>.</br><a href='https://lib.ugent.be/nl/libraries/PPW'>https://lib.ugent.be/nl/libraries/PPW</a></br><a href='https://www.facebook.com/BibFPPW'>https://www.facebook.com/BibFPPW</a>."
+    }
+},
+{
+    "type": "Feature",
+    "geometry": {
         "type":         "Point",
         "coordinates":  [3.728294, 51.039980]
     },
