@@ -164,7 +164,8 @@
             "saturday":     false,
             "sunday":       false
         },
-        "extra":        "Gesloten tijdens het weekend.</br><a href='https://www.ugent.be/pp/nl/diensten/faculteitsbibliotheek'>https://www.ugent.be/pp/nl/diensten/faculteitsbibliotheek</a>.</br><a href='https://lib.ugent.be/nl/libraries/PPW'>https://lib.ugent.be/nl/libraries/PPW</a></br><a href='https://www.facebook.com/BibFPPW'>https://www.facebook.com/BibFPPW</a>."
+        "extra":        "Gesloten tijdens het weekend.</br><a href='https://www.ugent.be/pp/nl/diensten/faculteitsbibliotheek'>https://www.ugent.be/pp/nl/diensten/faculteitsbibliotheek</a></br><a href='https://lib.ugent.be/nl/libraries/PPW'>https://lib.ugent.be/nl/libraries/PPW</a></br><a href='https://www.facebook.com/BibFPPW'>https://www.facebook.com/BibFPPW</a>",
+        "type":         "UGent"
     }
 },
 {
