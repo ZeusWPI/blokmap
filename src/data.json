@@ -148,7 +148,7 @@
     "type": "Feature",
     "geometry": {
         "type": "Point",
-        "coordinates": [3.7014217, 51.0491106]
+        "coordinates": [3.7014217, 51.04866]
     },
     "properties": {
         "name":         "Faculteit Psychologie en Pedagogische Wetenschappen",
@@ -156,10 +156,10 @@
         "capacity":     132,
         "period":{      "start": "16/08/18", "end": "21/09"},
         "hours": {
-            "monday":       "8u30 - 15u",
-            "tuesday":      "8u30 - 15u",
-            "wednesday":    "8u30 - 15u",
-            "thursday":     "8u30 - 15u",
+            "monday":       "8u30 - 18u",
+            "tuesday":      "8u30 - 18u",
+            "wednesday":    "8u30 - 18u",
+            "thursday":     "8u30 - 18u",
             "friday":       "8u30 - 15u",
             "saturday":     false,
             "sunday":       false
