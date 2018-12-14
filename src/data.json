@@ -243,30 +243,6 @@
     "type": "Feature",
     "geometry": {
         "type":         "Point",
-        "coordinates":  [3.726827, 51.019702]
-    },
-    "properties": {
-        "name":         "BYTES & BOOKS VESALIUS",
-        "address":      "Keramiekstraat 80",
-        "capacity":     58,
-        "period": {     "start": "16/08/2019", "end": "22/09/2019" },
-        "hours": {
-            "monday":       "9u - 17u",
-            "tuesday":      "9u - 17u",
-            "wednesday":    "9u - 16u",
-            "thursday":     "9u - 17u",
-            "friday":       "9u - 16u",
-            "saturday":     false,
-            "sunday":       false
-        },
-        "extra":        "Toegankelijk voor alle Gentse studenten. <a href=\"https://bib.hogent.be/bibliotheken/bybvesalius\">Website</a>",
-        "type":         "hogent"
-    }
-},
-{
-    "type": "Feature",
-    "geometry": {
-        "type":         "Point",
         "coordinates":  [3.724287, 51.036624]
     },
     "properties": {
@@ -291,6 +267,30 @@
     "type": "Feature",
     "geometry": {
         "type":         "Point",
+        "coordinates":  [3.726827, 51.019702]
+    },
+    "properties": {
+        "name":         "BYTES & BOOKS VESALIUS",
+        "address":      "Keramiekstraat 80",
+        "capacity":     58,
+        "period": {     "start": "16/08/2019", "end": "22/09/2019" },
+        "hours": {
+            "monday":       "9u - 17u",
+            "tuesday":      "9u - 17u",
+            "wednesday":    "9u - 16u",
+            "thursday":     "9u - 17u",
+            "friday":       "9u - 16u",
+            "saturday":     false,
+            "sunday":       false
+        },
+        "extra":        "Toegankelijk voor alle Gentse studenten. <a href=\"https://bib.hogent.be/bibliotheken/bybvesalius\">Website</a>",
+        "type":         "hogent"
+    }
+},
+{
+    "type": "Feature",
+    "geometry": {
+        "type":         "Point",
         "coordinates":  [3.715416, 51.042241]
     },
     "properties": {
@@ -308,30 +308,6 @@
             "sunday":       false
         },
         "extra":        "Toegankelijk voor alle Gentse studenten.</br> Aparte stille ruimte voor 20 personen. </br> <a href='https://bib.hogent.be/bibliotheken/bibliotheek-mercator/'>Website</a>",
-        "type":         "hogent"
-    }
-},
-{
-    "type": "Feature",
-    "geometry": {
-        "type":         "Point",
-        "coordinates":  [3.727288, 51.020373 ]
-    },
-    "properties": {
-        "name":         "BYTES & BOOKS DE WIJNAERT",
-        "address":      "Geraard de Duivelstraat 5",
-        "capacity":     25,
-        "period": {     "start": "01/09/2019", "end": "22/09/2019" },
-        "hours": {
-            "monday":       "9u - 12u en 13u - 17u",
-            "tuesday":      "9u - 12u en 13u - 17u",
-            "wednesday":    "9u - 12u en 13u - 17u",
-            "thursday":     "9u - 12u en 13u - 15u",
-            "friday":       "9u - 12u en 13u - 17u",
-            "saturday":     false,
-            "sunday":       false
-        },
-        "extra":        "Toegankelijk voor alle Gentse studenten.</br><a href='https://bib.hogent.be/bibliotheken/bybdewijnaert/'>Website</a>",
         "type":         "hogent"
     }
 },
@@ -414,7 +390,7 @@
         "coordinates":  [3.724520, 51.041703]
     },
     "properties": {
-        "name":         "Ontspanningsruimte campus Kattenberg",
+        "name":         "Ontspanningsruimtes campus Kattenberg",
         "address":      "Kattenberg 9",
         "capacity":     80,
         "period": {     "start": "16/08/2019", "end": "07/09/2019" },
