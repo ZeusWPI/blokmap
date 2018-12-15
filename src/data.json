@@ -91,7 +91,7 @@
             "saturday":     false,
             "sunday":       false
         },
-        "extra":        "Gesloten tijdens het weekend, op 02/01/2019 uitzonderlijk slechts open tot 12u.</br><a href='https://www.ugent.be/pp/nl/diensten/faculteitsbibliotheek'>https://www.ugent.be/pp/nl/diensten/faculteitsbibliotheek</a></br><a href='https://lib.ugent.be/nl/libraries/PPW'>https://lib.ugent.be/nl/libraries/PPW</a></br><a href='https://www.facebook.com/BibFPPW'>https://www.facebook.com/BibFPPW</a>",
+        "extra":        "Gesloten tijdens het weekend.</br> Gesloten van 24/12 tot 01/01.</br> Op 02/01/2019 uitzonderlijk slechts open tot 12u.</br><a href='https://www.ugent.be/pp/nl/diensten/faculteitsbibliotheek'>https://www.ugent.be/pp/nl/diensten/faculteitsbibliotheek</a></br><a href='https://lib.ugent.be/nl/libraries/PPW'>https://lib.ugent.be/nl/libraries/PPW</a></br><a href='https://www.facebook.com/BibFPPW'>https://www.facebook.com/BibFPPW</a>",
         "type":         "UGent"
     }
 },
