@@ -1,6 +1,6 @@
 # Blokmap
 
-A useful map with al bloklocations (= study locations) in Ghent.
+A useful map with all bloklocations (= study locations) in Ghent.
 
 We usually use data from [Stad Gent](https://stad.gent/studenten/studeren/bloklocaties) and mails people send to us.
 
