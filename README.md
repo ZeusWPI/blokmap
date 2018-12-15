@@ -11,3 +11,5 @@ You can easily run the site locally by spawning a simple static file server in t
 ```
 (cd src/; python3 -m http.server)
 ```
+
+You can also validate the JSON with `(cd src/; python -m json.tool data.json > /dev/null)`. If there are no errors, there will be no output.
