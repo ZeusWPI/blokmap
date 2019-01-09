@@ -152,7 +152,7 @@
     "properties": {
         "name":         "Faculteit Wetenschappen, Resto S5",
         "address":      "Krijgslaan 281 Gebouw S5",
-        "capacity":     400,
+        "capacity":     200,
         "period": {     "start": "02/01/2019", "end": "02/02/2019" },
         "hours": {
             "monday":       "15u - 22u",
@@ -160,10 +160,10 @@
             "wednesday":    "15u - 22u",
             "thursday":     "15u - 22u",
             "friday":       "15u - 22u",
-            "saturday":     "8u30 - 24u",
-            "sunday":       "8u30 - 24u"
+            "saturday":     "8u30 - 22u",
+            "sunday":       "8u30 - 22u"
         },
-        "extra":        "<strong>Tijdens weekend enkel na reservatie week op voorhand:</strong> iedere zondag om 19u30 op <a href=\"http://student.ugent.be/blok/\">deze website</a>. Tijdens de week enkel voor UGent studenten, tijdens het weekend voor alle studenten.",
+        "extra":        "<strong>Tijdens weekend enkel na reservatie week op voorhand:</strong> iedere zondag om 19u30 op <a href=\"http://student.ugent.be/blok/\">deze website</a>. Tijdens de week enkel voor UGent studenten, tijdens het weekend voor alle studenten. Doorheen de week van 8u30 tot 15u open als resto.",
         "type":         "UGent"
     }
 },
