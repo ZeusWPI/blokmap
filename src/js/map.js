@@ -26,15 +26,22 @@ $(document).ready(function() {
     }
 
     function pointToLayer(feature, latlng) {
-        if (feature.properties) {
-            if (feature.properties.holidays && christmasHoliday) {
-              return L.marker(latlng, {icon:christmasIcon});
-            }
-            if (!feature.properties.hours.saturday && !feature.properties.hours.sunday) {
-                return L.marker(latlng, {icon:blueIcon});
-            }
+      var marker = L.marker(latlng, { icon: redIcon, riseOnHover: true });
+      if (feature.properties) {
+        if (feature.properties.holidays && christmasHoliday) {
+          var marker = L.marker(latlng, { icon: christmasIcon, riseOnHover: true });
         }
-        return L.marker(latlng, {icon: redIcon});
+        if (!feature.properties.hours.saturday && !feature.properties.hours.sunday) {
+          var marker = L.marker(latlng, { icon: blueIcon, riseOnHover: true });
+        }
+      }
+      marker.on('mouseover', function (ev) {
+        marker.openPopup();
+      });
+      marker.on('mouseout', function (ev) {
+        marker.closePopup();
+      });
+      return marker
     }
 
     var map = L.map('map').setView([51.0475378, 3.7261835], 13);
