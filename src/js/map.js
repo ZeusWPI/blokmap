@@ -21,26 +21,22 @@ $(document).ready(function() {
 
     function onEachFeature(feature, layer) {
         if (feature.properties) {
-            layer.bindPopup(popuptemplate(feature.properties));
+            layer.bindPopup(popuptemplate(feature.properties), {
+              showOnMouseOver: true
+            });
         }
     }
 
     function pointToLayer(feature, latlng) {
-      var marker = L.marker(latlng, { icon: redIcon, riseOnHover: true });
+      var marker = new HoverMarker(latlng, { icon: redIcon});
       if (feature.properties) {
         if (feature.properties.holidays && christmasHoliday) {
-          var marker = L.marker(latlng, { icon: christmasIcon, riseOnHover: true });
+          var marker = new HoverMarker(latlng, { icon: christmasIcon});
         }
         if (!feature.properties.hours.saturday && !feature.properties.hours.sunday) {
-          var marker = L.marker(latlng, { icon: blueIcon, riseOnHover: true });
+          var marker = new HoverMarker(latlng, { icon: blueIcon});
         }
       }
-      marker.on('mouseover', function (ev) {
-        marker.openPopup();
-      });
-      marker.on('mouseout', function (ev) {
-        marker.closePopup();
-      });
       return marker
     }
 
@@ -71,6 +67,95 @@ $(document).ready(function() {
         this._div.innerHTML = this.template();
 
         return this._div;
+      }
+    });
+    // code copied from http://jsfiddle.net/sowelie/3JbNY/
+    var HoverMarker = L.Marker.extend({
+      bindPopup: function(htmlContent, options) {
+	  			
+        if (options && options.showOnMouseOver) {
+          
+          // call the super method
+          L.Marker.prototype.bindPopup.apply(this, [htmlContent, options]);
+          
+          // unbind the click event
+          this.off("click", this.openPopup, this);
+          
+          // bind to mouse over
+          this.on("mouseover", function(e) {
+            
+            // get the element that the mouse hovered onto
+            var target = e.originalEvent.fromElement || e.originalEvent.relatedTarget;
+            var parent = this._getParent(target, "leaflet-popup");
+     
+            // check to see if the element is a popup, and if it is this marker's popup
+            if (parent == this._popup._container)
+              return true;
+            
+            // show the popup
+            this.openPopup();
+            
+          }, this);
+          
+          // and mouse out
+          this.on("mouseout", function(e) {
+            
+            // get the element that the mouse hovered onto
+            var target = e.originalEvent.toElement || e.originalEvent.relatedTarget;
+            
+            // check to see if the element is a popup
+            if (this._getParent(target, "leaflet-popup")) {
+     
+              L.DomEvent.on(this._popup._container, "mouseout", this._popupMouseOut, this);
+              return true;
+     
+            }
+            
+            // hide the popup
+            this.closePopup();
+            
+          }, this);
+          
+        }
+        
+      },
+     
+      _popupMouseOut: function(e) {
+          
+        // detach the event
+        L.DomEvent.off(this._popup, "mouseout", this._popupMouseOut, this);
+     
+        // get the element that the mouse hovered onto
+        var target = e.toElement || e.relatedTarget;
+        
+        // check to see if the element is a popup
+        if (this._getParent(target, "leaflet-popup"))
+          return true;
+        
+        // check to see if the marker was hovered back onto
+        if (target == this._icon)
+          return true;
+        
+        // hide the popup
+        this.closePopup();
+        
+      },
+      
+      _getParent: function(element, className) {
+        
+        var parent = element.parentNode;
+        
+        while (parent != null) {
+          
+          if (parent.className && L.DomUtil.hasClass(parent, className))
+            return parent;
+          
+          parent = parent.parentNode;
+          
+        }
+        
+        return false;
+        
       }
     });
 
