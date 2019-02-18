@@ -28,13 +28,13 @@ $(document).ready(function() {
     }
 
     function pointToLayer(feature, latlng) {
-      var marker = new HoverMarker(latlng, { icon: redIcon});
+      var marker = new HoverMarker(latlng, { icon: redIcon, riseOnHover: true});
       if (feature.properties) {
         if (feature.properties.holidays && christmasHoliday) {
-          var marker = new HoverMarker(latlng, { icon: christmasIcon});
+          var marker = new HoverMarker(latlng, { icon: christmasIcon, riseOnHover: true});
         }
         if (!feature.properties.hours.saturday && !feature.properties.hours.sunday) {
-          var marker = new HoverMarker(latlng, { icon: blueIcon});
+          var marker = new HoverMarker(latlng, { icon: blueIcon, riseOnHover: true});
         }
       }
       return marker
