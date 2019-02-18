@@ -21,7 +21,10 @@ $(document).ready(function() {
 
     function onEachFeature(feature, layer) {
         if (feature.properties) {
-            layer.bindPopup(popuptemplate(feature.properties));
+            var popup = L.popup({
+              offset: new L.point(0, -6) //Offset needed, marker and popup can't overlap
+            }).setContent(popuptemplate(feature.properties));
+            layer.bindPopup(popup);
         }
     }
 
