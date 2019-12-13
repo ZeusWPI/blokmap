@@ -2,7 +2,7 @@
 
 A useful map that lists all the public study locations in Ghent.
 
-We usually use data from [Stad Gent](https://stad.gent/studenten/studeren/bloklocaties) and emails sent by people..
+We usually use data from [Stad Gent](https://stad.gent/studenten/studeren/bloklocaties), [Stad Kortrijk](http://www.kortrijkstudentenstad.be/aanbod/bloklocaties/) and emails sent by people..
 
 ## Development
 
