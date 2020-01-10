@@ -20,7 +20,7 @@
             "sunday":       false
         },
         "extra":        "Mate, computers, geen frigo, chips, kerstlichtjes, Haldis, ta[b|p|bbp], Arch&I3, ...",
-        "type":         "Andere"
+        "type":         "Kelder"
     }
 },
 {
@@ -30,21 +30,21 @@
 		"coordinates": [3.70759, 51.02918 ]
 	},
 	"properties": {
-		"name": "bok & jp kot",
+		"name": "Mia Upkot",
 		"address": "Voskenslaan 283",
 		"capacity": 8,
 		"period": {     "start": "30/12/2019", "end": "24/01/2020" },
 		"hours": {
-			"monday":       "7u - 22u",
-			"tuesday":      "7u - 22u",
-			"wednesday":    "7u - 22u",
-			"thursday":     "7u - 22u",
-			"friday":       "7u - 22u",
-			"saturday":     false,
-			"sunday":       false
+			"monday":       "als jp of bauke er is",
+			"tuesday":      "als jp of bauke er is",
+			"wednesday":    "als jp of bauke er is",
+			"thursday":     "als jp of bauke er is",
+			"friday":       "als jp of bauke er is",
+			"saturday":     "als jp of bauke er is",
+			"sunday":       "als jp of bauke er is"
 		},
         "extra":        "Druhskot",
-        "type":         "Andere"
+        "type":         "Kot"
     }
 }
 ]
