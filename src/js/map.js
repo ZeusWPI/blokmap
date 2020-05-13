@@ -46,7 +46,7 @@ $(document).ready(function() {
       detectRetina: true
     }).addTo(map);
 
-    $.getJSON('http://blokdata.zeus.gent/data.json')
+    $.getJSON('https://blokdata.zeus.gent/data.json')
      .done(function(data) {
         var geojson = L.geoJson(data, {
             onEachFeature: onEachFeature,
