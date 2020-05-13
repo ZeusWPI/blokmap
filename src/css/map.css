@@ -27,6 +27,7 @@ html, body {
 
 a img {
     border: none;
+    max-height: 60px;
 }
 
 h4 {
@@ -117,10 +118,6 @@ table {
 @media screen and (max-width: 800px) {
     .info {
         max-width: 90px;s
-    }
-
-    #schamper {
-        width: 90px;
     }
 
     #zeus {
