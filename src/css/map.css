@@ -105,6 +105,11 @@ table {
         width: 250px;
     }
 
+    .type {
+        display: none;
+    }
+
+
     .desktop {
         display: none;
     }
