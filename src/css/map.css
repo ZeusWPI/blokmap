@@ -67,6 +67,10 @@ table {
     padding-left: 10px;
 }
 
+#GSR {
+    float: right;
+}
+
 .legend {
   height: 52px;
   width: 130px;
