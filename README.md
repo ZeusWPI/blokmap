@@ -2,7 +2,7 @@
 
 A useful map that lists all the public study locations in Ghent.
 
-We usually use data from [Stad Gent](https://stad.gent/studenten/studeren/bloklocaties) and emails sent by people..
+Data is managed in a separate project, [Blokdata](https://github.com/ZeusWPI/Blokdata).
 
 ## Development
 
@@ -11,5 +11,3 @@ You can easily run the site locally by spawning a simple static file server in t
 ```
 (cd src/; python3 -m http.server)
 ```
-
-You can also validate the JSON with `(cd src/; python -m json.tool data.json > /dev/null)`. If there are no errors, there will be no output.
