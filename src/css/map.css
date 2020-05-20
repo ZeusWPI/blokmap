@@ -61,14 +61,11 @@ table {
     font: 14px/16px Arial, Helvetica, sans-serif;
     background: white;
     background: rgba(255,255,255,0.0);
+    text-align: right;
 }
 
-#zeus {
-    padding-left: 10px;
-}
-
-#GSR {
-    float: right;
+.author-icon {
+    margin-left: 10px;
 }
 
 .legend {
@@ -125,12 +122,8 @@ table {
 }
 
 @media screen and (max-width: 800px) {
-    .info {
-        max-width: 90px;
-    }
-
-    #zeus {
-        width: 75px;
+    .author-icon {
+        display: block;
     }
 }
 
