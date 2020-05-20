@@ -1,8 +1,8 @@
 $(document).ready(function() {
-    /* change image path */
     L.Icon.Default.imagePath = "img/";
 
     var popuptemplate = Handlebars.compile($("#popup-template").html());
+
     var RedIcon = L.Icon.Default.extend({
         options: {
             iconUrl: "red-marker.png"
@@ -13,11 +13,15 @@ $(document).ready(function() {
             iconUrl: "christmas-marker.png"
         }
     });
+
+    var blueIcon = new L.Icon.Default();
     var redIcon = new RedIcon();
-    var BlueIcon = L.Icon.Default.extend({});
-    var blueIcon = new BlueIcon();
     var christmasIcon = new ChristmasIcon();
-    var christmasHoliday = Date.now() < new Date("2016-01-04").getTime();
+
+    var now = new Date();
+    var christmasSeason =
+        now.getTime() > new Date(now.getFullYear() + "-12-20").getTime() ||
+        now.getTime() < new Date(now.getFullYear() + "-01-04").getTime();
 
     function onEachFeature(feature, layer) {
         if (feature.properties) {
@@ -28,16 +32,15 @@ $(document).ready(function() {
     }
 
     function pointToLayer(feature, latlng) {
-        var marker = new HoverMarker(latlng, { icon: redIcon, riseOnHover: true});
+        var icon = redIcon;
         if (feature.properties) {
-            if (feature.properties.holidays && christmasHoliday) {
-                var marker = new HoverMarker(latlng, { icon: christmasIcon, riseOnHover: true});
-            }
-            if (!feature.properties.hours.saturday && !feature.properties.hours.sunday) {
-                var marker = new HoverMarker(latlng, { icon: blueIcon, riseOnHover: true});
+            if (feature.properties.holidays && christmasSeason) {
+                icon = christmasIcon;
+            } else if (!feature.properties.hours.saturday && !feature.properties.hours.sunday) {
+                icon = blueIcon;
             }
         }
-        return marker;
+        return new HoverMarker(latlng, { icon: icon, riseOnHover: true});
     }
 
     var map = L.map("map").setView([50.702, 4.335], 9);
@@ -150,7 +153,7 @@ $(document).ready(function() {
         position: "bottomleft"
     }).addTo(map);
 
-    var legend = new SimpleControl("#legend-template", christmasHoliday ? "holiday-legend" : "legend", {
+    var legend = new SimpleControl("#legend-template", christmasSeason ? "holiday-legend" : "legend", {
         position: "bottomright"
     }).addTo(map);
 });
