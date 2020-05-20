@@ -13,9 +13,6 @@ echo "-> Pulling latest release"
 # Apparently, some systems put "up to date", while others put "up-to-date"
 git pull | grep 'Already up[- ]to[- ]date.' && echo "No updates, exiting..." && exit 20
 
-echo "-> Checking validity of data.json"
-python -m json.tool src/data.json > /dev/null
-
 
 # Create release dir and copy sources to that dir
 echo "-> This release will be stored in $release_dir"
