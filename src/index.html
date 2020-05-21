@@ -35,9 +35,9 @@
     <div id="resto-popup">
       <h3>{{name}} ({{capacity}} pl.)</h3>
       <img src="img/{{type}}.png" class="type">
-      <div class="text">Locatie: {{address}}<br />
-        {{#if period.start}}
-          {{date period.start}} tot {{date period.end}}
+      <div class="location">Locatie: {{address}}</div>
+      <div class="period">{{#if period.start}}
+          Periode: {{date period.start}} tot {{date period.end}}
         {{else}}
           Open gedurende het hele jaar.
         {{/if}}

@@ -19,6 +19,7 @@ html, body {
     width: 600px;
     max-height: 400px;
     overflow-y: auto;
+    overflow-wrap: anywhere;
 }
 
 .leaflet-popup-content {
@@ -33,6 +34,10 @@ a img {
 h4 {
     margin-top: 5px;
     margin-bottom: 5px;
+}
+
+.location, .period {
+    margin-bottom: 3px;
 }
 
 table {
@@ -116,8 +121,8 @@ table {
         width: 213px;
     }
 
-    h3, .text {
-        max-width: 150px;
+    .location, .period {
+        margin-bottom: 8px;
     }
 }
 
