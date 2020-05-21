@@ -87,10 +87,10 @@ $(document).ready(function() {
 
                     // get the element that the mouse hovered onto
                     var target = e.originalEvent.fromElement || e.originalEvent.relatedTarget;
-                    var parent = this._getParent(target, "leaflet-popup");
+                    var ancestor = this._findAncestorWithClass(target, "leaflet-popup");
 
                     // check to see if the element is a popup, and if it is this marker's popup
-                    if (parent == this._popup._container)
+                    if (ancestor && ancestor === this._popup._container)
                         return true;
 
                     this.openPopup();
@@ -103,7 +103,7 @@ $(document).ready(function() {
                     var target = e.originalEvent.toElement || e.originalEvent.relatedTarget;
 
                     // check to see if the element is a popup
-                    if (this._getParent(target, "leaflet-popup")) {
+                    if (this._findAncestorWithClass(target, "leaflet-popup")) {
                         L.DomEvent.on(this._popup._container, "mouseout", this._popupMouseOut, this);
                         return true;
                     }
@@ -122,26 +122,24 @@ $(document).ready(function() {
             var target = e.toElement || e.relatedTarget;
 
             // check to see if the element is a popup
-            if (this._getParent(target, "leaflet-popup"))
+            if (this._findAncestorWithClass(target, "leaflet-popup"))
                 return true;
 
             // check to see if the marker was hovered back onto
-            if (target == this._icon)
+            if (target === this._icon)
                 return true;
 
             this.closePopup();
         },
 
-        _getParent: function(element, className) {
-            var parent = element.parentNode;
-
-            while (parent) {
-                if (parent.className && L.DomUtil.hasClass(parent, className))
-                    return parent;
-                parent = parent.parentNode;
+        _findAncestorWithClass: function(element, className) {
+            while (element) {
+                if (element.className && L.DomUtil.hasClass(element, className))
+                    return element;
+                element = element.parentNode;
             }
 
-            return false;
+            return null;
         }
     });
 
