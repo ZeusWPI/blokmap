@@ -156,4 +156,16 @@ $(document).ready(function() {
     var legend = new SimpleControl("#legend-template", christmasSeason ? "holiday-legend" : "legend", {
         position: "bottomright"
     }).addTo(map);
+
+
+    var monthNames = ["jan.", "feb.", "mrt.", "apr.", "mei", "juni", "juli", "aug.", "sep.", "okt.", "nov.", "dec."];
+    Handlebars.registerHelper("date", function (ddmyyyy) {
+        var parts = ddmyyyy.split("-");
+
+        var date = parts[0];
+        var month = monthNames[parts[1] - 1];
+        var year = parts[2];
+
+        return date + " " + month + " " + year;
+    })
 });

@@ -37,7 +37,7 @@
       <img src="img/{{type}}.png" class="type">
       <div class="text">Locatie: {{address}}<br />
         {{#if period.start}}
-          Van {{period.start}} tot {{period.end}}
+          {{date period.start}} tot {{date period.end}}
         {{else}}
           Open gedurende het hele jaar.
         {{/if}}
