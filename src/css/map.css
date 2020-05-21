@@ -73,6 +73,30 @@ table {
     margin-left: 10px;
 }
 
+.share {
+    background-color: rgba(255, 255, 255, 0.7);
+    padding-right: 5px;
+    margin-left: 10px;
+}
+
+.share img {
+    vertical-align: middle;
+    margin-left: -10px;
+}
+
+.share a {
+    text-decoration: none;
+}
+.share a:hover {
+    text-decoration: underline;
+}
+a.img-and-text-link:hover {
+    text-decoration: none;
+}
+a.img-and-text-link:hover span {
+    text-decoration: underline;
+}
+
 .legend {
     height: 52px;
     width: 130px;
