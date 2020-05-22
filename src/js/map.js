@@ -1,4 +1,9 @@
 $(document).ready(function() {
+    Handlebars.registerHelper("date", function (ddmyyyy) {
+        return ddmyyyy.replace(/-/g, "/");
+    });
+
+
     L.Icon.Default.imagePath = "img/";
 
     var popuptemplate = Handlebars.compile($("#popup-template").html());
@@ -159,9 +164,4 @@ $(document).ready(function() {
     var legend = new SimpleControl("#legend-template", christmasSeason ? "holiday-legend" : "legend", {
         position: "bottomright"
     }).addTo(map);
-
-
-    Handlebars.registerHelper("date", function (ddmyyyy) {
-        return ddmyyyy.replace(/-/g, "/");
-    })
 });
