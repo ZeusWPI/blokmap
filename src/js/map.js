@@ -34,13 +34,17 @@ $(document).ready(function() {
 
     function pointToLayer(feature, latlng) {
         var icon = redIcon;
+        var iconDescription = "red";
         if (feature.properties) {
             if (feature.properties.holidays && christmasSeason) {
                 icon = christmasIcon;
+                iconDescription = "christmas";
             } else if (!feature.properties.hours.saturday && !feature.properties.hours.sunday) {
                 icon = blueIcon;
+                iconDescription = "blue";
             }
         }
+        console.debug("Created " + iconDescription + " marker");
         return new HoverMarker(latlng, { icon: icon, riseOnHover: true});
     }
 
