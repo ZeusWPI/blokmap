@@ -3,6 +3,7 @@ $(document).ready(function() {
 
     var popuptemplate = Handlebars.compile($("#popup-template").html());
 
+    var BlueIcon = L.Icon.Default.extend({});
     var RedIcon = L.Icon.Default.extend({
         options: {
             iconUrl: "red-marker.png"
@@ -14,7 +15,7 @@ $(document).ready(function() {
         }
     });
 
-    var blueIcon = new L.Icon.Default();
+    var blueIcon = new BlueIcon();
     var redIcon = new RedIcon();
     var christmasIcon = new ChristmasIcon();
 
