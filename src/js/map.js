@@ -49,7 +49,6 @@ $(document).ready(function() {
                 iconDescription = "blue";
             }
         }
-        console.debug("Created " + iconDescription + " marker");
         return new HoverMarker(latlng, { icon: icon, riseOnHover: true});
     }
 
