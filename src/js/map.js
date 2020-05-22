@@ -4,19 +4,19 @@ $(document).ready(function() {
     });
 
 
-    L.Icon.Default.imagePath = "img/";
+    L.Icon.Default.imagePath = "img";
 
     var popuptemplate = Handlebars.compile($("#popup-template").html());
 
     var BlueIcon = L.Icon.Default.extend({});
     var RedIcon = L.Icon.Default.extend({
         options: {
-            iconUrl: "red-marker.png"
+            iconUrl: "img/red-marker.png"
         }
     });
     var ChristmasIcon = L.Icon.Default.extend({
         options: {
-            iconUrl: "christmas-marker.png"
+            iconUrl: "img/christmas-marker.png"
         }
     });
 
