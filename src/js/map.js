@@ -1,8 +1,14 @@
 $(document).ready(function() {
+    Handlebars.registerHelper("date", function (ddmyyyy) {
+        return ddmyyyy.replace(/-/g, "/");
+    });
+
+
     L.Icon.Default.imagePath = "img/";
 
     var popuptemplate = Handlebars.compile($("#popup-template").html());
 
+    var BlueIcon = L.Icon.Default.extend({});
     var RedIcon = L.Icon.Default.extend({
         options: {
             iconUrl: "red-marker.png"
@@ -14,7 +20,7 @@ $(document).ready(function() {
         }
     });
 
-    var blueIcon = new L.Icon.Default();
+    var blueIcon = new BlueIcon();
     var redIcon = new RedIcon();
     var christmasIcon = new ChristmasIcon();
 
@@ -33,13 +39,17 @@ $(document).ready(function() {
 
     function pointToLayer(feature, latlng) {
         var icon = redIcon;
+        var iconDescription = "red";
         if (feature.properties) {
             if (feature.properties.holidays && christmasSeason) {
                 icon = christmasIcon;
+                iconDescription = "christmas";
             } else if (!feature.properties.hours.saturday && !feature.properties.hours.sunday) {
                 icon = blueIcon;
+                iconDescription = "blue";
             }
         }
+        console.debug("Created " + iconDescription + " marker");
         return new HoverMarker(latlng, { icon: icon, riseOnHover: true});
     }
 
@@ -154,9 +164,4 @@ $(document).ready(function() {
     var legend = new SimpleControl("#legend-template", christmasSeason ? "holiday-legend" : "legend", {
         position: "bottomright"
     }).addTo(map);
-
-
-    Handlebars.registerHelper("date", function (ddmyyyy) {
-        return ddmyyyy.replace(/-/g, "/");
-    })
 });
