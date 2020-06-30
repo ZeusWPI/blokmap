@@ -54,7 +54,7 @@ $(document).ready(function() {
 
     var map = L.map("map").setView([50.702, 4.335], 9);
     var osm = L.tileLayer("//tile.osm.be/osmbe-nl/{z}/{x}/{y}.png", {
-        attribution: 'Achtergrondkaart © <a href="https://www.openstreetmap.org/copyright" target="_blank">OpenStreetMap</a>-bijdragers, tiles courtesy of <a href="https://geo6.be/">GEO-6</a>. | <span lang="en">Made with ❤ by <a href="https://zeus.gent/">Zeus WPI</a></span>',
+        attribution: 'Achtergrondkaart © <a href="https://www.openstreetmap.org/copyright" target="_blank">OpenStreetMap</a>-bijdragers, tiles courtesy of <a href="https://geo6.be/">GEO-6</a>. | <span lang="en">Made with ❤ by <a href="https://zeus.gent/">Zeus WPI</a></span> | <a href="https://zeus.gent/about/privacy/">Privacybeleid</a>',
         maxZoom: 18
     }).addTo(map);
 
