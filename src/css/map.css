@@ -3,18 +3,22 @@ html, body {
     padding: 0px;
     width: 100%;
     height: 100%;
-    display: flex;
-    flex-direction: column;
+    font-family: sans-serif;
 }
 
 .notice {
     padding: 0.5em;
-    background: linear-gradient(#fdfdfd 75%, #ececec);
+    background: hsla(215, 90%, 20%, 0.75);
+    border-bottom: 5px solid hsl(215, 40%, 70%, 0.75);
+    color: #fff;
+}
+.leaflet-top.leaflet-left {
+    z-index: 1001;
 }
 
 #map {
     width: 100%;
-    flex-grow: 1;
+    height: 100%;
 }
 
 .leaflet-popup-content-wrapper,
@@ -81,6 +85,7 @@ td {
 }
 
 .author-icon {
+    display: block;
     margin-left: 10px;
 }
 
@@ -161,20 +166,29 @@ a.img-and-text-link:hover span {
     }
 }
 
-@media screen and (max-width: 800px) {
-    .author-icon {
-        display: block;
-    }
-}
-
 @media screen and (max-height: 400px) {
     .leaflet-popup-content-wrapper {
         max-height: 150px;
     }
 }
 
+@media screen and (min-width: 300px) {
+    .notice {
+        max-width: calc(100vw - 150px);
+    }
+}
+
+@media screen and (min-width: 800px) {
+    .author-icon {
+        display: inline;
+    }
+    .notice {
+        max-width: calc(100vw - 250px);
+    }
+}
+
 @media (min-width: 800px) and (min-height: 500px) {
     .notice {
-        padding: 2em;
+        padding: 1em 1.5em;
     }
 }

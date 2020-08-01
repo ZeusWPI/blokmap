@@ -29,8 +29,6 @@
   <script type="text/javascript" src="js/map.js"></script>
 </head>
 <body>
-  <div class="notice">We zijn druk in de weer om Blokmap klaar te stomen voor de herexamens. De komende dagen verschijnt er misschien nog een locatie in je buurt!</div>
-
   <div id="map"></div>
 
   <script id="popup-template" type="text/x-handlebars-template">
@@ -90,6 +88,10 @@
       </table>
       {{#if extra}}{{{extra}}}{{/if}}
     </div>
+  </script>
+
+  <script id="notice-template" type="text/x-handlebars-template">
+    We zijn druk in de weer om Blokmap klaar te stomen voor de herexamens. De komende dagen verschijnt er misschien nog een locatie in je buurt!
   </script>
 
   <script id="info-template" type="text/x-handlebars-template">

@@ -52,7 +52,7 @@ $(document).ready(function() {
         return new HoverMarker(latlng, { icon: icon, riseOnHover: true});
     }
 
-    var map = L.map("map").setView([50.702, 4.335], 9);
+    var map = L.map("map", {zoomControl: false}).setView([50.702, 4.335], 9);
     var osm = L.tileLayer("//tile.osm.be/osmbe-nl/{z}/{x}/{y}.png", {
         attribution: 'Achtergrondkaart © <a href="https://www.openstreetmap.org/copyright" target="_blank">OpenStreetMap</a>-bijdragers, <span lang="en">tiles courtesy of <a href="https://geo6.be/">GEO-6</a></span>. | <span lang="en">Made with ❤ by <a href="https://zeus.gent/">Zeus WPI</a></span> | <a href="https://zeus.gent/about/privacy/">Privacybeleid</a>',
         maxZoom: 18
@@ -152,6 +152,10 @@ $(document).ready(function() {
         }
     });
 
+    var notice = new SimpleControl("#notice-template", "notice", {
+        position: "topleft"
+    }).addTo(map);
+
     var info = new SimpleControl("#info-template", "info", {
         position: "topright"
     }).addTo(map);
@@ -163,4 +167,6 @@ $(document).ready(function() {
     var legend = new SimpleControl("#legend-template", christmasSeason ? "holiday-legend" : "legend", {
         position: "bottomright"
     }).addTo(map);
+
+    L.control.zoom().addTo(map);
 });
