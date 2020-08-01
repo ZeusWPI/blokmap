@@ -152,10 +152,6 @@ $(document).ready(function() {
         }
     });
 
-    var notice = new SimpleControl("#notice-template", "notice", {
-        position: "topleft"
-    }).addTo(map);
-
     var info = new SimpleControl("#info-template", "info", {
         position: "topright"
     }).addTo(map);
@@ -166,6 +162,10 @@ $(document).ready(function() {
 
     var legend = new SimpleControl("#legend-template", christmasSeason ? "holiday-legend" : "legend", {
         position: "bottomright"
+    }).addTo(map);
+
+    var notice = new SimpleControl("#notice-template", "notice", {
+        position: "bottomleft"
     }).addTo(map);
 
     L.control.zoom().addTo(map);
