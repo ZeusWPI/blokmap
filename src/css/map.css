@@ -3,11 +3,18 @@ html, body {
     padding: 0px;
     width: 100%;
     height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.notice {
+    padding: 0.5em;
+    background: linear-gradient(#fdfdfd 75%, #ececec);
 }
 
 #map {
     width: 100%;
-    height: 100%;
+    flex-grow: 1;
 }
 
 .leaflet-popup-content-wrapper,
@@ -163,5 +170,11 @@ a.img-and-text-link:hover span {
 @media screen and (max-height: 400px) {
     .leaflet-popup-content-wrapper {
         max-height: 150px;
+    }
+}
+
+@media (min-width: 800px) and (min-height: 500px) {
+    .notice {
+        padding: 2em;
     }
 }
