@@ -53,8 +53,14 @@ $(document).ready(function() {
     }
 
     var map = L.map("map", {zoomControl: false}).setView([50.702, 4.335], 9);
-    var osm = L.tileLayer("//tile.osm.be/osmbe-nl/{z}/{x}/{y}.png", {
-        attribution: 'Achtergrondkaart © <a href="https://www.openstreetmap.org/copyright" target="_blank">OpenStreetMap</a>-bijdragers, <span lang="en">tiles courtesy of <a href="https://geo6.be/">GEO-6</a></span>. | <span lang="en">Made with ❤ by <a href="https://zeus.gent/">Zeus WPI</a></span> | <a href="https://zeus.gent/about/privacy/">Privacybeleid</a>',
+    var osm = L.tileLayer("https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token={accessToken}", {
+        id: 'mapbox/streets-v11',
+        tileSize: 512,
+        zoomOffset: -1,
+        // account name = zeuswpi, details are in password manager
+        // token has a restriction to only work with our domains and localhost
+        accessToken: 'pk.eyJ1IjoiemV1c3dwaSIsImEiOiJja2QzMDZ1NmcwMjBtMnlxbXV2bXVpaXhuIn0.-ViXZUT9SqRI3IvB8209LQ',
+        attribution: 'Achtergrondkaart © <a href="https://www.openstreetmap.org/copyright" target="_blank">OpenStreetMap</a>-bijdragers, <span lang="en">Imagery © <a href="https://www.mapbox.com/">Mapbox</a></span>. | <span lang="en">Made with ❤ by <a href="https://zeus.gent/">Zeus WPI</a></span> | <a href="https://zeus.gent/about/privacy/">Privacybeleid</a>',
         maxZoom: 18
     }).addTo(map);
 
