@@ -1,4 +1,4 @@
-# Blokmap
+# Blok Locaties Op Kaart Met Aanduidende Pins
 
 A useful map that lists all the public study locations in Ghent.
 
