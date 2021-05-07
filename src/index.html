@@ -34,8 +34,8 @@
   <script id="popup-template" type="text/x-handlebars-template">
     <div id="resto-popup">
       <h3>{{name}} ({{capacity}} pl.)</h3>
-      {{#if wheelchair}}{{<img src="img/Wheelchair_symbol.svg" class="wheelchair">}}{{/if}}
-      {{#if wifi}}{{<img src="img/Logo_WiFi.svg" class="wifi">}}{{/if}}
+      {{#if wheelchair}}{{<img src="img/Wheelchair_symbol.svg" class="wheelchair" style="width:30px;height:30px;">}}{{/if}}
+      {{#if wifi}}{{<img src="img/Logo_WiFi.svg" class="wifi" style="width:40;height:20;">}}{{/if}}
       <img src="img/{{type}}.png" class="type">
       <div class="location">Locatie: {{address}}</div>
       <div class="period">{{#if period.start}}
