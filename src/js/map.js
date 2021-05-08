@@ -19,10 +19,16 @@ $(document).ready(function() {
             iconUrl: "img/christmas-marker.png"
         }
     });
+    var GreyIcon = L.Icon.Default.extend({
+        options: {
+            iconUrl: "img/grey-marker.png"
+        }
+    });
 
     var blueIcon = new BlueIcon();
     var redIcon = new RedIcon();
     var christmasIcon = new ChristmasIcon();
+    var greyIcon = new GreyIcon();
 
     var now = new Date();
     var christmasSeason =
@@ -41,7 +47,13 @@ $(document).ready(function() {
         var icon = redIcon;
         var iconDescription = "red";
         if (feature.properties) {
-            if (feature.properties.holidays && christmasSeason) {
+            var startingDateString =feature.properties.period.start;
+            var month = (parseInt(startingDateString.substring(3,5))-1);
+            var startingDate = new Date("20"+startingDateString.substring(6,8),month,startingDateString.substring(0,2));
+            if (Date.now()<startingDate) {
+                icon = greyIcon;
+                iconDescription = "grey";
+            } else if (feature.properties.holidays && christmasSeason) {
                 icon = christmasIcon;
                 iconDescription = "christmas";
             } else if (!feature.properties.hours.saturday && !feature.properties.hours.sunday) {
