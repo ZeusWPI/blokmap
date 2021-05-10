@@ -24,11 +24,17 @@ $(document).ready(function() {
             iconUrl: "img/grey-marker.png"
         }
     });
+    var GreenIcon = L.Icon.Default.extend({
+        options: {
+            iconUrl: "img/green-marker.png"
+        }
+    });
 
     var blueIcon = new BlueIcon();
     var redIcon = new RedIcon();
     var christmasIcon = new ChristmasIcon();
     var greyIcon = new GreyIcon();
+    var greenIcon = new GreenIcon();
 
     var now = new Date();
     var christmasSeason =
@@ -37,6 +43,8 @@ $(document).ready(function() {
 
     function onEachFeature(feature, layer) {
         if (feature.properties) {
+            var prop = feature.properties;
+            prop["online"] = feature.properties.address.substring(0,5)==="https";
             layer.bindPopup(popuptemplate(feature.properties), {
                 showOnMouseOver: true
             });
@@ -59,6 +67,10 @@ $(document).ready(function() {
             } else if (!feature.properties.hours.saturday && !feature.properties.hours.sunday) {
                 icon = blueIcon;
                 iconDescription = "blue";
+            }
+            if (feature.properties.address.substring(0,5)==="https") {
+                icon = greenIcon;
+                iconDescription = "green";
             }
         }
         return new HoverMarker(latlng, { icon: icon, riseOnHover: true});
