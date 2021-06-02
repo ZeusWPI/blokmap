@@ -56,7 +56,7 @@ $(document).ready(function() {
             } else if (feature.properties.holidays && christmasSeason) {
                 icon = christmasIcon;
                 iconDescription = "christmas";
-            } else if (!feature.properties.hours.saturday && !feature.properties.hours.sunday) {
+            } else if ((!feature.properties.hours.saturday && !feature.properties.hours.sunday)||(feature.properties.hours.saturday.toLowerCase()==="gesloten"&&feature.properties.hours.sunday.toLowerCase()==="gesloten")) {
                 icon = blueIcon;
                 iconDescription = "blue";
             }
