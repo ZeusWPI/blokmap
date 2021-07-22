@@ -36,16 +36,18 @@
       <h3>{{name}} ({{capacity}} pl.)</h3>
       {{#if wheelchair}}<img src="img/Wheelchair_symbol.svg" class="wheelchair" style="width:30px;height:30px;">{{/if}}
       {{#if wifi}}<img src="img/Logo_WiFi.svg" class="wifi" style="width:40px;height:20px;">{{/if}}
+      {{#if online}}<img src="img/Online.png" class="wifi" style="width:50px;height:50px;">{{/if}}
       <img src="img/{{type}}.png" class="type">
-      <div class="location">Locatie: {{address}}</div>
-      <div class="period">{{#if period.start}}
-          Periode: {{date period.start}} tot {{date period.end}}
-        {{else}}
-          Open gedurende het hele jaar.
-        {{/if}}
+      <div class="location">{{#if online}}Link: <a href={{address}}>{{address}}</a>{{else}}Locatie: {{address}}{{/if}}</div>
+      {{#if online}}
+      {{else}}
+        <div class="period">{{#if period.start}}
+        Periode: {{date period.start}} tot {{date period.end}}
+      {{else}}
+        Open gedurende het hele jaar.
+      {{/if}}
       </div>
-      <h4>Openingsuren</h4>
-      <table class="desktop">
+        <table class="desktop">
         <tr>
           <td>Maandag</td>
           <td>Dinsdag</td>
@@ -55,15 +57,18 @@
           <td>Zaterdag</td>
           <td>Zondag</td>
         </tr><tr>
-          <td>{{#if hours.monday}}{{hours.monday}}{{else}}Gesloten{{/if}}</td>
-          <td>{{#if hours.tuesday}}{{hours.tuesday}}{{else}}Gesloten{{/if}}</td>
-          <td>{{#if hours.wednesday}}{{hours.wednesday}}{{else}}Gesloten{{/if}}</td>
-          <td>{{#if hours.thursday}}{{hours.thursday}}{{else}}Gesloten{{/if}}</td>
-          <td>{{#if hours.friday}}{{hours.friday}}{{else}}Gesloten{{/if}}</td>
-          <td>{{#if hours.saturday}}{{hours.saturday}}{{else}}Gesloten{{/if}}</td>
-          <td>{{#if hours.sunday}}{{hours.sunday}}{{else}}Gesloten{{/if}}</td>
-        </tr>
+        <td>{{#if hours.monday}}{{hours.monday}}{{else}}Gesloten{{/if}}</td>
+        <td>{{#if hours.tuesday}}{{hours.tuesday}}{{else}}Gesloten{{/if}}</td>
+        <td>{{#if hours.wednesday}}{{hours.wednesday}}{{else}}Gesloten{{/if}}</td>
+        <td>{{#if hours.thursday}}{{hours.thursday}}{{else}}Gesloten{{/if}}</td>
+        <td>{{#if hours.friday}}{{hours.friday}}{{else}}Gesloten{{/if}}</td>
+        <td>{{#if hours.saturday}}{{hours.saturday}}{{else}}Gesloten{{/if}}</td>
+        <td>{{#if hours.sunday}}{{hours.sunday}}{{else}}Gesloten{{/if}}</td>
+      </tr>
       </table>
+
+      <h4>Openingsuren</h4>
+
       <table class="mobile">
         <tr>
           <td>Maandag</td>
@@ -88,8 +93,10 @@
           <td>{{#if hours.sunday}}{{hours.sunday}}{{else}}Gesloten{{/if}}</td>
         </tr>
       </table>
+      {{/if}}
       {{#if extra}}{{{extra}}}{{/if}}
     </div>
+
   </script>
 
   <script id="info-template" type="text/x-handlebars-template">
@@ -112,11 +119,15 @@
       </div>
       <div style="width: 125px; height: 18px; padding-top: 5px; padding-left: 5px;">
         <div style="height: 10px; width: 10px; background: rgb(36, 126, 202); margin-top: 1px; margin-left: 5px;"></div>
-        <span style="position: absolute; left: 25px; top: 30px;">Enkel week</span>
+        <span style="position: absolute; left: 25px; top: 29px;">Enkel week</span>
       </div>
       <div style="width: 125px; height: 18px; padding-top: 5px; padding-left: 5px;">
         <div style="height: 10px; width: 10px; background: rgb(120,120,120); margin-top: 1px; margin-left: 5px;"></div>
-        <span style="position: absolute; left: 25px; top: 55px;">Opent binnenkort</span>
+        <span style="position: absolute; left: 25px; top: 53px;">Opent binnenkort</span>
+      </div>
+      <div style="width: 125px; height: 18px; padding-top: 5px; padding-left: 5px;">
+        <div style="height: 10px; width: 10px; background: rgb(124,252,120); margin-top: 1px; margin-left: 5px;"></div>
+        <span style="position: absolute; left: 25px; top: 77px;">Online</span>
       </div>
       <div style="width: 140px; height: 18px; padding-top: 5px; padding-left: 5px;" class="holiday">
         <div style="height: 10px; width: 10px; background: rgb(121, 230, 121); margin-top: 0px; margin-left: 5px;"></div>
