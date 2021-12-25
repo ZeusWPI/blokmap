@@ -72,7 +72,7 @@ $(document).ready(function() {
         // account name = zeuswpi, details are in password manager
         // token has a restriction to only work with our domains and localhost
         accessToken: 'pk.eyJ1IjoiemV1c3dwaSIsImEiOiJja2QzMDZ1NmcwMjBtMnlxbXV2bXVpaXhuIn0.-ViXZUT9SqRI3IvB8209LQ',
-        attribution: 'Achtergrondkaart © <a href="https://www.openstreetmap.org/copyright" target="_blank">OpenStreetMap</a>-bijdragers, <span lang="en">Imagery © <a href="https://www.mapbox.com/">Mapbox</a></span>. | <span lang="en">Made with ❤ by <a href="https://zeus.gent/">Zeus WPI</a></span> | <a href="https://zeus.gent/about/privacy/">Privacybeleid</a>',
+        attribution: '<span>Achtergrondkaart © <a href="https://www.openstreetmap.org/copyright" target="_blank">OpenStreetMap</a>-bijdragers </span>, <span lang="en">Imagery © <a href="https://www.mapbox.com/">Mapbox</a></span>. | <span lang="en">Made with ❤ by <a href="https://zeus.gent/">Zeus WPI</a></span> | <a href="https://zeus.gent/about/privacy/">Privacybeleid</a>',
         maxZoom: 18
     }).addTo(map);
 
@@ -180,10 +180,6 @@ $(document).ready(function() {
 
     var legend = new SimpleControl("#legend-template", christmasSeason ? "holiday-legend" : "legend", {
         position: "bottomright"
-    }).addTo(map);
-
-    var notice = new SimpleControl("#notice-template", "notice", {
-        position: "bottomleft"
     }).addTo(map);
 
     L.control.zoom().addTo(map);
