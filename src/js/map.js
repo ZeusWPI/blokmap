@@ -78,7 +78,7 @@ $(document).ready(function() {
 
     $.getJSON("https://blokdata.zeus.gent/data.json")
         .done(function(data) {
-            var geojson = L.geoJson(data, {
+            var geojson = L.geoJson(data.points, {
                 onEachFeature: onEachFeature,
                 pointToLayer: pointToLayer
             });
